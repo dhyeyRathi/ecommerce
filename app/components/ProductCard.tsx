@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Star } from "lucide-react";
+import { AppContext, appContextProvider } from "../context/appContext";
 
 type props = {
   src?: string;
@@ -8,7 +9,7 @@ type props = {
   desc?: string;
   review?: any;
   brand?: string;
-  category?: string;
+  price?: number;
   className?: string;
   rating?: number ;
 };
@@ -19,13 +20,13 @@ const ProductCard = ({
   name,
   review,
   brand,
-  category,
+  price =0,
   desc,
   className,
   rating = 0,
 }: props) => {
 
-
+const currency = useContext(AppContext)
 
 
   return (
@@ -47,6 +48,7 @@ const ProductCard = ({
             />
           ))}
         </div>
+         <p className="text-2xl text-heading text-center">{currency?.currency}{price}</p>
         <p className="text-sm text-text-muted text-center">{desc}</p>
       </div>
     </div>
