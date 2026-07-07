@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Star } from "lucide-react";
-import { AppContext, appContextProvider } from "../context/appContext";
+import { AppContext } from "../context/appContext";
 
 type props = {
   src?: string;
