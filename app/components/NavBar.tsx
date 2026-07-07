@@ -194,7 +194,7 @@ function NavBar() {
                       </ProfileMenuItem>
                     ))}
 
-                    <ProfileMenuItem href="" onClick={() => setLoggedIn(false)}>
+                    <ProfileMenuItem href="" onClick={() => auth.setUser(false)}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
