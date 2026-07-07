@@ -1,0 +1,5922 @@
+[
+  {
+    "productId": 1,
+    "reviews": [
+      {
+        "reviewId": 1,
+        "productId": 1,
+        "reviewer": "Morgan Lee",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-03-18",
+        "helpful": 104
+      },
+      {
+        "reviewId": 2,
+        "productId": 1,
+        "reviewer": "Liam Lee",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-02-06",
+        "helpful": 33
+      },
+      {
+        "reviewId": 3,
+        "productId": 1,
+        "reviewer": "Avery Wilson",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-07-10",
+        "helpful": 99
+      },
+      {
+        "reviewId": 4,
+        "productId": 1,
+        "reviewer": "Liam Smith",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-03-25",
+        "helpful": 43
+      },
+      {
+        "reviewId": 5,
+        "productId": 1,
+        "reviewer": "Sam Johnson",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-01-27",
+        "helpful": 0
+      }
+    ]
+  },
+  {
+    "productId": 2,
+    "reviews": [
+      {
+        "reviewId": 6,
+        "productId": 2,
+        "reviewer": "Lucas Johnson",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-07-03",
+        "helpful": 67
+      },
+      {
+        "reviewId": 7,
+        "productId": 2,
+        "reviewer": "Jamie Wilson",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-07-09",
+        "helpful": 23
+      }
+    ]
+  },
+  {
+    "productId": 3,
+    "reviews": [
+      {
+        "reviewId": 8,
+        "productId": 3,
+        "reviewer": "Lucas Smith",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": false,
+        "date": "2026-05-15",
+        "helpful": 70
+      },
+      {
+        "reviewId": 9,
+        "productId": 3,
+        "reviewer": "Chris Miller",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-05-17",
+        "helpful": 11
+      },
+      {
+        "reviewId": 10,
+        "productId": 3,
+        "reviewer": "Casey Davis",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-01-20",
+        "helpful": 118
+      },
+      {
+        "reviewId": 11,
+        "productId": 3,
+        "reviewer": "Ethan Johnson",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-06-28",
+        "helpful": 60
+      },
+      {
+        "reviewId": 12,
+        "productId": 3,
+        "reviewer": "Liam Lee",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-02-05",
+        "helpful": 64
+      }
+    ]
+  },
+  {
+    "productId": 4,
+    "reviews": [
+      {
+        "reviewId": 13,
+        "productId": 4,
+        "reviewer": "Jamie Brown",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-04-20",
+        "helpful": 86
+      },
+      {
+        "reviewId": 14,
+        "productId": 4,
+        "reviewer": "Jordan Garcia",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Good value for money.",
+        "verifiedPurchase": false,
+        "date": "2026-03-17",
+        "helpful": 42
+      },
+      {
+        "reviewId": 15,
+        "productId": 4,
+        "reviewer": "Noah Miller",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-06-25",
+        "helpful": 91
+      }
+    ]
+  },
+  {
+    "productId": 5,
+    "reviews": [
+      {
+        "reviewId": 16,
+        "productId": 5,
+        "reviewer": "Liam Smith",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": false,
+        "date": "2026-03-20",
+        "helpful": 105
+      },
+      {
+        "reviewId": 17,
+        "productId": 5,
+        "reviewer": "Aarav Patel",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-06-12",
+        "helpful": 5
+      },
+      {
+        "reviewId": 18,
+        "productId": 5,
+        "reviewer": "Sophia Garcia",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-03-21",
+        "helpful": 110
+      },
+      {
+        "reviewId": 19,
+        "productId": 5,
+        "reviewer": "Sam Patel",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-03-25",
+        "helpful": 19
+      },
+      {
+        "reviewId": 20,
+        "productId": 5,
+        "reviewer": "Ethan Patel",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-07-18",
+        "helpful": 98
+      }
+    ]
+  },
+  {
+    "productId": 6,
+    "reviews": [
+      {
+        "reviewId": 21,
+        "productId": 6,
+        "reviewer": "Taylor Miller",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-03-22",
+        "helpful": 98
+      },
+      {
+        "reviewId": 22,
+        "productId": 6,
+        "reviewer": "Jordan Patel",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-03-15",
+        "helpful": 93
+      }
+    ]
+  },
+  {
+    "productId": 7,
+    "reviews": [
+      {
+        "reviewId": 23,
+        "productId": 7,
+        "reviewer": "Priya Davis",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-02-07",
+        "helpful": 119
+      },
+      {
+        "reviewId": 24,
+        "productId": 7,
+        "reviewer": "Liam Johnson",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-05-23",
+        "helpful": 27
+      },
+      {
+        "reviewId": 25,
+        "productId": 7,
+        "reviewer": "Ethan Miller",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-04-24",
+        "helpful": 92
+      },
+      {
+        "reviewId": 26,
+        "productId": 7,
+        "reviewer": "Sam Wilson",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-07-17",
+        "helpful": 114
+      },
+      {
+        "reviewId": 27,
+        "productId": 7,
+        "reviewer": "Riley Smith",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-02-23",
+        "helpful": 29
+      }
+    ]
+  },
+  {
+    "productId": 8,
+    "reviews": [
+      {
+        "reviewId": 28,
+        "productId": 8,
+        "reviewer": "Sam Miller",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-06-24",
+        "helpful": 98
+      }
+    ]
+  },
+  {
+    "productId": 9,
+    "reviews": [
+      {
+        "reviewId": 29,
+        "productId": 9,
+        "reviewer": "Jamie Davis",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-01-07",
+        "helpful": 50
+      },
+      {
+        "reviewId": 30,
+        "productId": 9,
+        "reviewer": "Lucas Smith",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-02-28",
+        "helpful": 23
+      },
+      {
+        "reviewId": 31,
+        "productId": 9,
+        "reviewer": "Liam Johnson",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-06-03",
+        "helpful": 31
+      }
+    ]
+  },
+  {
+    "productId": 10,
+    "reviews": [
+      {
+        "reviewId": 32,
+        "productId": 10,
+        "reviewer": "Lucas Smith",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-02-13",
+        "helpful": 27
+      },
+      {
+        "reviewId": 33,
+        "productId": 10,
+        "reviewer": "Riley Shah",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-06-09",
+        "helpful": 114
+      },
+      {
+        "reviewId": 34,
+        "productId": 10,
+        "reviewer": "Sophia Garcia",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-02-23",
+        "helpful": 93
+      }
+    ]
+  },
+  {
+    "productId": 11,
+    "reviews": [
+      {
+        "reviewId": 35,
+        "productId": 11,
+        "reviewer": "Riley Miller",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-06-20",
+        "helpful": 107
+      },
+      {
+        "reviewId": 36,
+        "productId": 11,
+        "reviewer": "Casey Davis",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-07-08",
+        "helpful": 83
+      }
+    ]
+  },
+  {
+    "productId": 12,
+    "reviews": [
+      {
+        "reviewId": 37,
+        "productId": 12,
+        "reviewer": "Aarav Lee",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-05-24",
+        "helpful": 12
+      },
+      {
+        "reviewId": 38,
+        "productId": 12,
+        "reviewer": "Jamie Wilson",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-05-05",
+        "helpful": 4
+      },
+      {
+        "reviewId": 39,
+        "productId": 12,
+        "reviewer": "Casey Shah",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-04-07",
+        "helpful": 109
+      },
+      {
+        "reviewId": 40,
+        "productId": 12,
+        "reviewer": "Alex Johnson",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-03-26",
+        "helpful": 88
+      },
+      {
+        "reviewId": 41,
+        "productId": 12,
+        "reviewer": "Avery Shah",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-05-17",
+        "helpful": 102
+      }
+    ]
+  },
+  {
+    "productId": 13,
+    "reviews": [
+      {
+        "reviewId": 42,
+        "productId": 13,
+        "reviewer": "Olivia Smith",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-06-17",
+        "helpful": 105
+      },
+      {
+        "reviewId": 43,
+        "productId": 13,
+        "reviewer": "Aarav Brown",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-06-19",
+        "helpful": 118
+      },
+      {
+        "reviewId": 44,
+        "productId": 13,
+        "reviewer": "Ethan Miller",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-04-28",
+        "helpful": 44
+      },
+      {
+        "reviewId": 45,
+        "productId": 13,
+        "reviewer": "Priya Wilson",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-03-18",
+        "helpful": 14
+      },
+      {
+        "reviewId": 46,
+        "productId": 13,
+        "reviewer": "Olivia Garcia",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-04-20",
+        "helpful": 50
+      }
+    ]
+  },
+  {
+    "productId": 14,
+    "reviews": [
+      {
+        "reviewId": 47,
+        "productId": 14,
+        "reviewer": "Liam Miller",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-06-12",
+        "helpful": 78
+      },
+      {
+        "reviewId": 48,
+        "productId": 14,
+        "reviewer": "Liam Lee",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-05-12",
+        "helpful": 59
+      }
+    ]
+  },
+  {
+    "productId": 15,
+    "reviews": [
+      {
+        "reviewId": 49,
+        "productId": 15,
+        "reviewer": "Sophia Wilson",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-06-12",
+        "helpful": 91
+      },
+      {
+        "reviewId": 50,
+        "productId": 15,
+        "reviewer": "Ethan Wilson",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-05-15",
+        "helpful": 29
+      }
+    ]
+  },
+  {
+    "productId": 16,
+    "reviews": [
+      {
+        "reviewId": 51,
+        "productId": 16,
+        "reviewer": "Priya Garcia",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-02-13",
+        "helpful": 81
+      },
+      {
+        "reviewId": 52,
+        "productId": 16,
+        "reviewer": "Ethan Davis",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-04-21",
+        "helpful": 64
+      },
+      {
+        "reviewId": 53,
+        "productId": 16,
+        "reviewer": "Jamie Patel",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-06-09",
+        "helpful": 14
+      },
+      {
+        "reviewId": 54,
+        "productId": 16,
+        "reviewer": "Priya Brown",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": false,
+        "date": "2026-01-14",
+        "helpful": 38
+      }
+    ]
+  },
+  {
+    "productId": 17,
+    "reviews": [
+      {
+        "reviewId": 55,
+        "productId": 17,
+        "reviewer": "Sophia Brown",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-07-09",
+        "helpful": 7
+      },
+      {
+        "reviewId": 56,
+        "productId": 17,
+        "reviewer": "Mia Garcia",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-07-18",
+        "helpful": 72
+      },
+      {
+        "reviewId": 57,
+        "productId": 17,
+        "reviewer": "Olivia Smith",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-04-24",
+        "helpful": 7
+      },
+      {
+        "reviewId": 58,
+        "productId": 17,
+        "reviewer": "Emma Shah",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-02-04",
+        "helpful": 68
+      },
+      {
+        "reviewId": 59,
+        "productId": 17,
+        "reviewer": "Mia Garcia",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-07-09",
+        "helpful": 88
+      }
+    ]
+  },
+  {
+    "productId": 18,
+    "reviews": [
+      {
+        "reviewId": 60,
+        "productId": 18,
+        "reviewer": "Priya Davis",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-06-21",
+        "helpful": 19
+      }
+    ]
+  },
+  {
+    "productId": 19,
+    "reviews": [
+      {
+        "reviewId": 61,
+        "productId": 19,
+        "reviewer": "Jamie Patel",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-07-19",
+        "helpful": 93
+      },
+      {
+        "reviewId": 62,
+        "productId": 19,
+        "reviewer": "Avery Patel",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-05-09",
+        "helpful": 3
+      },
+      {
+        "reviewId": 63,
+        "productId": 19,
+        "reviewer": "Casey Shah",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-02-22",
+        "helpful": 112
+      }
+    ]
+  },
+  {
+    "productId": 20,
+    "reviews": [
+      {
+        "reviewId": 64,
+        "productId": 20,
+        "reviewer": "Liam Patel",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-04-05",
+        "helpful": 35
+      },
+      {
+        "reviewId": 65,
+        "productId": 20,
+        "reviewer": "Jordan Garcia",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-01-18",
+        "helpful": 4
+      },
+      {
+        "reviewId": 66,
+        "productId": 20,
+        "reviewer": "Jordan Davis",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-03-28",
+        "helpful": 83
+      },
+      {
+        "reviewId": 67,
+        "productId": 20,
+        "reviewer": "Aarav Garcia",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-03-02",
+        "helpful": 60
+      },
+      {
+        "reviewId": 68,
+        "productId": 20,
+        "reviewer": "Priya Wilson",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": false,
+        "date": "2026-05-23",
+        "helpful": 119
+      }
+    ]
+  },
+  {
+    "productId": 21,
+    "reviews": [
+      {
+        "reviewId": 69,
+        "productId": 21,
+        "reviewer": "Priya Johnson",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-01-12",
+        "helpful": 11
+      },
+      {
+        "reviewId": 70,
+        "productId": 21,
+        "reviewer": "Sam Brown",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": false,
+        "date": "2026-06-06",
+        "helpful": 113
+      },
+      {
+        "reviewId": 71,
+        "productId": 21,
+        "reviewer": "Casey Davis",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-04-20",
+        "helpful": 88
+      }
+    ]
+  },
+  {
+    "productId": 22,
+    "reviews": [
+      {
+        "reviewId": 72,
+        "productId": 22,
+        "reviewer": "Noah Shah",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-07-21",
+        "helpful": 90
+      },
+      {
+        "reviewId": 73,
+        "productId": 22,
+        "reviewer": "Casey Smith",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-06-22",
+        "helpful": 20
+      },
+      {
+        "reviewId": 74,
+        "productId": 22,
+        "reviewer": "Alex Davis",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-06-18",
+        "helpful": 18
+      }
+    ]
+  },
+  {
+    "productId": 23,
+    "reviews": [
+      {
+        "reviewId": 75,
+        "productId": 23,
+        "reviewer": "Sophia Wilson",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-07-04",
+        "helpful": 96
+      },
+      {
+        "reviewId": 76,
+        "productId": 23,
+        "reviewer": "Jordan Garcia",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-01-11",
+        "helpful": 93
+      },
+      {
+        "reviewId": 77,
+        "productId": 23,
+        "reviewer": "Olivia Brown",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-04-20",
+        "helpful": 112
+      }
+    ]
+  },
+  {
+    "productId": 24,
+    "reviews": [
+      {
+        "reviewId": 78,
+        "productId": 24,
+        "reviewer": "Mia Miller",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-01-23",
+        "helpful": 13
+      },
+      {
+        "reviewId": 79,
+        "productId": 24,
+        "reviewer": "Priya Brown",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-02-26",
+        "helpful": 73
+      },
+      {
+        "reviewId": 80,
+        "productId": 24,
+        "reviewer": "Avery Miller",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-04-04",
+        "helpful": 102
+      }
+    ]
+  },
+  {
+    "productId": 25,
+    "reviews": [
+      {
+        "reviewId": 81,
+        "productId": 25,
+        "reviewer": "Alex Miller",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-01-21",
+        "helpful": 57
+      }
+    ]
+  },
+  {
+    "productId": 26,
+    "reviews": [
+      {
+        "reviewId": 82,
+        "productId": 26,
+        "reviewer": "Noah Lee",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-03-21",
+        "helpful": 13
+      },
+      {
+        "reviewId": 83,
+        "productId": 26,
+        "reviewer": "Lucas Wilson",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-07-26",
+        "helpful": 3
+      },
+      {
+        "reviewId": 84,
+        "productId": 26,
+        "reviewer": "Riley Patel",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-04-26",
+        "helpful": 20
+      },
+      {
+        "reviewId": 85,
+        "productId": 26,
+        "reviewer": "Jordan Davis",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-05-05",
+        "helpful": 101
+      }
+    ]
+  },
+  {
+    "productId": 27,
+    "reviews": [
+      {
+        "reviewId": 86,
+        "productId": 27,
+        "reviewer": "Olivia Lee",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-03-07",
+        "helpful": 46
+      },
+      {
+        "reviewId": 87,
+        "productId": 27,
+        "reviewer": "Lucas Smith",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-05-03",
+        "helpful": 23
+      }
+    ]
+  },
+  {
+    "productId": 28,
+    "reviews": [
+      {
+        "reviewId": 88,
+        "productId": 28,
+        "reviewer": "Sam Wilson",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-05-07",
+        "helpful": 77
+      }
+    ]
+  },
+  {
+    "productId": 29,
+    "reviews": [
+      {
+        "reviewId": 89,
+        "productId": 29,
+        "reviewer": "Emma Smith",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-02-18",
+        "helpful": 25
+      },
+      {
+        "reviewId": 90,
+        "productId": 29,
+        "reviewer": "Lucas Wilson",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-02-05",
+        "helpful": 119
+      },
+      {
+        "reviewId": 91,
+        "productId": 29,
+        "reviewer": "Sam Shah",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-07-20",
+        "helpful": 57
+      },
+      {
+        "reviewId": 92,
+        "productId": 29,
+        "reviewer": "Alex Wilson",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-06-28",
+        "helpful": 29
+      },
+      {
+        "reviewId": 93,
+        "productId": 29,
+        "reviewer": "Riley Wilson",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-06-06",
+        "helpful": 112
+      }
+    ]
+  },
+  {
+    "productId": 30,
+    "reviews": [
+      {
+        "reviewId": 94,
+        "productId": 30,
+        "reviewer": "Emma Patel",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-03-06",
+        "helpful": 73
+      },
+      {
+        "reviewId": 95,
+        "productId": 30,
+        "reviewer": "Jordan Johnson",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-01-25",
+        "helpful": 16
+      }
+    ]
+  },
+  {
+    "productId": 31,
+    "reviews": [
+      {
+        "reviewId": 96,
+        "productId": 31,
+        "reviewer": "Olivia Miller",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-02-15",
+        "helpful": 79
+      }
+    ]
+  },
+  {
+    "productId": 32,
+    "reviews": [
+      {
+        "reviewId": 97,
+        "productId": 32,
+        "reviewer": "Jordan Miller",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-01-13",
+        "helpful": 76
+      },
+      {
+        "reviewId": 98,
+        "productId": 32,
+        "reviewer": "Avery Wilson",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-02-03",
+        "helpful": 23
+      },
+      {
+        "reviewId": 99,
+        "productId": 32,
+        "reviewer": "Noah Smith",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-04-21",
+        "helpful": 58
+      },
+      {
+        "reviewId": 100,
+        "productId": 32,
+        "reviewer": "Emma Miller",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-03-16",
+        "helpful": 77
+      },
+      {
+        "reviewId": 101,
+        "productId": 32,
+        "reviewer": "Morgan Wilson",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-07-26",
+        "helpful": 37
+      }
+    ]
+  },
+  {
+    "productId": 33,
+    "reviews": [
+      {
+        "reviewId": 102,
+        "productId": 33,
+        "reviewer": "Lucas Johnson",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-02-22",
+        "helpful": 93
+      },
+      {
+        "reviewId": 103,
+        "productId": 33,
+        "reviewer": "Riley Brown",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": false,
+        "date": "2026-04-25",
+        "helpful": 34
+      },
+      {
+        "reviewId": 104,
+        "productId": 33,
+        "reviewer": "Noah Patel",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-02-12",
+        "helpful": 35
+      },
+      {
+        "reviewId": 105,
+        "productId": 33,
+        "reviewer": "Riley Johnson",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-04-12",
+        "helpful": 30
+      },
+      {
+        "reviewId": 106,
+        "productId": 33,
+        "reviewer": "Morgan Patel",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-05-08",
+        "helpful": 111
+      }
+    ]
+  },
+  {
+    "productId": 34,
+    "reviews": [
+      {
+        "reviewId": 107,
+        "productId": 34,
+        "reviewer": "Aarav Davis",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-07-24",
+        "helpful": 34
+      },
+      {
+        "reviewId": 108,
+        "productId": 34,
+        "reviewer": "Mia Garcia",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": false,
+        "date": "2026-02-16",
+        "helpful": 119
+      },
+      {
+        "reviewId": 109,
+        "productId": 34,
+        "reviewer": "Casey Wilson",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-02-27",
+        "helpful": 59
+      },
+      {
+        "reviewId": 110,
+        "productId": 34,
+        "reviewer": "Sophia Lee",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-04-20",
+        "helpful": 43
+      },
+      {
+        "reviewId": 111,
+        "productId": 34,
+        "reviewer": "Aarav Shah",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-01-11",
+        "helpful": 40
+      }
+    ]
+  },
+  {
+    "productId": 35,
+    "reviews": [
+      {
+        "reviewId": 112,
+        "productId": 35,
+        "reviewer": "Morgan Lee",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-07-10",
+        "helpful": 53
+      },
+      {
+        "reviewId": 113,
+        "productId": 35,
+        "reviewer": "Liam Lee",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-03-06",
+        "helpful": 13
+      },
+      {
+        "reviewId": 114,
+        "productId": 35,
+        "reviewer": "Liam Wilson",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Good value for money.",
+        "verifiedPurchase": false,
+        "date": "2026-01-01",
+        "helpful": 8
+      }
+    ]
+  },
+  {
+    "productId": 36,
+    "reviews": [
+      {
+        "reviewId": 115,
+        "productId": 36,
+        "reviewer": "Avery Brown",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-03-19",
+        "helpful": 86
+      },
+      {
+        "reviewId": 116,
+        "productId": 36,
+        "reviewer": "Aarav Miller",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-05-02",
+        "helpful": 84
+      },
+      {
+        "reviewId": 117,
+        "productId": 36,
+        "reviewer": "Noah Garcia",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-05-13",
+        "helpful": 5
+      },
+      {
+        "reviewId": 118,
+        "productId": 36,
+        "reviewer": "Priya Shah",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-06-02",
+        "helpful": 8
+      },
+      {
+        "reviewId": 119,
+        "productId": 36,
+        "reviewer": "Ethan Johnson",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Good value for money.",
+        "verifiedPurchase": false,
+        "date": "2026-07-09",
+        "helpful": 71
+      }
+    ]
+  },
+  {
+    "productId": 37,
+    "reviews": [
+      {
+        "reviewId": 120,
+        "productId": 37,
+        "reviewer": "Jamie Wilson",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-03-14",
+        "helpful": 108
+      },
+      {
+        "reviewId": 121,
+        "productId": 37,
+        "reviewer": "Sophia Wilson",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-02-18",
+        "helpful": 119
+      },
+      {
+        "reviewId": 122,
+        "productId": 37,
+        "reviewer": "Jamie Brown",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-03-26",
+        "helpful": 14
+      },
+      {
+        "reviewId": 123,
+        "productId": 37,
+        "reviewer": "Olivia Garcia",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-05-08",
+        "helpful": 20
+      }
+    ]
+  },
+  {
+    "productId": 38,
+    "reviews": [
+      {
+        "reviewId": 124,
+        "productId": 38,
+        "reviewer": "Ethan Lee",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-06-27",
+        "helpful": 23
+      }
+    ]
+  },
+  {
+    "productId": 39,
+    "reviews": [
+      {
+        "reviewId": 125,
+        "productId": 39,
+        "reviewer": "Sophia Shah",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-05-26",
+        "helpful": 46
+      },
+      {
+        "reviewId": 126,
+        "productId": 39,
+        "reviewer": "Ethan Garcia",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-02-25",
+        "helpful": 40
+      },
+      {
+        "reviewId": 127,
+        "productId": 39,
+        "reviewer": "Sophia Patel",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": false,
+        "date": "2026-03-12",
+        "helpful": 0
+      },
+      {
+        "reviewId": 128,
+        "productId": 39,
+        "reviewer": "Chris Davis",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-06-21",
+        "helpful": 69
+      },
+      {
+        "reviewId": 129,
+        "productId": 39,
+        "reviewer": "Priya Johnson",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-01-28",
+        "helpful": 104
+      }
+    ]
+  },
+  {
+    "productId": 40,
+    "reviews": [
+      {
+        "reviewId": 130,
+        "productId": 40,
+        "reviewer": "Noah Johnson",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-03-20",
+        "helpful": 120
+      },
+      {
+        "reviewId": 131,
+        "productId": 40,
+        "reviewer": "Riley Lee",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-03-27",
+        "helpful": 119
+      },
+      {
+        "reviewId": 132,
+        "productId": 40,
+        "reviewer": "Alex Smith",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-02-17",
+        "helpful": 12
+      },
+      {
+        "reviewId": 133,
+        "productId": 40,
+        "reviewer": "Alex Garcia",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-04-04",
+        "helpful": 18
+      },
+      {
+        "reviewId": 134,
+        "productId": 40,
+        "reviewer": "Riley Brown",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": false,
+        "date": "2026-05-17",
+        "helpful": 48
+      }
+    ]
+  },
+  {
+    "productId": 41,
+    "reviews": [
+      {
+        "reviewId": 135,
+        "productId": 41,
+        "reviewer": "Mia Brown",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-07-24",
+        "helpful": 7
+      }
+    ]
+  },
+  {
+    "productId": 42,
+    "reviews": [
+      {
+        "reviewId": 136,
+        "productId": 42,
+        "reviewer": "Olivia Johnson",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-05-27",
+        "helpful": 87
+      },
+      {
+        "reviewId": 137,
+        "productId": 42,
+        "reviewer": "Jamie Davis",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-06-01",
+        "helpful": 21
+      },
+      {
+        "reviewId": 138,
+        "productId": 42,
+        "reviewer": "Jordan Miller",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-07-15",
+        "helpful": 117
+      },
+      {
+        "reviewId": 139,
+        "productId": 42,
+        "reviewer": "Sophia Davis",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-02-25",
+        "helpful": 63
+      },
+      {
+        "reviewId": 140,
+        "productId": 42,
+        "reviewer": "Noah Shah",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-03-13",
+        "helpful": 82
+      }
+    ]
+  },
+  {
+    "productId": 43,
+    "reviews": [
+      {
+        "reviewId": 141,
+        "productId": 43,
+        "reviewer": "Sophia Patel",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-06-11",
+        "helpful": 14
+      },
+      {
+        "reviewId": 142,
+        "productId": 43,
+        "reviewer": "Jordan Wilson",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-02-26",
+        "helpful": 72
+      },
+      {
+        "reviewId": 143,
+        "productId": 43,
+        "reviewer": "Ethan Davis",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-01-22",
+        "helpful": 91
+      },
+      {
+        "reviewId": 144,
+        "productId": 43,
+        "reviewer": "Lucas Shah",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-03-23",
+        "helpful": 8
+      }
+    ]
+  },
+  {
+    "productId": 44,
+    "reviews": [
+      {
+        "reviewId": 145,
+        "productId": 44,
+        "reviewer": "Priya Patel",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-04-15",
+        "helpful": 83
+      }
+    ]
+  },
+  {
+    "productId": 45,
+    "reviews": [
+      {
+        "reviewId": 146,
+        "productId": 45,
+        "reviewer": "Jamie Miller",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-05-12",
+        "helpful": 78
+      }
+    ]
+  },
+  {
+    "productId": 46,
+    "reviews": [
+      {
+        "reviewId": 147,
+        "productId": 46,
+        "reviewer": "Casey Davis",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-04-23",
+        "helpful": 116
+      },
+      {
+        "reviewId": 148,
+        "productId": 46,
+        "reviewer": "Jamie Shah",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-01-21",
+        "helpful": 82
+      },
+      {
+        "reviewId": 149,
+        "productId": 46,
+        "reviewer": "Chris Smith",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-03-05",
+        "helpful": 19
+      }
+    ]
+  },
+  {
+    "productId": 47,
+    "reviews": [
+      {
+        "reviewId": 150,
+        "productId": 47,
+        "reviewer": "Morgan Miller",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-03-23",
+        "helpful": 45
+      }
+    ]
+  },
+  {
+    "productId": 48,
+    "reviews": [
+      {
+        "reviewId": 151,
+        "productId": 48,
+        "reviewer": "Jordan Brown",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-04-22",
+        "helpful": 30
+      }
+    ]
+  },
+  {
+    "productId": 49,
+    "reviews": [
+      {
+        "reviewId": 152,
+        "productId": 49,
+        "reviewer": "Aarav Lee",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-01-04",
+        "helpful": 58
+      },
+      {
+        "reviewId": 153,
+        "productId": 49,
+        "reviewer": "Taylor Miller",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-03-01",
+        "helpful": 39
+      },
+      {
+        "reviewId": 154,
+        "productId": 49,
+        "reviewer": "Mia Miller",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-04-08",
+        "helpful": 26
+      }
+    ]
+  },
+  {
+    "productId": 50,
+    "reviews": [
+      {
+        "reviewId": 155,
+        "productId": 50,
+        "reviewer": "Chris Shah",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": false,
+        "date": "2026-06-25",
+        "helpful": 9
+      },
+      {
+        "reviewId": 156,
+        "productId": 50,
+        "reviewer": "Chris Patel",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-06-13",
+        "helpful": 105
+      },
+      {
+        "reviewId": 157,
+        "productId": 50,
+        "reviewer": "Olivia Johnson",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": false,
+        "date": "2026-01-25",
+        "helpful": 1
+      },
+      {
+        "reviewId": 158,
+        "productId": 50,
+        "reviewer": "Olivia Brown",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-01-24",
+        "helpful": 17
+      },
+      {
+        "reviewId": 159,
+        "productId": 50,
+        "reviewer": "Taylor Patel",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": false,
+        "date": "2026-07-20",
+        "helpful": 98
+      }
+    ]
+  },
+  {
+    "productId": 51,
+    "reviews": [
+      {
+        "reviewId": 160,
+        "productId": 51,
+        "reviewer": "Liam Shah",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-01-26",
+        "helpful": 89
+      },
+      {
+        "reviewId": 161,
+        "productId": 51,
+        "reviewer": "Sam Patel",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-07-08",
+        "helpful": 63
+      },
+      {
+        "reviewId": 162,
+        "productId": 51,
+        "reviewer": "Riley Patel",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": false,
+        "date": "2026-06-10",
+        "helpful": 14
+      }
+    ]
+  },
+  {
+    "productId": 52,
+    "reviews": [
+      {
+        "reviewId": 163,
+        "productId": 52,
+        "reviewer": "Noah Garcia",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-02-05",
+        "helpful": 54
+      },
+      {
+        "reviewId": 164,
+        "productId": 52,
+        "reviewer": "Olivia Smith",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-06-10",
+        "helpful": 44
+      },
+      {
+        "reviewId": 165,
+        "productId": 52,
+        "reviewer": "Riley Smith",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-02-27",
+        "helpful": 100
+      },
+      {
+        "reviewId": 166,
+        "productId": 52,
+        "reviewer": "Liam Brown",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-04-03",
+        "helpful": 56
+      }
+    ]
+  },
+  {
+    "productId": 53,
+    "reviews": [
+      {
+        "reviewId": 167,
+        "productId": 53,
+        "reviewer": "Casey Davis",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-07-18",
+        "helpful": 22
+      },
+      {
+        "reviewId": 168,
+        "productId": 53,
+        "reviewer": "Liam Smith",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-01-21",
+        "helpful": 28
+      },
+      {
+        "reviewId": 169,
+        "productId": 53,
+        "reviewer": "Avery Brown",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": false,
+        "date": "2026-05-22",
+        "helpful": 8
+      },
+      {
+        "reviewId": 170,
+        "productId": 53,
+        "reviewer": "Sophia Patel",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-01-09",
+        "helpful": 75
+      },
+      {
+        "reviewId": 171,
+        "productId": 53,
+        "reviewer": "Lucas Wilson",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-06-05",
+        "helpful": 52
+      }
+    ]
+  },
+  {
+    "productId": 54,
+    "reviews": [
+      {
+        "reviewId": 172,
+        "productId": 54,
+        "reviewer": "Ethan Johnson",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-02-07",
+        "helpful": 84
+      },
+      {
+        "reviewId": 173,
+        "productId": 54,
+        "reviewer": "Casey Johnson",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-03-14",
+        "helpful": 92
+      },
+      {
+        "reviewId": 174,
+        "productId": 54,
+        "reviewer": "Jordan Brown",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-04-03",
+        "helpful": 95
+      },
+      {
+        "reviewId": 175,
+        "productId": 54,
+        "reviewer": "Jamie Patel",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-03-04",
+        "helpful": 115
+      },
+      {
+        "reviewId": 176,
+        "productId": 54,
+        "reviewer": "Sophia Wilson",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-05-23",
+        "helpful": 46
+      }
+    ]
+  },
+  {
+    "productId": 55,
+    "reviews": [
+      {
+        "reviewId": 177,
+        "productId": 55,
+        "reviewer": "Aarav Garcia",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-07-03",
+        "helpful": 79
+      },
+      {
+        "reviewId": 178,
+        "productId": 55,
+        "reviewer": "Alex Wilson",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-02-21",
+        "helpful": 109
+      },
+      {
+        "reviewId": 179,
+        "productId": 55,
+        "reviewer": "Jordan Smith",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-05-26",
+        "helpful": 78
+      }
+    ]
+  },
+  {
+    "productId": 56,
+    "reviews": [
+      {
+        "reviewId": 180,
+        "productId": 56,
+        "reviewer": "Noah Shah",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-03-21",
+        "helpful": 53
+      },
+      {
+        "reviewId": 181,
+        "productId": 56,
+        "reviewer": "Priya Miller",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-06-28",
+        "helpful": 15
+      },
+      {
+        "reviewId": 182,
+        "productId": 56,
+        "reviewer": "Taylor Johnson",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-05-26",
+        "helpful": 97
+      },
+      {
+        "reviewId": 183,
+        "productId": 56,
+        "reviewer": "Noah Lee",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-07-06",
+        "helpful": 52
+      },
+      {
+        "reviewId": 184,
+        "productId": 56,
+        "reviewer": "Emma Garcia",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": false,
+        "date": "2026-04-12",
+        "helpful": 45
+      }
+    ]
+  },
+  {
+    "productId": 57,
+    "reviews": [
+      {
+        "reviewId": 185,
+        "productId": 57,
+        "reviewer": "Sophia Miller",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-02-11",
+        "helpful": 19
+      },
+      {
+        "reviewId": 186,
+        "productId": 57,
+        "reviewer": "Jordan Davis",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-01-14",
+        "helpful": 89
+      },
+      {
+        "reviewId": 187,
+        "productId": 57,
+        "reviewer": "Emma Garcia",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-07-11",
+        "helpful": 63
+      },
+      {
+        "reviewId": 188,
+        "productId": 57,
+        "reviewer": "Olivia Smith",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-04-13",
+        "helpful": 73
+      }
+    ]
+  },
+  {
+    "productId": 58,
+    "reviews": [
+      {
+        "reviewId": 189,
+        "productId": 58,
+        "reviewer": "Casey Shah",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-04-25",
+        "helpful": 100
+      }
+    ]
+  },
+  {
+    "productId": 59,
+    "reviews": [
+      {
+        "reviewId": 190,
+        "productId": 59,
+        "reviewer": "Liam Davis",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-06-11",
+        "helpful": 67
+      },
+      {
+        "reviewId": 191,
+        "productId": 59,
+        "reviewer": "Jordan Smith",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-06-17",
+        "helpful": 46
+      },
+      {
+        "reviewId": 192,
+        "productId": 59,
+        "reviewer": "Aarav Miller",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-02-13",
+        "helpful": 89
+      },
+      {
+        "reviewId": 193,
+        "productId": 59,
+        "reviewer": "Sophia Davis",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-06-08",
+        "helpful": 91
+      },
+      {
+        "reviewId": 194,
+        "productId": 59,
+        "reviewer": "Avery Smith",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Good value for money.",
+        "verifiedPurchase": false,
+        "date": "2026-03-06",
+        "helpful": 41
+      }
+    ]
+  },
+  {
+    "productId": 60,
+    "reviews": [
+      {
+        "reviewId": 195,
+        "productId": 60,
+        "reviewer": "Lucas Miller",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-04-12",
+        "helpful": 106
+      },
+      {
+        "reviewId": 196,
+        "productId": 60,
+        "reviewer": "Chris Lee",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-07-28",
+        "helpful": 11
+      },
+      {
+        "reviewId": 197,
+        "productId": 60,
+        "reviewer": "Emma Davis",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-07-22",
+        "helpful": 113
+      },
+      {
+        "reviewId": 198,
+        "productId": 60,
+        "reviewer": "Ethan Davis",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-07-18",
+        "helpful": 95
+      }
+    ]
+  },
+  {
+    "productId": 61,
+    "reviews": [
+      {
+        "reviewId": 199,
+        "productId": 61,
+        "reviewer": "Emma Garcia",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-03-23",
+        "helpful": 17
+      }
+    ]
+  },
+  {
+    "productId": 62,
+    "reviews": [
+      {
+        "reviewId": 200,
+        "productId": 62,
+        "reviewer": "Liam Shah",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-05-15",
+        "helpful": 120
+      },
+      {
+        "reviewId": 201,
+        "productId": 62,
+        "reviewer": "Emma Patel",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-03-27",
+        "helpful": 29
+      },
+      {
+        "reviewId": 202,
+        "productId": 62,
+        "reviewer": "Liam Garcia",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-03-07",
+        "helpful": 113
+      },
+      {
+        "reviewId": 203,
+        "productId": 62,
+        "reviewer": "Noah Garcia",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-07-12",
+        "helpful": 6
+      },
+      {
+        "reviewId": 204,
+        "productId": 62,
+        "reviewer": "Taylor Davis",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-05-04",
+        "helpful": 16
+      }
+    ]
+  },
+  {
+    "productId": 63,
+    "reviews": [
+      {
+        "reviewId": 205,
+        "productId": 63,
+        "reviewer": "Ethan Brown",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-01-07",
+        "helpful": 64
+      }
+    ]
+  },
+  {
+    "productId": 64,
+    "reviews": [
+      {
+        "reviewId": 206,
+        "productId": 64,
+        "reviewer": "Morgan Johnson",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-07-22",
+        "helpful": 33
+      }
+    ]
+  },
+  {
+    "productId": 65,
+    "reviews": [
+      {
+        "reviewId": 207,
+        "productId": 65,
+        "reviewer": "Morgan Johnson",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-05-28",
+        "helpful": 79
+      },
+      {
+        "reviewId": 208,
+        "productId": 65,
+        "reviewer": "Taylor Davis",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-04-06",
+        "helpful": 31
+      }
+    ]
+  },
+  {
+    "productId": 66,
+    "reviews": [
+      {
+        "reviewId": 209,
+        "productId": 66,
+        "reviewer": "Alex Patel",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-01-02",
+        "helpful": 43
+      }
+    ]
+  },
+  {
+    "productId": 67,
+    "reviews": [
+      {
+        "reviewId": 210,
+        "productId": 67,
+        "reviewer": "Olivia Wilson",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": false,
+        "date": "2026-03-17",
+        "helpful": 1
+      }
+    ]
+  },
+  {
+    "productId": 68,
+    "reviews": [
+      {
+        "reviewId": 211,
+        "productId": 68,
+        "reviewer": "Ethan Brown",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-04-19",
+        "helpful": 24
+      },
+      {
+        "reviewId": 212,
+        "productId": 68,
+        "reviewer": "Sophia Patel",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-01-07",
+        "helpful": 60
+      },
+      {
+        "reviewId": 213,
+        "productId": 68,
+        "reviewer": "Olivia Garcia",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-06-19",
+        "helpful": 19
+      },
+      {
+        "reviewId": 214,
+        "productId": 68,
+        "reviewer": "Emma Wilson",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-05-23",
+        "helpful": 113
+      }
+    ]
+  },
+  {
+    "productId": 69,
+    "reviews": [
+      {
+        "reviewId": 215,
+        "productId": 69,
+        "reviewer": "Casey Lee",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-05-10",
+        "helpful": 24
+      },
+      {
+        "reviewId": 216,
+        "productId": 69,
+        "reviewer": "Noah Smith",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-05-16",
+        "helpful": 107
+      },
+      {
+        "reviewId": 217,
+        "productId": 69,
+        "reviewer": "Aarav Garcia",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-07-10",
+        "helpful": 12
+      },
+      {
+        "reviewId": 218,
+        "productId": 69,
+        "reviewer": "Chris Garcia",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-06-16",
+        "helpful": 43
+      }
+    ]
+  },
+  {
+    "productId": 70,
+    "reviews": [
+      {
+        "reviewId": 219,
+        "productId": 70,
+        "reviewer": "Emma Shah",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-06-16",
+        "helpful": 107
+      },
+      {
+        "reviewId": 220,
+        "productId": 70,
+        "reviewer": "Jamie Brown",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": false,
+        "date": "2026-01-07",
+        "helpful": 66
+      },
+      {
+        "reviewId": 221,
+        "productId": 70,
+        "reviewer": "Ethan Patel",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-03-19",
+        "helpful": 9
+      },
+      {
+        "reviewId": 222,
+        "productId": 70,
+        "reviewer": "Casey Wilson",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-04-28",
+        "helpful": 2
+      }
+    ]
+  },
+  {
+    "productId": 71,
+    "reviews": [
+      {
+        "reviewId": 223,
+        "productId": 71,
+        "reviewer": "Morgan Shah",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": false,
+        "date": "2026-06-11",
+        "helpful": 106
+      },
+      {
+        "reviewId": 224,
+        "productId": 71,
+        "reviewer": "Mia Smith",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-07-09",
+        "helpful": 110
+      }
+    ]
+  },
+  {
+    "productId": 72,
+    "reviews": [
+      {
+        "reviewId": 225,
+        "productId": 72,
+        "reviewer": "Priya Miller",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-06-27",
+        "helpful": 120
+      },
+      {
+        "reviewId": 226,
+        "productId": 72,
+        "reviewer": "Jordan Garcia",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-07-03",
+        "helpful": 106
+      },
+      {
+        "reviewId": 227,
+        "productId": 72,
+        "reviewer": "Jordan Smith",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-06-15",
+        "helpful": 109
+      },
+      {
+        "reviewId": 228,
+        "productId": 72,
+        "reviewer": "Olivia Wilson",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-04-18",
+        "helpful": 64
+      }
+    ]
+  },
+  {
+    "productId": 73,
+    "reviews": [
+      {
+        "reviewId": 229,
+        "productId": 73,
+        "reviewer": "Casey Johnson",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-04-10",
+        "helpful": 111
+      }
+    ]
+  },
+  {
+    "productId": 74,
+    "reviews": [
+      {
+        "reviewId": 230,
+        "productId": 74,
+        "reviewer": "Sophia Johnson",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-07-21",
+        "helpful": 102
+      },
+      {
+        "reviewId": 231,
+        "productId": 74,
+        "reviewer": "Avery Davis",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": false,
+        "date": "2026-04-02",
+        "helpful": 64
+      }
+    ]
+  },
+  {
+    "productId": 75,
+    "reviews": [
+      {
+        "reviewId": 232,
+        "productId": 75,
+        "reviewer": "Avery Miller",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-05-05",
+        "helpful": 2
+      },
+      {
+        "reviewId": 233,
+        "productId": 75,
+        "reviewer": "Aarav Miller",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-03-17",
+        "helpful": 89
+      },
+      {
+        "reviewId": 234,
+        "productId": 75,
+        "reviewer": "Emma Shah",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-02-13",
+        "helpful": 99
+      },
+      {
+        "reviewId": 235,
+        "productId": 75,
+        "reviewer": "Noah Brown",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-07-08",
+        "helpful": 17
+      }
+    ]
+  },
+  {
+    "productId": 76,
+    "reviews": [
+      {
+        "reviewId": 236,
+        "productId": 76,
+        "reviewer": "Taylor Smith",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": false,
+        "date": "2026-04-26",
+        "helpful": 47
+      },
+      {
+        "reviewId": 237,
+        "productId": 76,
+        "reviewer": "Casey Brown",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-02-25",
+        "helpful": 37
+      },
+      {
+        "reviewId": 238,
+        "productId": 76,
+        "reviewer": "Morgan Wilson",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-05-20",
+        "helpful": 96
+      }
+    ]
+  },
+  {
+    "productId": 77,
+    "reviews": [
+      {
+        "reviewId": 239,
+        "productId": 77,
+        "reviewer": "Ethan Garcia",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-06-01",
+        "helpful": 65
+      }
+    ]
+  },
+  {
+    "productId": 78,
+    "reviews": [
+      {
+        "reviewId": 240,
+        "productId": 78,
+        "reviewer": "Casey Lee",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Good value for money.",
+        "verifiedPurchase": false,
+        "date": "2026-03-15",
+        "helpful": 9
+      }
+    ]
+  },
+  {
+    "productId": 79,
+    "reviews": [
+      {
+        "reviewId": 241,
+        "productId": 79,
+        "reviewer": "Jordan Davis",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-01-18",
+        "helpful": 108
+      },
+      {
+        "reviewId": 242,
+        "productId": 79,
+        "reviewer": "Riley Miller",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-07-23",
+        "helpful": 58
+      },
+      {
+        "reviewId": 243,
+        "productId": 79,
+        "reviewer": "Noah Davis",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-05-10",
+        "helpful": 26
+      },
+      {
+        "reviewId": 244,
+        "productId": 79,
+        "reviewer": "Sam Johnson",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": false,
+        "date": "2026-04-26",
+        "helpful": 102
+      },
+      {
+        "reviewId": 245,
+        "productId": 79,
+        "reviewer": "Taylor Shah",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-04-07",
+        "helpful": 100
+      }
+    ]
+  },
+  {
+    "productId": 80,
+    "reviews": [
+      {
+        "reviewId": 246,
+        "productId": 80,
+        "reviewer": "Ethan Johnson",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": false,
+        "date": "2026-06-19",
+        "helpful": 95
+      },
+      {
+        "reviewId": 247,
+        "productId": 80,
+        "reviewer": "Casey Patel",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-05-21",
+        "helpful": 40
+      }
+    ]
+  },
+  {
+    "productId": 81,
+    "reviews": [
+      {
+        "reviewId": 248,
+        "productId": 81,
+        "reviewer": "Alex Brown",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-07-21",
+        "helpful": 8
+      },
+      {
+        "reviewId": 249,
+        "productId": 81,
+        "reviewer": "Mia Miller",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-06-10",
+        "helpful": 120
+      }
+    ]
+  },
+  {
+    "productId": 82,
+    "reviews": [
+      {
+        "reviewId": 250,
+        "productId": 82,
+        "reviewer": "Sophia Patel",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-01-06",
+        "helpful": 97
+      },
+      {
+        "reviewId": 251,
+        "productId": 82,
+        "reviewer": "Emma Miller",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-05-09",
+        "helpful": 36
+      },
+      {
+        "reviewId": 252,
+        "productId": 82,
+        "reviewer": "Taylor Shah",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-02-16",
+        "helpful": 96
+      },
+      {
+        "reviewId": 253,
+        "productId": 82,
+        "reviewer": "Avery Miller",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-04-25",
+        "helpful": 91
+      },
+      {
+        "reviewId": 254,
+        "productId": 82,
+        "reviewer": "Sophia Smith",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": false,
+        "date": "2026-03-06",
+        "helpful": 101
+      }
+    ]
+  },
+  {
+    "productId": 83,
+    "reviews": [
+      {
+        "reviewId": 255,
+        "productId": 83,
+        "reviewer": "Liam Wilson",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-01-07",
+        "helpful": 85
+      }
+    ]
+  },
+  {
+    "productId": 84,
+    "reviews": [
+      {
+        "reviewId": 256,
+        "productId": 84,
+        "reviewer": "Olivia Johnson",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-01-18",
+        "helpful": 118
+      },
+      {
+        "reviewId": 257,
+        "productId": 84,
+        "reviewer": "Sam Smith",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-02-08",
+        "helpful": 46
+      },
+      {
+        "reviewId": 258,
+        "productId": 84,
+        "reviewer": "Jamie Shah",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-07-23",
+        "helpful": 32
+      }
+    ]
+  },
+  {
+    "productId": 85,
+    "reviews": [
+      {
+        "reviewId": 259,
+        "productId": 85,
+        "reviewer": "Aarav Garcia",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-06-06",
+        "helpful": 69
+      },
+      {
+        "reviewId": 260,
+        "productId": 85,
+        "reviewer": "Emma Shah",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-05-11",
+        "helpful": 71
+      },
+      {
+        "reviewId": 261,
+        "productId": 85,
+        "reviewer": "Aarav Davis",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-01-07",
+        "helpful": 41
+      },
+      {
+        "reviewId": 262,
+        "productId": 85,
+        "reviewer": "Olivia Wilson",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-01-01",
+        "helpful": 12
+      }
+    ]
+  },
+  {
+    "productId": 86,
+    "reviews": [
+      {
+        "reviewId": 263,
+        "productId": 86,
+        "reviewer": "Casey Shah",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-01-25",
+        "helpful": 44
+      }
+    ]
+  },
+  {
+    "productId": 87,
+    "reviews": [
+      {
+        "reviewId": 264,
+        "productId": 87,
+        "reviewer": "Ethan Shah",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-07-16",
+        "helpful": 5
+      },
+      {
+        "reviewId": 265,
+        "productId": 87,
+        "reviewer": "Alex Patel",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-01-13",
+        "helpful": 106
+      },
+      {
+        "reviewId": 266,
+        "productId": 87,
+        "reviewer": "Emma Miller",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-02-27",
+        "helpful": 85
+      },
+      {
+        "reviewId": 267,
+        "productId": 87,
+        "reviewer": "Priya Johnson",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-03-20",
+        "helpful": 75
+      },
+      {
+        "reviewId": 268,
+        "productId": 87,
+        "reviewer": "Mia Patel",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-06-12",
+        "helpful": 0
+      }
+    ]
+  },
+  {
+    "productId": 88,
+    "reviews": [
+      {
+        "reviewId": 269,
+        "productId": 88,
+        "reviewer": "Lucas Patel",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-07-04",
+        "helpful": 106
+      }
+    ]
+  },
+  {
+    "productId": 89,
+    "reviews": [
+      {
+        "reviewId": 270,
+        "productId": 89,
+        "reviewer": "Aarav Davis",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-03-18",
+        "helpful": 17
+      },
+      {
+        "reviewId": 271,
+        "productId": 89,
+        "reviewer": "Sophia Brown",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-07-21",
+        "helpful": 34
+      },
+      {
+        "reviewId": 272,
+        "productId": 89,
+        "reviewer": "Morgan Lee",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-01-26",
+        "helpful": 32
+      },
+      {
+        "reviewId": 273,
+        "productId": 89,
+        "reviewer": "Jamie Garcia",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-01-08",
+        "helpful": 23
+      }
+    ]
+  },
+  {
+    "productId": 90,
+    "reviews": [
+      {
+        "reviewId": 274,
+        "productId": 90,
+        "reviewer": "Avery Garcia",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-01-27",
+        "helpful": 66
+      },
+      {
+        "reviewId": 275,
+        "productId": 90,
+        "reviewer": "Liam Brown",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-05-05",
+        "helpful": 46
+      },
+      {
+        "reviewId": 276,
+        "productId": 90,
+        "reviewer": "Olivia Brown",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-02-03",
+        "helpful": 11
+      }
+    ]
+  },
+  {
+    "productId": 91,
+    "reviews": [
+      {
+        "reviewId": 277,
+        "productId": 91,
+        "reviewer": "Casey Brown",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-05-18",
+        "helpful": 48
+      },
+      {
+        "reviewId": 278,
+        "productId": 91,
+        "reviewer": "Alex Lee",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-03-17",
+        "helpful": 16
+      },
+      {
+        "reviewId": 279,
+        "productId": 91,
+        "reviewer": "Taylor Lee",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-02-02",
+        "helpful": 24
+      },
+      {
+        "reviewId": 280,
+        "productId": 91,
+        "reviewer": "Sam Patel",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-07-09",
+        "helpful": 28
+      }
+    ]
+  },
+  {
+    "productId": 92,
+    "reviews": [
+      {
+        "reviewId": 281,
+        "productId": 92,
+        "reviewer": "Mia Johnson",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-05-04",
+        "helpful": 40
+      },
+      {
+        "reviewId": 282,
+        "productId": 92,
+        "reviewer": "Olivia Patel",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-03-19",
+        "helpful": 92
+      }
+    ]
+  },
+  {
+    "productId": 93,
+    "reviews": [
+      {
+        "reviewId": 283,
+        "productId": 93,
+        "reviewer": "Avery Davis",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-05-20",
+        "helpful": 94
+      },
+      {
+        "reviewId": 284,
+        "productId": 93,
+        "reviewer": "Aarav Wilson",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-04-16",
+        "helpful": 98
+      }
+    ]
+  },
+  {
+    "productId": 94,
+    "reviews": [
+      {
+        "reviewId": 285,
+        "productId": 94,
+        "reviewer": "Sam Wilson",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-07-23",
+        "helpful": 99
+      },
+      {
+        "reviewId": 286,
+        "productId": 94,
+        "reviewer": "Jordan Smith",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-01-07",
+        "helpful": 48
+      },
+      {
+        "reviewId": 287,
+        "productId": 94,
+        "reviewer": "Riley Davis",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-04-23",
+        "helpful": 21
+      },
+      {
+        "reviewId": 288,
+        "productId": 94,
+        "reviewer": "Sam Miller",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-01-02",
+        "helpful": 75
+      },
+      {
+        "reviewId": 289,
+        "productId": 94,
+        "reviewer": "Aarav Brown",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-05-15",
+        "helpful": 37
+      }
+    ]
+  },
+  {
+    "productId": 95,
+    "reviews": [
+      {
+        "reviewId": 290,
+        "productId": 95,
+        "reviewer": "Liam Lee",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-03-28",
+        "helpful": 35
+      },
+      {
+        "reviewId": 291,
+        "productId": 95,
+        "reviewer": "Avery Johnson",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-03-01",
+        "helpful": 30
+      }
+    ]
+  },
+  {
+    "productId": 96,
+    "reviews": [
+      {
+        "reviewId": 292,
+        "productId": 96,
+        "reviewer": "Taylor Davis",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-06-13",
+        "helpful": 111
+      },
+      {
+        "reviewId": 293,
+        "productId": 96,
+        "reviewer": "Jordan Smith",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-06-24",
+        "helpful": 43
+      },
+      {
+        "reviewId": 294,
+        "productId": 96,
+        "reviewer": "Priya Wilson",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-02-25",
+        "helpful": 90
+      },
+      {
+        "reviewId": 295,
+        "productId": 96,
+        "reviewer": "Lucas Brown",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-07-19",
+        "helpful": 33
+      }
+    ]
+  },
+  {
+    "productId": 97,
+    "reviews": [
+      {
+        "reviewId": 296,
+        "productId": 97,
+        "reviewer": "Aarav Shah",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-06-01",
+        "helpful": 91
+      }
+    ]
+  },
+  {
+    "productId": 98,
+    "reviews": [
+      {
+        "reviewId": 297,
+        "productId": 98,
+        "reviewer": "Ethan Smith",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-02-22",
+        "helpful": 6
+      },
+      {
+        "reviewId": 298,
+        "productId": 98,
+        "reviewer": "Casey Lee",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": false,
+        "date": "2026-04-25",
+        "helpful": 8
+      },
+      {
+        "reviewId": 299,
+        "productId": 98,
+        "reviewer": "Avery Miller",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-06-12",
+        "helpful": 42
+      },
+      {
+        "reviewId": 300,
+        "productId": 98,
+        "reviewer": "Sophia Patel",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-01-02",
+        "helpful": 67
+      },
+      {
+        "reviewId": 301,
+        "productId": 98,
+        "reviewer": "Sam Smith",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-03-26",
+        "helpful": 18
+      }
+    ]
+  },
+  {
+    "productId": 99,
+    "reviews": [
+      {
+        "reviewId": 302,
+        "productId": 99,
+        "reviewer": "Morgan Davis",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Good value for money.",
+        "verifiedPurchase": false,
+        "date": "2026-03-07",
+        "helpful": 103
+      },
+      {
+        "reviewId": 303,
+        "productId": 99,
+        "reviewer": "Jamie Garcia",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-07-22",
+        "helpful": 61
+      },
+      {
+        "reviewId": 304,
+        "productId": 99,
+        "reviewer": "Chris Davis",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-01-09",
+        "helpful": 24
+      }
+    ]
+  },
+  {
+    "productId": 100,
+    "reviews": [
+      {
+        "reviewId": 305,
+        "productId": 100,
+        "reviewer": "Sophia Patel",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-07-08",
+        "helpful": 77
+      },
+      {
+        "reviewId": 306,
+        "productId": 100,
+        "reviewer": "Noah Shah",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-07-20",
+        "helpful": 24
+      }
+    ]
+  },
+  {
+    "productId": 101,
+    "reviews": [
+      {
+        "reviewId": 307,
+        "productId": 101,
+        "reviewer": "Priya Miller",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-06-21",
+        "helpful": 23
+      },
+      {
+        "reviewId": 308,
+        "productId": 101,
+        "reviewer": "Alex Davis",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-03-03",
+        "helpful": 113
+      },
+      {
+        "reviewId": 309,
+        "productId": 101,
+        "reviewer": "Alex Miller",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-03-15",
+        "helpful": 37
+      },
+      {
+        "reviewId": 310,
+        "productId": 101,
+        "reviewer": "Noah Brown",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-01-03",
+        "helpful": 107
+      }
+    ]
+  },
+  {
+    "productId": 102,
+    "reviews": [
+      {
+        "reviewId": 311,
+        "productId": 102,
+        "reviewer": "Avery Lee",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Good value for money.",
+        "verifiedPurchase": false,
+        "date": "2026-05-18",
+        "helpful": 55
+      },
+      {
+        "reviewId": 312,
+        "productId": 102,
+        "reviewer": "Jordan Lee",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-02-16",
+        "helpful": 112
+      },
+      {
+        "reviewId": 313,
+        "productId": 102,
+        "reviewer": "Noah Patel",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-06-13",
+        "helpful": 29
+      }
+    ]
+  },
+  {
+    "productId": 103,
+    "reviews": [
+      {
+        "reviewId": 314,
+        "productId": 103,
+        "reviewer": "Aarav Miller",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-06-13",
+        "helpful": 12
+      },
+      {
+        "reviewId": 315,
+        "productId": 103,
+        "reviewer": "Aarav Davis",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-04-19",
+        "helpful": 67
+      },
+      {
+        "reviewId": 316,
+        "productId": 103,
+        "reviewer": "Mia Lee",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-03-20",
+        "helpful": 10
+      },
+      {
+        "reviewId": 317,
+        "productId": 103,
+        "reviewer": "Olivia Brown",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-01-06",
+        "helpful": 44
+      },
+      {
+        "reviewId": 318,
+        "productId": 103,
+        "reviewer": "Noah Brown",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-03-08",
+        "helpful": 119
+      }
+    ]
+  },
+  {
+    "productId": 104,
+    "reviews": [
+      {
+        "reviewId": 319,
+        "productId": 104,
+        "reviewer": "Alex Davis",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-02-17",
+        "helpful": 47
+      },
+      {
+        "reviewId": 320,
+        "productId": 104,
+        "reviewer": "Morgan Miller",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-01-06",
+        "helpful": 24
+      },
+      {
+        "reviewId": 321,
+        "productId": 104,
+        "reviewer": "Ethan Patel",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-06-27",
+        "helpful": 59
+      }
+    ]
+  },
+  {
+    "productId": 105,
+    "reviews": [
+      {
+        "reviewId": 322,
+        "productId": 105,
+        "reviewer": "Morgan Patel",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-06-16",
+        "helpful": 90
+      },
+      {
+        "reviewId": 323,
+        "productId": 105,
+        "reviewer": "Noah Lee",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-02-07",
+        "helpful": 118
+      }
+    ]
+  },
+  {
+    "productId": 106,
+    "reviews": [
+      {
+        "reviewId": 324,
+        "productId": 106,
+        "reviewer": "Mia Lee",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-01-01",
+        "helpful": 62
+      },
+      {
+        "reviewId": 325,
+        "productId": 106,
+        "reviewer": "Jamie Davis",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-05-19",
+        "helpful": 52
+      },
+      {
+        "reviewId": 326,
+        "productId": 106,
+        "reviewer": "Olivia Miller",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-06-07",
+        "helpful": 113
+      }
+    ]
+  },
+  {
+    "productId": 107,
+    "reviews": [
+      {
+        "reviewId": 327,
+        "productId": 107,
+        "reviewer": "Casey Patel",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": false,
+        "date": "2026-04-12",
+        "helpful": 77
+      }
+    ]
+  },
+  {
+    "productId": 108,
+    "reviews": [
+      {
+        "reviewId": 328,
+        "productId": 108,
+        "reviewer": "Jamie Wilson",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-06-05",
+        "helpful": 120
+      }
+    ]
+  },
+  {
+    "productId": 109,
+    "reviews": [
+      {
+        "reviewId": 329,
+        "productId": 109,
+        "reviewer": "Taylor Johnson",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-06-27",
+        "helpful": 90
+      },
+      {
+        "reviewId": 330,
+        "productId": 109,
+        "reviewer": "Aarav Smith",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-02-17",
+        "helpful": 53
+      }
+    ]
+  },
+  {
+    "productId": 110,
+    "reviews": [
+      {
+        "reviewId": 331,
+        "productId": 110,
+        "reviewer": "Ethan Wilson",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-03-19",
+        "helpful": 98
+      },
+      {
+        "reviewId": 332,
+        "productId": 110,
+        "reviewer": "Taylor Garcia",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-06-03",
+        "helpful": 9
+      },
+      {
+        "reviewId": 333,
+        "productId": 110,
+        "reviewer": "Lucas Davis",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-06-09",
+        "helpful": 73
+      },
+      {
+        "reviewId": 334,
+        "productId": 110,
+        "reviewer": "Casey Wilson",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-07-13",
+        "helpful": 60
+      },
+      {
+        "reviewId": 335,
+        "productId": 110,
+        "reviewer": "Mia Miller",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-03-08",
+        "helpful": 97
+      }
+    ]
+  },
+  {
+    "productId": 111,
+    "reviews": [
+      {
+        "reviewId": 336,
+        "productId": 111,
+        "reviewer": "Casey Shah",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-01-21",
+        "helpful": 8
+      },
+      {
+        "reviewId": 337,
+        "productId": 111,
+        "reviewer": "Avery Johnson",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-05-26",
+        "helpful": 60
+      }
+    ]
+  },
+  {
+    "productId": 112,
+    "reviews": [
+      {
+        "reviewId": 338,
+        "productId": 112,
+        "reviewer": "Emma Smith",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Good value for money.",
+        "verifiedPurchase": false,
+        "date": "2026-03-15",
+        "helpful": 35
+      },
+      {
+        "reviewId": 339,
+        "productId": 112,
+        "reviewer": "Ethan Smith",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-02-12",
+        "helpful": 22
+      }
+    ]
+  },
+  {
+    "productId": 113,
+    "reviews": [
+      {
+        "reviewId": 340,
+        "productId": 113,
+        "reviewer": "Sam Johnson",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-01-22",
+        "helpful": 5
+      },
+      {
+        "reviewId": 341,
+        "productId": 113,
+        "reviewer": "Liam Davis",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-02-11",
+        "helpful": 110
+      },
+      {
+        "reviewId": 342,
+        "productId": 113,
+        "reviewer": "Morgan Miller",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-01-20",
+        "helpful": 110
+      },
+      {
+        "reviewId": 343,
+        "productId": 113,
+        "reviewer": "Casey Garcia",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-01-09",
+        "helpful": 3
+      },
+      {
+        "reviewId": 344,
+        "productId": 113,
+        "reviewer": "Mia Brown",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": false,
+        "date": "2026-06-24",
+        "helpful": 92
+      }
+    ]
+  },
+  {
+    "productId": 114,
+    "reviews": [
+      {
+        "reviewId": 345,
+        "productId": 114,
+        "reviewer": "Sam Wilson",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-02-05",
+        "helpful": 81
+      },
+      {
+        "reviewId": 346,
+        "productId": 114,
+        "reviewer": "Chris Brown",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-04-05",
+        "helpful": 12
+      },
+      {
+        "reviewId": 347,
+        "productId": 114,
+        "reviewer": "Alex Wilson",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-07-13",
+        "helpful": 33
+      },
+      {
+        "reviewId": 348,
+        "productId": 114,
+        "reviewer": "Alex Smith",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-02-12",
+        "helpful": 55
+      },
+      {
+        "reviewId": 349,
+        "productId": 114,
+        "reviewer": "Liam Miller",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-02-06",
+        "helpful": 9
+      }
+    ]
+  },
+  {
+    "productId": 115,
+    "reviews": [
+      {
+        "reviewId": 350,
+        "productId": 115,
+        "reviewer": "Liam Shah",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-04-21",
+        "helpful": 14
+      },
+      {
+        "reviewId": 351,
+        "productId": 115,
+        "reviewer": "Sam Brown",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-01-22",
+        "helpful": 89
+      },
+      {
+        "reviewId": 352,
+        "productId": 115,
+        "reviewer": "Ethan Lee",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": false,
+        "date": "2026-02-01",
+        "helpful": 99
+      },
+      {
+        "reviewId": 353,
+        "productId": 115,
+        "reviewer": "Aarav Patel",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Good value for money.",
+        "verifiedPurchase": false,
+        "date": "2026-05-18",
+        "helpful": 76
+      },
+      {
+        "reviewId": 354,
+        "productId": 115,
+        "reviewer": "Sam Johnson",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": false,
+        "date": "2026-07-21",
+        "helpful": 17
+      }
+    ]
+  },
+  {
+    "productId": 116,
+    "reviews": [
+      {
+        "reviewId": 355,
+        "productId": 116,
+        "reviewer": "Aarav Wilson",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-02-11",
+        "helpful": 114
+      },
+      {
+        "reviewId": 356,
+        "productId": 116,
+        "reviewer": "Casey Shah",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-01-16",
+        "helpful": 30
+      },
+      {
+        "reviewId": 357,
+        "productId": 116,
+        "reviewer": "Alex Lee",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-05-08",
+        "helpful": 108
+      },
+      {
+        "reviewId": 358,
+        "productId": 116,
+        "reviewer": "Ethan Davis",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-02-07",
+        "helpful": 89
+      }
+    ]
+  },
+  {
+    "productId": 117,
+    "reviews": [
+      {
+        "reviewId": 359,
+        "productId": 117,
+        "reviewer": "Lucas Johnson",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-03-02",
+        "helpful": 15
+      },
+      {
+        "reviewId": 360,
+        "productId": 117,
+        "reviewer": "Alex Wilson",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-06-27",
+        "helpful": 71
+      },
+      {
+        "reviewId": 361,
+        "productId": 117,
+        "reviewer": "Noah Davis",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-02-16",
+        "helpful": 71
+      },
+      {
+        "reviewId": 362,
+        "productId": 117,
+        "reviewer": "Morgan Wilson",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": false,
+        "date": "2026-01-16",
+        "helpful": 25
+      }
+    ]
+  },
+  {
+    "productId": 118,
+    "reviews": [
+      {
+        "reviewId": 363,
+        "productId": 118,
+        "reviewer": "Sam Patel",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-04-16",
+        "helpful": 39
+      }
+    ]
+  },
+  {
+    "productId": 119,
+    "reviews": [
+      {
+        "reviewId": 364,
+        "productId": 119,
+        "reviewer": "Emma Patel",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-04-04",
+        "helpful": 28
+      }
+    ]
+  },
+  {
+    "productId": 120,
+    "reviews": [
+      {
+        "reviewId": 365,
+        "productId": 120,
+        "reviewer": "Taylor Miller",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-03-17",
+        "helpful": 85
+      },
+      {
+        "reviewId": 366,
+        "productId": 120,
+        "reviewer": "Priya Smith",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-03-23",
+        "helpful": 8
+      },
+      {
+        "reviewId": 367,
+        "productId": 120,
+        "reviewer": "Jordan Johnson",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": false,
+        "date": "2026-02-18",
+        "helpful": 84
+      },
+      {
+        "reviewId": 368,
+        "productId": 120,
+        "reviewer": "Olivia Shah",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-01-06",
+        "helpful": 38
+      }
+    ]
+  },
+  {
+    "productId": 121,
+    "reviews": [
+      {
+        "reviewId": 369,
+        "productId": 121,
+        "reviewer": "Taylor Wilson",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-01-25",
+        "helpful": 45
+      },
+      {
+        "reviewId": 370,
+        "productId": 121,
+        "reviewer": "Emma Davis",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-05-24",
+        "helpful": 104
+      },
+      {
+        "reviewId": 371,
+        "productId": 121,
+        "reviewer": "Noah Wilson",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-01-04",
+        "helpful": 34
+      },
+      {
+        "reviewId": 372,
+        "productId": 121,
+        "reviewer": "Casey Shah",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-06-06",
+        "helpful": 28
+      },
+      {
+        "reviewId": 373,
+        "productId": 121,
+        "reviewer": "Liam Lee",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-02-22",
+        "helpful": 103
+      }
+    ]
+  },
+  {
+    "productId": 122,
+    "reviews": [
+      {
+        "reviewId": 374,
+        "productId": 122,
+        "reviewer": "Jordan Lee",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-06-13",
+        "helpful": 17
+      },
+      {
+        "reviewId": 375,
+        "productId": 122,
+        "reviewer": "Olivia Davis",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-04-15",
+        "helpful": 105
+      },
+      {
+        "reviewId": 376,
+        "productId": 122,
+        "reviewer": "Alex Johnson",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-06-22",
+        "helpful": 106
+      },
+      {
+        "reviewId": 377,
+        "productId": 122,
+        "reviewer": "Noah Patel",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-02-07",
+        "helpful": 22
+      },
+      {
+        "reviewId": 378,
+        "productId": 122,
+        "reviewer": "Mia Shah",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-01-08",
+        "helpful": 61
+      }
+    ]
+  },
+  {
+    "productId": 123,
+    "reviews": [
+      {
+        "reviewId": 379,
+        "productId": 123,
+        "reviewer": "Priya Shah",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": false,
+        "date": "2026-06-16",
+        "helpful": 65
+      },
+      {
+        "reviewId": 380,
+        "productId": 123,
+        "reviewer": "Chris Wilson",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-05-11",
+        "helpful": 13
+      }
+    ]
+  },
+  {
+    "productId": 124,
+    "reviews": [
+      {
+        "reviewId": 381,
+        "productId": 124,
+        "reviewer": "Priya Lee",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-02-17",
+        "helpful": 0
+      },
+      {
+        "reviewId": 382,
+        "productId": 124,
+        "reviewer": "Emma Lee",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-02-26",
+        "helpful": 54
+      }
+    ]
+  },
+  {
+    "productId": 125,
+    "reviews": [
+      {
+        "reviewId": 383,
+        "productId": 125,
+        "reviewer": "Noah Wilson",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-02-23",
+        "helpful": 18
+      }
+    ]
+  },
+  {
+    "productId": 126,
+    "reviews": [
+      {
+        "reviewId": 384,
+        "productId": 126,
+        "reviewer": "Jordan Patel",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-03-21",
+        "helpful": 52
+      },
+      {
+        "reviewId": 385,
+        "productId": 126,
+        "reviewer": "Emma Smith",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-03-23",
+        "helpful": 77
+      },
+      {
+        "reviewId": 386,
+        "productId": 126,
+        "reviewer": "Alex Smith",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-03-26",
+        "helpful": 62
+      },
+      {
+        "reviewId": 387,
+        "productId": 126,
+        "reviewer": "Emma Patel",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": false,
+        "date": "2026-03-24",
+        "helpful": 101
+      }
+    ]
+  },
+  {
+    "productId": 127,
+    "reviews": [
+      {
+        "reviewId": 388,
+        "productId": 127,
+        "reviewer": "Noah Wilson",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-02-25",
+        "helpful": 61
+      },
+      {
+        "reviewId": 389,
+        "productId": 127,
+        "reviewer": "Liam Patel",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Good value for money.",
+        "verifiedPurchase": false,
+        "date": "2026-03-11",
+        "helpful": 47
+      },
+      {
+        "reviewId": 390,
+        "productId": 127,
+        "reviewer": "Olivia Shah",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-04-11",
+        "helpful": 100
+      }
+    ]
+  },
+  {
+    "productId": 128,
+    "reviews": [
+      {
+        "reviewId": 391,
+        "productId": 128,
+        "reviewer": "Noah Davis",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-07-10",
+        "helpful": 48
+      },
+      {
+        "reviewId": 392,
+        "productId": 128,
+        "reviewer": "Alex Garcia",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-05-24",
+        "helpful": 48
+      }
+    ]
+  },
+  {
+    "productId": 129,
+    "reviews": [
+      {
+        "reviewId": 393,
+        "productId": 129,
+        "reviewer": "Noah Wilson",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-01-09",
+        "helpful": 106
+      },
+      {
+        "reviewId": 394,
+        "productId": 129,
+        "reviewer": "Olivia Miller",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-06-02",
+        "helpful": 65
+      },
+      {
+        "reviewId": 395,
+        "productId": 129,
+        "reviewer": "Casey Johnson",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": false,
+        "date": "2026-05-07",
+        "helpful": 70
+      },
+      {
+        "reviewId": 396,
+        "productId": 129,
+        "reviewer": "Liam Johnson",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-03-19",
+        "helpful": 2
+      },
+      {
+        "reviewId": 397,
+        "productId": 129,
+        "reviewer": "Aarav Brown",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-06-01",
+        "helpful": 65
+      }
+    ]
+  },
+  {
+    "productId": 130,
+    "reviews": [
+      {
+        "reviewId": 398,
+        "productId": 130,
+        "reviewer": "Aarav Garcia",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-07-04",
+        "helpful": 99
+      },
+      {
+        "reviewId": 399,
+        "productId": 130,
+        "reviewer": "Noah Shah",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": false,
+        "date": "2026-06-26",
+        "helpful": 92
+      },
+      {
+        "reviewId": 400,
+        "productId": 130,
+        "reviewer": "Aarav Patel",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-03-02",
+        "helpful": 59
+      },
+      {
+        "reviewId": 401,
+        "productId": 130,
+        "reviewer": "Noah Smith",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": false,
+        "date": "2026-07-14",
+        "helpful": 69
+      }
+    ]
+  },
+  {
+    "productId": 131,
+    "reviews": [
+      {
+        "reviewId": 402,
+        "productId": 131,
+        "reviewer": "Sam Davis",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-04-22",
+        "helpful": 73
+      },
+      {
+        "reviewId": 403,
+        "productId": 131,
+        "reviewer": "Avery Wilson",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-07-05",
+        "helpful": 67
+      },
+      {
+        "reviewId": 404,
+        "productId": 131,
+        "reviewer": "Sophia Davis",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-01-27",
+        "helpful": 32
+      },
+      {
+        "reviewId": 405,
+        "productId": 131,
+        "reviewer": "Casey Shah",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-06-09",
+        "helpful": 26
+      },
+      {
+        "reviewId": 406,
+        "productId": 131,
+        "reviewer": "Jordan Wilson",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-06-02",
+        "helpful": 100
+      }
+    ]
+  },
+  {
+    "productId": 132,
+    "reviews": [
+      {
+        "reviewId": 407,
+        "productId": 132,
+        "reviewer": "Avery Patel",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-02-16",
+        "helpful": 88
+      },
+      {
+        "reviewId": 408,
+        "productId": 132,
+        "reviewer": "Jordan Garcia",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-05-08",
+        "helpful": 51
+      },
+      {
+        "reviewId": 409,
+        "productId": 132,
+        "reviewer": "Noah Smith",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-01-01",
+        "helpful": 24
+      },
+      {
+        "reviewId": 410,
+        "productId": 132,
+        "reviewer": "Sophia Lee",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-03-08",
+        "helpful": 94
+      },
+      {
+        "reviewId": 411,
+        "productId": 132,
+        "reviewer": "Priya Miller",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": false,
+        "date": "2026-05-12",
+        "helpful": 62
+      }
+    ]
+  },
+  {
+    "productId": 133,
+    "reviews": [
+      {
+        "reviewId": 412,
+        "productId": 133,
+        "reviewer": "Emma Shah",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-02-08",
+        "helpful": 90
+      },
+      {
+        "reviewId": 413,
+        "productId": 133,
+        "reviewer": "Lucas Garcia",
+        "stars": 5,
+        "title": "Worth Buying",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-02-04",
+        "helpful": 68
+      },
+      {
+        "reviewId": 414,
+        "productId": 133,
+        "reviewer": "Chris Brown",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-04-24",
+        "helpful": 17
+      },
+      {
+        "reviewId": 415,
+        "productId": 133,
+        "reviewer": "Emma Lee",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-03-23",
+        "helpful": 60
+      }
+    ]
+  },
+  {
+    "productId": 134,
+    "reviews": [
+      {
+        "reviewId": 416,
+        "productId": 134,
+        "reviewer": "Casey Miller",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Good value for money.",
+        "verifiedPurchase": false,
+        "date": "2026-04-22",
+        "helpful": 56
+      },
+      {
+        "reviewId": 417,
+        "productId": 134,
+        "reviewer": "Sam Smith",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-02-15",
+        "helpful": 74
+      },
+      {
+        "reviewId": 418,
+        "productId": 134,
+        "reviewer": "Liam Brown",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": false,
+        "date": "2026-02-24",
+        "helpful": 5
+      }
+    ]
+  },
+  {
+    "productId": 135,
+    "reviews": [
+      {
+        "reviewId": 419,
+        "productId": 135,
+        "reviewer": "Noah Wilson",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Looks premium and performs well.",
+        "verifiedPurchase": true,
+        "date": "2026-05-02",
+        "helpful": 36
+      },
+      {
+        "reviewId": 420,
+        "productId": 135,
+        "reviewer": "Jordan Smith",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-02-01",
+        "helpful": 101
+      }
+    ]
+  },
+  {
+    "productId": 136,
+    "reviews": [
+      {
+        "reviewId": 421,
+        "productId": 136,
+        "reviewer": "Liam Smith",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-03-10",
+        "helpful": 84
+      },
+      {
+        "reviewId": 422,
+        "productId": 136,
+        "reviewer": "Liam Miller",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-01-06",
+        "helpful": 95
+      },
+      {
+        "reviewId": 423,
+        "productId": 136,
+        "reviewer": "Sophia Davis",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-04-24",
+        "helpful": 55
+      }
+    ]
+  },
+  {
+    "productId": 137,
+    "reviews": [
+      {
+        "reviewId": 424,
+        "productId": 137,
+        "reviewer": "Alex Brown",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-05-25",
+        "helpful": 1
+      },
+      {
+        "reviewId": 425,
+        "productId": 137,
+        "reviewer": "Ethan Garcia",
+        "stars": 4,
+        "title": "Nice Product",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-01-25",
+        "helpful": 13
+      },
+      {
+        "reviewId": 426,
+        "productId": 137,
+        "reviewer": "Sophia Wilson",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-01-23",
+        "helpful": 118
+      },
+      {
+        "reviewId": 427,
+        "productId": 137,
+        "reviewer": "Mia Davis",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-07-18",
+        "helpful": 98
+      }
+    ]
+  },
+  {
+    "productId": 138,
+    "reviews": [
+      {
+        "reviewId": 428,
+        "productId": 138,
+        "reviewer": "Jamie Wilson",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-02-19",
+        "helpful": 54
+      },
+      {
+        "reviewId": 429,
+        "productId": 138,
+        "reviewer": "Taylor Miller",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-05-13",
+        "helpful": 30
+      },
+      {
+        "reviewId": 430,
+        "productId": 138,
+        "reviewer": "Lucas Miller",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-07-14",
+        "helpful": 45
+      },
+      {
+        "reviewId": 431,
+        "productId": 138,
+        "reviewer": "Ethan Johnson",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Good value for money.",
+        "verifiedPurchase": false,
+        "date": "2026-05-04",
+        "helpful": 46
+      }
+    ]
+  },
+  {
+    "productId": 139,
+    "reviews": [
+      {
+        "reviewId": 432,
+        "productId": 139,
+        "reviewer": "Mia Shah",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-03-04",
+        "helpful": 43
+      },
+      {
+        "reviewId": 433,
+        "productId": 139,
+        "reviewer": "Chris Wilson",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-01-03",
+        "helpful": 21
+      },
+      {
+        "reviewId": 434,
+        "productId": 139,
+        "reviewer": "Sam Miller",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Good value for money.",
+        "verifiedPurchase": false,
+        "date": "2026-02-21",
+        "helpful": 18
+      }
+    ]
+  },
+  {
+    "productId": 140,
+    "reviews": [
+      {
+        "reviewId": 435,
+        "productId": 140,
+        "reviewer": "Aarav Patel",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-01-18",
+        "helpful": 52
+      },
+      {
+        "reviewId": 436,
+        "productId": 140,
+        "reviewer": "Liam Smith",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-04-22",
+        "helpful": 78
+      },
+      {
+        "reviewId": 437,
+        "productId": 140,
+        "reviewer": "Chris Shah",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-07-14",
+        "helpful": 21
+      },
+      {
+        "reviewId": 438,
+        "productId": 140,
+        "reviewer": "Ethan Wilson",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-01-07",
+        "helpful": 104
+      },
+      {
+        "reviewId": 439,
+        "productId": 140,
+        "reviewer": "Sam Brown",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": false,
+        "date": "2026-02-05",
+        "helpful": 112
+      }
+    ]
+  },
+  {
+    "productId": 141,
+    "reviews": [
+      {
+        "reviewId": 440,
+        "productId": 141,
+        "reviewer": "Sam Smith",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": false,
+        "date": "2026-03-05",
+        "helpful": 55
+      },
+      {
+        "reviewId": 441,
+        "productId": 141,
+        "reviewer": "Ethan Brown",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": true,
+        "date": "2026-05-24",
+        "helpful": 74
+      }
+    ]
+  },
+  {
+    "productId": 142,
+    "reviews": [
+      {
+        "reviewId": 442,
+        "productId": 142,
+        "reviewer": "Jamie Johnson",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-05-26",
+        "helpful": 45
+      },
+      {
+        "reviewId": 443,
+        "productId": 142,
+        "reviewer": "Riley Patel",
+        "stars": 3,
+        "title": "Great!",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": false,
+        "date": "2026-07-26",
+        "helpful": 61
+      },
+      {
+        "reviewId": 444,
+        "productId": 142,
+        "reviewer": "Aarav Garcia",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-04-02",
+        "helpful": 66
+      },
+      {
+        "reviewId": 445,
+        "productId": 142,
+        "reviewer": "Aarav Brown",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Packaging was great and delivery was quick.",
+        "verifiedPurchase": true,
+        "date": "2026-06-03",
+        "helpful": 87
+      }
+    ]
+  },
+  {
+    "productId": 143,
+    "reviews": [
+      {
+        "reviewId": 446,
+        "productId": 143,
+        "reviewer": "Noah Wilson",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-04-07",
+        "helpful": 4
+      },
+      {
+        "reviewId": 447,
+        "productId": 143,
+        "reviewer": "Emma Wilson",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": false,
+        "date": "2026-04-28",
+        "helpful": 32
+      },
+      {
+        "reviewId": 448,
+        "productId": 143,
+        "reviewer": "Lucas Smith",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Good value for money.",
+        "verifiedPurchase": true,
+        "date": "2026-02-16",
+        "helpful": 73
+      },
+      {
+        "reviewId": 449,
+        "productId": 143,
+        "reviewer": "Lucas Shah",
+        "stars": 4,
+        "title": "Great!",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-06-23",
+        "helpful": 67
+      },
+      {
+        "reviewId": 450,
+        "productId": 143,
+        "reviewer": "Ethan Wilson",
+        "stars": 3,
+        "title": "Nice Product",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": true,
+        "date": "2026-01-05",
+        "helpful": 36
+      }
+    ]
+  },
+  {
+    "productId": 144,
+    "reviews": [
+      {
+        "reviewId": 451,
+        "productId": 144,
+        "reviewer": "Mia Johnson",
+        "stars": 5,
+        "title": "Nice Product",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": false,
+        "date": "2026-04-04",
+        "helpful": 80
+      },
+      {
+        "reviewId": 452,
+        "productId": 144,
+        "reviewer": "Emma Garcia",
+        "stars": 3,
+        "title": "Satisfied",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-03-12",
+        "helpful": 6
+      }
+    ]
+  },
+  {
+    "productId": 145,
+    "reviews": [
+      {
+        "reviewId": 453,
+        "productId": 145,
+        "reviewer": "Chris Patel",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-05-15",
+        "helpful": 87
+      },
+      {
+        "reviewId": 454,
+        "productId": 145,
+        "reviewer": "Morgan Lee",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": false,
+        "date": "2026-04-22",
+        "helpful": 40
+      },
+      {
+        "reviewId": 455,
+        "productId": 145,
+        "reviewer": "Noah Patel",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": false,
+        "date": "2026-01-07",
+        "helpful": 27
+      },
+      {
+        "reviewId": 456,
+        "productId": 145,
+        "reviewer": "Aarav Lee",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-07-07",
+        "helpful": 103
+      }
+    ]
+  },
+  {
+    "productId": 146,
+    "reviews": [
+      {
+        "reviewId": 457,
+        "productId": 146,
+        "reviewer": "Morgan Wilson",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": false,
+        "date": "2026-07-22",
+        "helpful": 15
+      },
+      {
+        "reviewId": 458,
+        "productId": 146,
+        "reviewer": "Jamie Johnson",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Would definitely recommend it.",
+        "verifiedPurchase": false,
+        "date": "2026-04-16",
+        "helpful": 27
+      },
+      {
+        "reviewId": 459,
+        "productId": 146,
+        "reviewer": "Lucas Smith",
+        "stars": 5,
+        "title": "Highly Recommended",
+        "comment": "Very happy with this purchase.",
+        "verifiedPurchase": true,
+        "date": "2026-07-12",
+        "helpful": 25
+      },
+      {
+        "reviewId": 460,
+        "productId": 146,
+        "reviewer": "Mia Davis",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": true,
+        "date": "2026-01-11",
+        "helpful": 27
+      }
+    ]
+  },
+  {
+    "productId": 147,
+    "reviews": [
+      {
+        "reviewId": 461,
+        "productId": 147,
+        "reviewer": "Liam Shah",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-07-06",
+        "helpful": 92
+      },
+      {
+        "reviewId": 462,
+        "productId": 147,
+        "reviewer": "Olivia Davis",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-01-02",
+        "helpful": 32
+      }
+    ]
+  },
+  {
+    "productId": 148,
+    "reviews": [
+      {
+        "reviewId": 463,
+        "productId": 148,
+        "reviewer": "Priya Shah",
+        "stars": 4,
+        "title": "Worth Buying",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": false,
+        "date": "2026-06-10",
+        "helpful": 5
+      },
+      {
+        "reviewId": 464,
+        "productId": 148,
+        "reviewer": "Alex Johnson",
+        "stars": 3,
+        "title": "Worth Buying",
+        "comment": "Excellent quality and worth the price.",
+        "verifiedPurchase": true,
+        "date": "2026-05-26",
+        "helpful": 37
+      }
+    ]
+  },
+  {
+    "productId": 149,
+    "reviews": [
+      {
+        "reviewId": 465,
+        "productId": 149,
+        "reviewer": "Noah Lee",
+        "stars": 4,
+        "title": "Satisfied",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-01-17",
+        "helpful": 55
+      },
+      {
+        "reviewId": 466,
+        "productId": 149,
+        "reviewer": "Sophia Brown",
+        "stars": 5,
+        "title": "Satisfied",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": false,
+        "date": "2026-02-03",
+        "helpful": 55
+      },
+      {
+        "reviewId": 467,
+        "productId": 149,
+        "reviewer": "Priya Patel",
+        "stars": 3,
+        "title": "Highly Recommended",
+        "comment": "Battery life is impressive.",
+        "verifiedPurchase": false,
+        "date": "2026-07-21",
+        "helpful": 24
+      },
+      {
+        "reviewId": 468,
+        "productId": 149,
+        "reviewer": "Noah Brown",
+        "stars": 4,
+        "title": "Highly Recommended",
+        "comment": "Comfortable and easy to use.",
+        "verifiedPurchase": true,
+        "date": "2026-04-03",
+        "helpful": 16
+      },
+      {
+        "reviewId": 469,
+        "productId": 149,
+        "reviewer": "Jordan Johnson",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Exceeded my expectations.",
+        "verifiedPurchase": true,
+        "date": "2026-01-21",
+        "helpful": 110
+      }
+    ]
+  },
+  {
+    "productId": 150,
+    "reviews": [
+      {
+        "reviewId": 470,
+        "productId": 150,
+        "reviewer": "Mia Brown",
+        "stars": 5,
+        "title": "Great!",
+        "comment": "Works exactly as expected.",
+        "verifiedPurchase": false,
+        "date": "2026-05-18",
+        "helpful": 76
+      }
+    ]
+  }
+]

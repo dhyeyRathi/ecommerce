@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "name": "Electronics",
+    "slug": "electronics",
+    "thumbnail": "https://picsum.photos/seed/electronics-category/800/600"
+  },
+  {
+    "id": 2,
+    "name": "Smartphones",
+    "slug": "smartphones",
+    "thumbnail": "https://picsum.photos/seed/smartphones-category/800/600"
+  },
+  {
+    "id": 3,
+    "name": "Laptops",
+    "slug": "laptops",
+    "thumbnail": "https://picsum.photos/seed/laptops-category/800/600"
+  },
+  {
+    "id": 4,
+    "name": "Tablets",
+    "slug": "tablets",
+    "thumbnail": "https://picsum.photos/seed/tablets-category/800/600"
+  },
+  {
+    "id": 5,
+    "name": "Audio",
+    "slug": "audio",
+    "thumbnail": "https://picsum.photos/seed/audio-category/800/600"
+  },
+  {
+    "id": 6,
+    "name": "Gaming",
+    "slug": "gaming",
+    "thumbnail": "https://picsum.photos/seed/gaming-category/800/600"
+  },
+  {
+    "id": 7,
+    "name": "Cameras",
+    "slug": "cameras",
+    "thumbnail": "https://picsum.photos/seed/cameras-category/800/600"
+  },
+  {
+    "id": 8,
+    "name": "Home Appliances",
+    "slug": "home-appliances",
+    "thumbnail": "https://picsum.photos/seed/home-appliances-category/800/600"
+  },
+  {
+    "id": 9,
+    "name": "Furniture",
+    "slug": "furniture",
+    "thumbnail": "https://picsum.photos/seed/furniture-category/800/600"
+  },
+  {
+    "id": 10,
+    "name": "Kitchen",
+    "slug": "kitchen",
+    "thumbnail": "https://picsum.photos/seed/kitchen-category/800/600"
+  },
+  {
+    "id": 11,
+    "name": "Fashion",
+    "slug": "fashion",
+    "thumbnail": "https://picsum.photos/seed/fashion-category/800/600"
+  },
+  {
+    "id": 12,
+    "name": "Shoes",
+    "slug": "shoes",
+    "thumbnail": "https://picsum.photos/seed/shoes-category/800/600"
+  },
+  {
+    "id": 13,
+    "name": "Watches",
+    "slug": "watches",
+    "thumbnail": "https://picsum.photos/seed/watches-category/800/600"
+  },
+  {
+    "id": 14,
+    "name": "Beauty",
+    "slug": "beauty",
+    "thumbnail": "https://picsum.photos/seed/beauty-category/800/600"
+  },
+  {
+    "id": 15,
+    "name": "Sports",
+    "slug": "sports",
+    "thumbnail": "https://picsum.photos/seed/sports-category/800/600"
+  },
+  {
+    "id": 16,
+    "name": "Books",
+    "slug": "books",
+    "thumbnail": "https://picsum.photos/seed/books-category/800/600"
+  },
+  {
+    "id": 17,
+    "name": "Toys",
+    "slug": "toys",
+    "thumbnail": "https://picsum.photos/seed/toys-category/800/600"
+  }
+]

@@ -1,0 +1,5942 @@
+[
+  {
+    "id": 1,
+    "name": "LG Electronic Model 1",
+    "slug": "lg-electronic-model-1",
+    "brand": "LG",
+    "category": "Electronics",
+    "price": 1575,
+    "discount": 5,
+    "stock": 93,
+    "rating": 3.7,
+    "reviews": 1083,
+    "thumbnail": "https://picsum.photos/seed/lg-electronic-model-1/600/600",
+    "images": [
+      "https://picsum.photos/seed/lg-electronic-model-11/800/800",
+      "https://picsum.photos/seed/lg-electronic-model-12/800/800",
+      "https://picsum.photos/seed/lg-electronic-model-13/800/800"
+    ],
+    "description": "The LG Electronic Model 1 is a premium electronics product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "LG",
+      "Category": "Electronics",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "Silver",
+      "Black"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 2,
+    "name": "LG Electronic Model 2",
+    "slug": "lg-electronic-model-2",
+    "brand": "LG",
+    "category": "Electronics",
+    "price": 1812,
+    "discount": 5,
+    "stock": 11,
+    "rating": 4.9,
+    "reviews": 1609,
+    "thumbnail": "https://picsum.photos/seed/lg-electronic-model-2/600/600",
+    "images": [
+      "https://picsum.photos/seed/lg-electronic-model-21/800/800",
+      "https://picsum.photos/seed/lg-electronic-model-22/800/800",
+      "https://picsum.photos/seed/lg-electronic-model-23/800/800"
+    ],
+    "description": "The LG Electronic Model 2 is a premium electronics product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "LG",
+      "Category": "Electronics",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Blue",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 3,
+    "name": "Samsung Electronic Model 3",
+    "slug": "samsung-electronic-model-3",
+    "brand": "Samsung",
+    "category": "Electronics",
+    "price": 1424,
+    "discount": 0,
+    "stock": 44,
+    "rating": 4.7,
+    "reviews": 2023,
+    "thumbnail": "https://picsum.photos/seed/samsung-electronic-model-3/600/600",
+    "images": [
+      "https://picsum.photos/seed/samsung-electronic-model-31/800/800",
+      "https://picsum.photos/seed/samsung-electronic-model-32/800/800",
+      "https://picsum.photos/seed/samsung-electronic-model-33/800/800"
+    ],
+    "description": "The Samsung Electronic Model 3 is a premium electronics product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Samsung",
+      "Category": "Electronics",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Blue",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 4,
+    "name": "LG Electronic Model 4",
+    "slug": "lg-electronic-model-4",
+    "brand": "LG",
+    "category": "Electronics",
+    "price": 35,
+    "discount": 10,
+    "stock": 110,
+    "rating": 4.5,
+    "reviews": 2686,
+    "thumbnail": "https://picsum.photos/seed/lg-electronic-model-4/600/600",
+    "images": [
+      "https://picsum.photos/seed/lg-electronic-model-41/800/800",
+      "https://picsum.photos/seed/lg-electronic-model-42/800/800",
+      "https://picsum.photos/seed/lg-electronic-model-43/800/800"
+    ],
+    "description": "The LG Electronic Model 4 is a premium electronics product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "LG",
+      "Category": "Electronics",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Black",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 5,
+    "name": "Sony Electronic Model 5",
+    "slug": "sony-electronic-model-5",
+    "brand": "Sony",
+    "category": "Electronics",
+    "price": 156,
+    "discount": 0,
+    "stock": 11,
+    "rating": 4.4,
+    "reviews": 1333,
+    "thumbnail": "https://picsum.photos/seed/sony-electronic-model-5/600/600",
+    "images": [
+      "https://picsum.photos/seed/sony-electronic-model-51/800/800",
+      "https://picsum.photos/seed/sony-electronic-model-52/800/800",
+      "https://picsum.photos/seed/sony-electronic-model-53/800/800"
+    ],
+    "description": "The Sony Electronic Model 5 is a premium electronics product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Sony",
+      "Category": "Electronics",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "White",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 6,
+    "name": "Sony Electronic Model 6",
+    "slug": "sony-electronic-model-6",
+    "brand": "Sony",
+    "category": "Electronics",
+    "price": 979,
+    "discount": 10,
+    "stock": 61,
+    "rating": 4.4,
+    "reviews": 2833,
+    "thumbnail": "https://picsum.photos/seed/sony-electronic-model-6/600/600",
+    "images": [
+      "https://picsum.photos/seed/sony-electronic-model-61/800/800",
+      "https://picsum.photos/seed/sony-electronic-model-62/800/800",
+      "https://picsum.photos/seed/sony-electronic-model-63/800/800"
+    ],
+    "description": "The Sony Electronic Model 6 is a premium electronics product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Sony",
+      "Category": "Electronics",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "Blue",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 7,
+    "name": "Samsung Electronic Model 7",
+    "slug": "samsung-electronic-model-7",
+    "brand": "Samsung",
+    "category": "Electronics",
+    "price": 688,
+    "discount": 30,
+    "stock": 70,
+    "rating": 4.5,
+    "reviews": 369,
+    "thumbnail": "https://picsum.photos/seed/samsung-electronic-model-7/600/600",
+    "images": [
+      "https://picsum.photos/seed/samsung-electronic-model-71/800/800",
+      "https://picsum.photos/seed/samsung-electronic-model-72/800/800",
+      "https://picsum.photos/seed/samsung-electronic-model-73/800/800"
+    ],
+    "description": "The Samsung Electronic Model 7 is a premium electronics product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Samsung",
+      "Category": "Electronics",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Purple",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 8,
+    "name": "Sony Electronic Model 8",
+    "slug": "sony-electronic-model-8",
+    "brand": "Sony",
+    "category": "Electronics",
+    "price": 1337,
+    "discount": 30,
+    "stock": 11,
+    "rating": 4.5,
+    "reviews": 1268,
+    "thumbnail": "https://picsum.photos/seed/sony-electronic-model-8/600/600",
+    "images": [
+      "https://picsum.photos/seed/sony-electronic-model-81/800/800",
+      "https://picsum.photos/seed/sony-electronic-model-82/800/800",
+      "https://picsum.photos/seed/sony-electronic-model-83/800/800"
+    ],
+    "description": "The Sony Electronic Model 8 is a premium electronics product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Sony",
+      "Category": "Electronics",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "Purple",
+      "Black"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 9,
+    "name": "LG Electronic Model 9",
+    "slug": "lg-electronic-model-9",
+    "brand": "LG",
+    "category": "Electronics",
+    "price": 1791,
+    "discount": 15,
+    "stock": 75,
+    "rating": 4.9,
+    "reviews": 3321,
+    "thumbnail": "https://picsum.photos/seed/lg-electronic-model-9/600/600",
+    "images": [
+      "https://picsum.photos/seed/lg-electronic-model-91/800/800",
+      "https://picsum.photos/seed/lg-electronic-model-92/800/800",
+      "https://picsum.photos/seed/lg-electronic-model-93/800/800"
+    ],
+    "description": "The LG Electronic Model 9 is a premium electronics product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "LG",
+      "Category": "Electronics",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "Purple",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 10,
+    "name": "Google Smartphone Model 1",
+    "slug": "google-smartphone-model-1",
+    "brand": "Google",
+    "category": "Smartphones",
+    "price": 1867,
+    "discount": 20,
+    "stock": 21,
+    "rating": 3.9,
+    "reviews": 2380,
+    "thumbnail": "https://picsum.photos/seed/google-smartphone-model-1/600/600",
+    "images": [
+      "https://picsum.photos/seed/google-smartphone-model-11/800/800",
+      "https://picsum.photos/seed/google-smartphone-model-12/800/800",
+      "https://picsum.photos/seed/google-smartphone-model-13/800/800"
+    ],
+    "description": "The Google Smartphone Model 1 is a premium smartphones product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Google",
+      "Category": "Smartphones",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Black",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 11,
+    "name": "Apple Smartphone Model 2",
+    "slug": "apple-smartphone-model-2",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "price": 1583,
+    "discount": 30,
+    "stock": 97,
+    "rating": 4.5,
+    "reviews": 3822,
+    "thumbnail": "https://picsum.photos/seed/apple-smartphone-model-2/600/600",
+    "images": [
+      "https://picsum.photos/seed/apple-smartphone-model-21/800/800",
+      "https://picsum.photos/seed/apple-smartphone-model-22/800/800",
+      "https://picsum.photos/seed/apple-smartphone-model-23/800/800"
+    ],
+    "description": "The Apple Smartphone Model 2 is a premium smartphones product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Apple",
+      "Category": "Smartphones",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "White",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 12,
+    "name": "Samsung Smartphone Model 3",
+    "slug": "samsung-smartphone-model-3",
+    "brand": "Samsung",
+    "category": "Smartphones",
+    "price": 204,
+    "discount": 10,
+    "stock": 12,
+    "rating": 4.8,
+    "reviews": 1601,
+    "thumbnail": "https://picsum.photos/seed/samsung-smartphone-model-3/600/600",
+    "images": [
+      "https://picsum.photos/seed/samsung-smartphone-model-31/800/800",
+      "https://picsum.photos/seed/samsung-smartphone-model-32/800/800",
+      "https://picsum.photos/seed/samsung-smartphone-model-33/800/800"
+    ],
+    "description": "The Samsung Smartphone Model 3 is a premium smartphones product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Samsung",
+      "Category": "Smartphones",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Silver",
+      "Black"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 13,
+    "name": "Google Smartphone Model 4",
+    "slug": "google-smartphone-model-4",
+    "brand": "Google",
+    "category": "Smartphones",
+    "price": 710,
+    "discount": 0,
+    "stock": 58,
+    "rating": 4.1,
+    "reviews": 3449,
+    "thumbnail": "https://picsum.photos/seed/google-smartphone-model-4/600/600",
+    "images": [
+      "https://picsum.photos/seed/google-smartphone-model-41/800/800",
+      "https://picsum.photos/seed/google-smartphone-model-42/800/800",
+      "https://picsum.photos/seed/google-smartphone-model-43/800/800"
+    ],
+    "description": "The Google Smartphone Model 4 is a premium smartphones product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Google",
+      "Category": "Smartphones",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "White",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 14,
+    "name": "Google Smartphone Model 5",
+    "slug": "google-smartphone-model-5",
+    "brand": "Google",
+    "category": "Smartphones",
+    "price": 1776,
+    "discount": 15,
+    "stock": 20,
+    "rating": 5.0,
+    "reviews": 4679,
+    "thumbnail": "https://picsum.photos/seed/google-smartphone-model-5/600/600",
+    "images": [
+      "https://picsum.photos/seed/google-smartphone-model-51/800/800",
+      "https://picsum.photos/seed/google-smartphone-model-52/800/800",
+      "https://picsum.photos/seed/google-smartphone-model-53/800/800"
+    ],
+    "description": "The Google Smartphone Model 5 is a premium smartphones product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Google",
+      "Category": "Smartphones",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "White",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 15,
+    "name": "Google Smartphone Model 6",
+    "slug": "google-smartphone-model-6",
+    "brand": "Google",
+    "category": "Smartphones",
+    "price": 1961,
+    "discount": 5,
+    "stock": 8,
+    "rating": 4.5,
+    "reviews": 2656,
+    "thumbnail": "https://picsum.photos/seed/google-smartphone-model-6/600/600",
+    "images": [
+      "https://picsum.photos/seed/google-smartphone-model-61/800/800",
+      "https://picsum.photos/seed/google-smartphone-model-62/800/800",
+      "https://picsum.photos/seed/google-smartphone-model-63/800/800"
+    ],
+    "description": "The Google Smartphone Model 6 is a premium smartphones product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Google",
+      "Category": "Smartphones",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Silver",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 16,
+    "name": "Apple Smartphone Model 7",
+    "slug": "apple-smartphone-model-7",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "price": 425,
+    "discount": 25,
+    "stock": 25,
+    "rating": 5.0,
+    "reviews": 1432,
+    "thumbnail": "https://picsum.photos/seed/apple-smartphone-model-7/600/600",
+    "images": [
+      "https://picsum.photos/seed/apple-smartphone-model-71/800/800",
+      "https://picsum.photos/seed/apple-smartphone-model-72/800/800",
+      "https://picsum.photos/seed/apple-smartphone-model-73/800/800"
+    ],
+    "description": "The Apple Smartphone Model 7 is a premium smartphones product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Apple",
+      "Category": "Smartphones",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Purple",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 17,
+    "name": "Samsung Smartphone Model 8",
+    "slug": "samsung-smartphone-model-8",
+    "brand": "Samsung",
+    "category": "Smartphones",
+    "price": 1865,
+    "discount": 10,
+    "stock": 114,
+    "rating": 3.7,
+    "reviews": 2087,
+    "thumbnail": "https://picsum.photos/seed/samsung-smartphone-model-8/600/600",
+    "images": [
+      "https://picsum.photos/seed/samsung-smartphone-model-81/800/800",
+      "https://picsum.photos/seed/samsung-smartphone-model-82/800/800",
+      "https://picsum.photos/seed/samsung-smartphone-model-83/800/800"
+    ],
+    "description": "The Samsung Smartphone Model 8 is a premium smartphones product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Samsung",
+      "Category": "Smartphones",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Blue",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 18,
+    "name": "Google Smartphone Model 9",
+    "slug": "google-smartphone-model-9",
+    "brand": "Google",
+    "category": "Smartphones",
+    "price": 1298,
+    "discount": 30,
+    "stock": 119,
+    "rating": 4.1,
+    "reviews": 1806,
+    "thumbnail": "https://picsum.photos/seed/google-smartphone-model-9/600/600",
+    "images": [
+      "https://picsum.photos/seed/google-smartphone-model-91/800/800",
+      "https://picsum.photos/seed/google-smartphone-model-92/800/800",
+      "https://picsum.photos/seed/google-smartphone-model-93/800/800"
+    ],
+    "description": "The Google Smartphone Model 9 is a premium smartphones product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Google",
+      "Category": "Smartphones",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Silver",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 19,
+    "name": "HP Laptop Model 1",
+    "slug": "hp-laptop-model-1",
+    "brand": "HP",
+    "category": "Laptops",
+    "price": 1981,
+    "discount": 10,
+    "stock": 43,
+    "rating": 3.6,
+    "reviews": 1312,
+    "thumbnail": "https://picsum.photos/seed/hp-laptop-model-1/600/600",
+    "images": [
+      "https://picsum.photos/seed/hp-laptop-model-11/800/800",
+      "https://picsum.photos/seed/hp-laptop-model-12/800/800",
+      "https://picsum.photos/seed/hp-laptop-model-13/800/800"
+    ],
+    "description": "The HP Laptop Model 1 is a premium laptops product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "HP",
+      "Category": "Laptops",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Silver",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 20,
+    "name": "HP Laptop Model 2",
+    "slug": "hp-laptop-model-2",
+    "brand": "HP",
+    "category": "Laptops",
+    "price": 786,
+    "discount": 15,
+    "stock": 54,
+    "rating": 4.8,
+    "reviews": 59,
+    "thumbnail": "https://picsum.photos/seed/hp-laptop-model-2/600/600",
+    "images": [
+      "https://picsum.photos/seed/hp-laptop-model-21/800/800",
+      "https://picsum.photos/seed/hp-laptop-model-22/800/800",
+      "https://picsum.photos/seed/hp-laptop-model-23/800/800"
+    ],
+    "description": "The HP Laptop Model 2 is a premium laptops product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "HP",
+      "Category": "Laptops",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Purple",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 21,
+    "name": "HP Laptop Model 3",
+    "slug": "hp-laptop-model-3",
+    "brand": "HP",
+    "category": "Laptops",
+    "price": 362,
+    "discount": 0,
+    "stock": 74,
+    "rating": 4.8,
+    "reviews": 3781,
+    "thumbnail": "https://picsum.photos/seed/hp-laptop-model-3/600/600",
+    "images": [
+      "https://picsum.photos/seed/hp-laptop-model-31/800/800",
+      "https://picsum.photos/seed/hp-laptop-model-32/800/800",
+      "https://picsum.photos/seed/hp-laptop-model-33/800/800"
+    ],
+    "description": "The HP Laptop Model 3 is a premium laptops product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "HP",
+      "Category": "Laptops",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "Black",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 22,
+    "name": "HP Laptop Model 4",
+    "slug": "hp-laptop-model-4",
+    "brand": "HP",
+    "category": "Laptops",
+    "price": 673,
+    "discount": 10,
+    "stock": 1,
+    "rating": 4.2,
+    "reviews": 775,
+    "thumbnail": "https://picsum.photos/seed/hp-laptop-model-4/600/600",
+    "images": [
+      "https://picsum.photos/seed/hp-laptop-model-41/800/800",
+      "https://picsum.photos/seed/hp-laptop-model-42/800/800",
+      "https://picsum.photos/seed/hp-laptop-model-43/800/800"
+    ],
+    "description": "The HP Laptop Model 4 is a premium laptops product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "HP",
+      "Category": "Laptops",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "Blue",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 23,
+    "name": "Lenovo Laptop Model 5",
+    "slug": "lenovo-laptop-model-5",
+    "brand": "Lenovo",
+    "category": "Laptops",
+    "price": 579,
+    "discount": 10,
+    "stock": 87,
+    "rating": 4.2,
+    "reviews": 3682,
+    "thumbnail": "https://picsum.photos/seed/lenovo-laptop-model-5/600/600",
+    "images": [
+      "https://picsum.photos/seed/lenovo-laptop-model-51/800/800",
+      "https://picsum.photos/seed/lenovo-laptop-model-52/800/800",
+      "https://picsum.photos/seed/lenovo-laptop-model-53/800/800"
+    ],
+    "description": "The Lenovo Laptop Model 5 is a premium laptops product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Lenovo",
+      "Category": "Laptops",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Green",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 24,
+    "name": "Lenovo Laptop Model 6",
+    "slug": "lenovo-laptop-model-6",
+    "brand": "Lenovo",
+    "category": "Laptops",
+    "price": 1786,
+    "discount": 0,
+    "stock": 100,
+    "rating": 3.9,
+    "reviews": 870,
+    "thumbnail": "https://picsum.photos/seed/lenovo-laptop-model-6/600/600",
+    "images": [
+      "https://picsum.photos/seed/lenovo-laptop-model-61/800/800",
+      "https://picsum.photos/seed/lenovo-laptop-model-62/800/800",
+      "https://picsum.photos/seed/lenovo-laptop-model-63/800/800"
+    ],
+    "description": "The Lenovo Laptop Model 6 is a premium laptops product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Lenovo",
+      "Category": "Laptops",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "Purple",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 25,
+    "name": "HP Laptop Model 7",
+    "slug": "hp-laptop-model-7",
+    "brand": "HP",
+    "category": "Laptops",
+    "price": 1740,
+    "discount": 10,
+    "stock": 64,
+    "rating": 4.3,
+    "reviews": 1825,
+    "thumbnail": "https://picsum.photos/seed/hp-laptop-model-7/600/600",
+    "images": [
+      "https://picsum.photos/seed/hp-laptop-model-71/800/800",
+      "https://picsum.photos/seed/hp-laptop-model-72/800/800",
+      "https://picsum.photos/seed/hp-laptop-model-73/800/800"
+    ],
+    "description": "The HP Laptop Model 7 is a premium laptops product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "HP",
+      "Category": "Laptops",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Silver",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 26,
+    "name": "HP Laptop Model 8",
+    "slug": "hp-laptop-model-8",
+    "brand": "HP",
+    "category": "Laptops",
+    "price": 359,
+    "discount": 25,
+    "stock": 80,
+    "rating": 3.9,
+    "reviews": 2805,
+    "thumbnail": "https://picsum.photos/seed/hp-laptop-model-8/600/600",
+    "images": [
+      "https://picsum.photos/seed/hp-laptop-model-81/800/800",
+      "https://picsum.photos/seed/hp-laptop-model-82/800/800",
+      "https://picsum.photos/seed/hp-laptop-model-83/800/800"
+    ],
+    "description": "The HP Laptop Model 8 is a premium laptops product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "HP",
+      "Category": "Laptops",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Blue",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 27,
+    "name": "HP Laptop Model 9",
+    "slug": "hp-laptop-model-9",
+    "brand": "HP",
+    "category": "Laptops",
+    "price": 137,
+    "discount": 30,
+    "stock": 117,
+    "rating": 5.0,
+    "reviews": 2401,
+    "thumbnail": "https://picsum.photos/seed/hp-laptop-model-9/600/600",
+    "images": [
+      "https://picsum.photos/seed/hp-laptop-model-91/800/800",
+      "https://picsum.photos/seed/hp-laptop-model-92/800/800",
+      "https://picsum.photos/seed/hp-laptop-model-93/800/800"
+    ],
+    "description": "The HP Laptop Model 9 is a premium laptops product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "HP",
+      "Category": "Laptops",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "White",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 28,
+    "name": "Apple Tablet Model 1",
+    "slug": "apple-tablet-model-1",
+    "brand": "Apple",
+    "category": "Tablets",
+    "price": 673,
+    "discount": 10,
+    "stock": 69,
+    "rating": 3.8,
+    "reviews": 1043,
+    "thumbnail": "https://picsum.photos/seed/apple-tablet-model-1/600/600",
+    "images": [
+      "https://picsum.photos/seed/apple-tablet-model-11/800/800",
+      "https://picsum.photos/seed/apple-tablet-model-12/800/800",
+      "https://picsum.photos/seed/apple-tablet-model-13/800/800"
+    ],
+    "description": "The Apple Tablet Model 1 is a premium tablets product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Apple",
+      "Category": "Tablets",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Purple",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 29,
+    "name": "Lenovo Tablet Model 2",
+    "slug": "lenovo-tablet-model-2",
+    "brand": "Lenovo",
+    "category": "Tablets",
+    "price": 1545,
+    "discount": 30,
+    "stock": 59,
+    "rating": 4.2,
+    "reviews": 1461,
+    "thumbnail": "https://picsum.photos/seed/lenovo-tablet-model-2/600/600",
+    "images": [
+      "https://picsum.photos/seed/lenovo-tablet-model-21/800/800",
+      "https://picsum.photos/seed/lenovo-tablet-model-22/800/800",
+      "https://picsum.photos/seed/lenovo-tablet-model-23/800/800"
+    ],
+    "description": "The Lenovo Tablet Model 2 is a premium tablets product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Lenovo",
+      "Category": "Tablets",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "Purple",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 30,
+    "name": "Lenovo Tablet Model 3",
+    "slug": "lenovo-tablet-model-3",
+    "brand": "Lenovo",
+    "category": "Tablets",
+    "price": 347,
+    "discount": 15,
+    "stock": 18,
+    "rating": 4.0,
+    "reviews": 2103,
+    "thumbnail": "https://picsum.photos/seed/lenovo-tablet-model-3/600/600",
+    "images": [
+      "https://picsum.photos/seed/lenovo-tablet-model-31/800/800",
+      "https://picsum.photos/seed/lenovo-tablet-model-32/800/800",
+      "https://picsum.photos/seed/lenovo-tablet-model-33/800/800"
+    ],
+    "description": "The Lenovo Tablet Model 3 is a premium tablets product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Lenovo",
+      "Category": "Tablets",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "White",
+      "Black"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 31,
+    "name": "Samsung Tablet Model 4",
+    "slug": "samsung-tablet-model-4",
+    "brand": "Samsung",
+    "category": "Tablets",
+    "price": 1076,
+    "discount": 0,
+    "stock": 20,
+    "rating": 4.0,
+    "reviews": 4435,
+    "thumbnail": "https://picsum.photos/seed/samsung-tablet-model-4/600/600",
+    "images": [
+      "https://picsum.photos/seed/samsung-tablet-model-41/800/800",
+      "https://picsum.photos/seed/samsung-tablet-model-42/800/800",
+      "https://picsum.photos/seed/samsung-tablet-model-43/800/800"
+    ],
+    "description": "The Samsung Tablet Model 4 is a premium tablets product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Samsung",
+      "Category": "Tablets",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "Green",
+      "Black"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 32,
+    "name": "Apple Tablet Model 5",
+    "slug": "apple-tablet-model-5",
+    "brand": "Apple",
+    "category": "Tablets",
+    "price": 144,
+    "discount": 15,
+    "stock": 62,
+    "rating": 5.0,
+    "reviews": 767,
+    "thumbnail": "https://picsum.photos/seed/apple-tablet-model-5/600/600",
+    "images": [
+      "https://picsum.photos/seed/apple-tablet-model-51/800/800",
+      "https://picsum.photos/seed/apple-tablet-model-52/800/800",
+      "https://picsum.photos/seed/apple-tablet-model-53/800/800"
+    ],
+    "description": "The Apple Tablet Model 5 is a premium tablets product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Apple",
+      "Category": "Tablets",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Silver",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 33,
+    "name": "Samsung Tablet Model 6",
+    "slug": "samsung-tablet-model-6",
+    "brand": "Samsung",
+    "category": "Tablets",
+    "price": 50,
+    "discount": 0,
+    "stock": 77,
+    "rating": 4.4,
+    "reviews": 75,
+    "thumbnail": "https://picsum.photos/seed/samsung-tablet-model-6/600/600",
+    "images": [
+      "https://picsum.photos/seed/samsung-tablet-model-61/800/800",
+      "https://picsum.photos/seed/samsung-tablet-model-62/800/800",
+      "https://picsum.photos/seed/samsung-tablet-model-63/800/800"
+    ],
+    "description": "The Samsung Tablet Model 6 is a premium tablets product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Samsung",
+      "Category": "Tablets",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Green",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 34,
+    "name": "Samsung Tablet Model 7",
+    "slug": "samsung-tablet-model-7",
+    "brand": "Samsung",
+    "category": "Tablets",
+    "price": 1988,
+    "discount": 20,
+    "stock": 70,
+    "rating": 3.7,
+    "reviews": 4609,
+    "thumbnail": "https://picsum.photos/seed/samsung-tablet-model-7/600/600",
+    "images": [
+      "https://picsum.photos/seed/samsung-tablet-model-71/800/800",
+      "https://picsum.photos/seed/samsung-tablet-model-72/800/800",
+      "https://picsum.photos/seed/samsung-tablet-model-73/800/800"
+    ],
+    "description": "The Samsung Tablet Model 7 is a premium tablets product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Samsung",
+      "Category": "Tablets",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Black",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 35,
+    "name": "Lenovo Tablet Model 8",
+    "slug": "lenovo-tablet-model-8",
+    "brand": "Lenovo",
+    "category": "Tablets",
+    "price": 911,
+    "discount": 0,
+    "stock": 46,
+    "rating": 4.6,
+    "reviews": 4186,
+    "thumbnail": "https://picsum.photos/seed/lenovo-tablet-model-8/600/600",
+    "images": [
+      "https://picsum.photos/seed/lenovo-tablet-model-81/800/800",
+      "https://picsum.photos/seed/lenovo-tablet-model-82/800/800",
+      "https://picsum.photos/seed/lenovo-tablet-model-83/800/800"
+    ],
+    "description": "The Lenovo Tablet Model 8 is a premium tablets product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Lenovo",
+      "Category": "Tablets",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Silver",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 36,
+    "name": "Lenovo Tablet Model 9",
+    "slug": "lenovo-tablet-model-9",
+    "brand": "Lenovo",
+    "category": "Tablets",
+    "price": 881,
+    "discount": 10,
+    "stock": 50,
+    "rating": 4.9,
+    "reviews": 1456,
+    "thumbnail": "https://picsum.photos/seed/lenovo-tablet-model-9/600/600",
+    "images": [
+      "https://picsum.photos/seed/lenovo-tablet-model-91/800/800",
+      "https://picsum.photos/seed/lenovo-tablet-model-92/800/800",
+      "https://picsum.photos/seed/lenovo-tablet-model-93/800/800"
+    ],
+    "description": "The Lenovo Tablet Model 9 is a premium tablets product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Lenovo",
+      "Category": "Tablets",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "Purple",
+      "Black"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 37,
+    "name": "Bose Audio Model 1",
+    "slug": "bose-audio-model-1",
+    "brand": "Bose",
+    "category": "Audio",
+    "price": 802,
+    "discount": 10,
+    "stock": 91,
+    "rating": 4.6,
+    "reviews": 3373,
+    "thumbnail": "https://picsum.photos/seed/bose-audio-model-1/600/600",
+    "images": [
+      "https://picsum.photos/seed/bose-audio-model-11/800/800",
+      "https://picsum.photos/seed/bose-audio-model-12/800/800",
+      "https://picsum.photos/seed/bose-audio-model-13/800/800"
+    ],
+    "description": "The Bose Audio Model 1 is a premium audio product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Bose",
+      "Category": "Audio",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Blue",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 38,
+    "name": "Bose Audio Model 2",
+    "slug": "bose-audio-model-2",
+    "brand": "Bose",
+    "category": "Audio",
+    "price": 1277,
+    "discount": 30,
+    "stock": 58,
+    "rating": 5.0,
+    "reviews": 2858,
+    "thumbnail": "https://picsum.photos/seed/bose-audio-model-2/600/600",
+    "images": [
+      "https://picsum.photos/seed/bose-audio-model-21/800/800",
+      "https://picsum.photos/seed/bose-audio-model-22/800/800",
+      "https://picsum.photos/seed/bose-audio-model-23/800/800"
+    ],
+    "description": "The Bose Audio Model 2 is a premium audio product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Bose",
+      "Category": "Audio",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Silver",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 39,
+    "name": "Bose Audio Model 3",
+    "slug": "bose-audio-model-3",
+    "brand": "Bose",
+    "category": "Audio",
+    "price": 1045,
+    "discount": 25,
+    "stock": 99,
+    "rating": 4.2,
+    "reviews": 4954,
+    "thumbnail": "https://picsum.photos/seed/bose-audio-model-3/600/600",
+    "images": [
+      "https://picsum.photos/seed/bose-audio-model-31/800/800",
+      "https://picsum.photos/seed/bose-audio-model-32/800/800",
+      "https://picsum.photos/seed/bose-audio-model-33/800/800"
+    ],
+    "description": "The Bose Audio Model 3 is a premium audio product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Bose",
+      "Category": "Audio",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "White",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 40,
+    "name": "Sony Audio Model 4",
+    "slug": "sony-audio-model-4",
+    "brand": "Sony",
+    "category": "Audio",
+    "price": 496,
+    "discount": 0,
+    "stock": 102,
+    "rating": 4.7,
+    "reviews": 317,
+    "thumbnail": "https://picsum.photos/seed/sony-audio-model-4/600/600",
+    "images": [
+      "https://picsum.photos/seed/sony-audio-model-41/800/800",
+      "https://picsum.photos/seed/sony-audio-model-42/800/800",
+      "https://picsum.photos/seed/sony-audio-model-43/800/800"
+    ],
+    "description": "The Sony Audio Model 4 is a premium audio product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Sony",
+      "Category": "Audio",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Silver",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 41,
+    "name": "Sony Audio Model 5",
+    "slug": "sony-audio-model-5",
+    "brand": "Sony",
+    "category": "Audio",
+    "price": 339,
+    "discount": 20,
+    "stock": 1,
+    "rating": 3.6,
+    "reviews": 3776,
+    "thumbnail": "https://picsum.photos/seed/sony-audio-model-5/600/600",
+    "images": [
+      "https://picsum.photos/seed/sony-audio-model-51/800/800",
+      "https://picsum.photos/seed/sony-audio-model-52/800/800",
+      "https://picsum.photos/seed/sony-audio-model-53/800/800"
+    ],
+    "description": "The Sony Audio Model 5 is a premium audio product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Sony",
+      "Category": "Audio",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Black",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 42,
+    "name": "JBL Audio Model 6",
+    "slug": "jbl-audio-model-6",
+    "brand": "JBL",
+    "category": "Audio",
+    "price": 532,
+    "discount": 30,
+    "stock": 80,
+    "rating": 5.0,
+    "reviews": 1199,
+    "thumbnail": "https://picsum.photos/seed/jbl-audio-model-6/600/600",
+    "images": [
+      "https://picsum.photos/seed/jbl-audio-model-61/800/800",
+      "https://picsum.photos/seed/jbl-audio-model-62/800/800",
+      "https://picsum.photos/seed/jbl-audio-model-63/800/800"
+    ],
+    "description": "The JBL Audio Model 6 is a premium audio product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "JBL",
+      "Category": "Audio",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Silver",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 43,
+    "name": "Bose Audio Model 7",
+    "slug": "bose-audio-model-7",
+    "brand": "Bose",
+    "category": "Audio",
+    "price": 27,
+    "discount": 20,
+    "stock": 107,
+    "rating": 4.8,
+    "reviews": 961,
+    "thumbnail": "https://picsum.photos/seed/bose-audio-model-7/600/600",
+    "images": [
+      "https://picsum.photos/seed/bose-audio-model-71/800/800",
+      "https://picsum.photos/seed/bose-audio-model-72/800/800",
+      "https://picsum.photos/seed/bose-audio-model-73/800/800"
+    ],
+    "description": "The Bose Audio Model 7 is a premium audio product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Bose",
+      "Category": "Audio",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "Blue",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 44,
+    "name": "JBL Audio Model 8",
+    "slug": "jbl-audio-model-8",
+    "brand": "JBL",
+    "category": "Audio",
+    "price": 499,
+    "discount": 10,
+    "stock": 32,
+    "rating": 3.6,
+    "reviews": 3224,
+    "thumbnail": "https://picsum.photos/seed/jbl-audio-model-8/600/600",
+    "images": [
+      "https://picsum.photos/seed/jbl-audio-model-81/800/800",
+      "https://picsum.photos/seed/jbl-audio-model-82/800/800",
+      "https://picsum.photos/seed/jbl-audio-model-83/800/800"
+    ],
+    "description": "The JBL Audio Model 8 is a premium audio product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "JBL",
+      "Category": "Audio",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Purple",
+      "Black"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 45,
+    "name": "JBL Audio Model 9",
+    "slug": "jbl-audio-model-9",
+    "brand": "JBL",
+    "category": "Audio",
+    "price": 1151,
+    "discount": 10,
+    "stock": 25,
+    "rating": 4.4,
+    "reviews": 557,
+    "thumbnail": "https://picsum.photos/seed/jbl-audio-model-9/600/600",
+    "images": [
+      "https://picsum.photos/seed/jbl-audio-model-91/800/800",
+      "https://picsum.photos/seed/jbl-audio-model-92/800/800",
+      "https://picsum.photos/seed/jbl-audio-model-93/800/800"
+    ],
+    "description": "The JBL Audio Model 9 is a premium audio product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "JBL",
+      "Category": "Audio",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Blue",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 46,
+    "name": "Sony Gaming Model 1",
+    "slug": "sony-gaming-model-1",
+    "brand": "Sony",
+    "category": "Gaming",
+    "price": 157,
+    "discount": 25,
+    "stock": 1,
+    "rating": 3.6,
+    "reviews": 3010,
+    "thumbnail": "https://picsum.photos/seed/sony-gaming-model-1/600/600",
+    "images": [
+      "https://picsum.photos/seed/sony-gaming-model-11/800/800",
+      "https://picsum.photos/seed/sony-gaming-model-12/800/800",
+      "https://picsum.photos/seed/sony-gaming-model-13/800/800"
+    ],
+    "description": "The Sony Gaming Model 1 is a premium gaming product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Sony",
+      "Category": "Gaming",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Black",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 47,
+    "name": "Microsoft Gaming Model 2",
+    "slug": "microsoft-gaming-model-2",
+    "brand": "Microsoft",
+    "category": "Gaming",
+    "price": 414,
+    "discount": 5,
+    "stock": 20,
+    "rating": 4.1,
+    "reviews": 3424,
+    "thumbnail": "https://picsum.photos/seed/microsoft-gaming-model-2/600/600",
+    "images": [
+      "https://picsum.photos/seed/microsoft-gaming-model-21/800/800",
+      "https://picsum.photos/seed/microsoft-gaming-model-22/800/800",
+      "https://picsum.photos/seed/microsoft-gaming-model-23/800/800"
+    ],
+    "description": "The Microsoft Gaming Model 2 is a premium gaming product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Microsoft",
+      "Category": "Gaming",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "White",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 48,
+    "name": "Nintendo Gaming Model 3",
+    "slug": "nintendo-gaming-model-3",
+    "brand": "Nintendo",
+    "category": "Gaming",
+    "price": 652,
+    "discount": 0,
+    "stock": 34,
+    "rating": 4.7,
+    "reviews": 2655,
+    "thumbnail": "https://picsum.photos/seed/nintendo-gaming-model-3/600/600",
+    "images": [
+      "https://picsum.photos/seed/nintendo-gaming-model-31/800/800",
+      "https://picsum.photos/seed/nintendo-gaming-model-32/800/800",
+      "https://picsum.photos/seed/nintendo-gaming-model-33/800/800"
+    ],
+    "description": "The Nintendo Gaming Model 3 is a premium gaming product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Nintendo",
+      "Category": "Gaming",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Blue",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 49,
+    "name": "Sony Gaming Model 4",
+    "slug": "sony-gaming-model-4",
+    "brand": "Sony",
+    "category": "Gaming",
+    "price": 38,
+    "discount": 30,
+    "stock": 55,
+    "rating": 3.6,
+    "reviews": 2295,
+    "thumbnail": "https://picsum.photos/seed/sony-gaming-model-4/600/600",
+    "images": [
+      "https://picsum.photos/seed/sony-gaming-model-41/800/800",
+      "https://picsum.photos/seed/sony-gaming-model-42/800/800",
+      "https://picsum.photos/seed/sony-gaming-model-43/800/800"
+    ],
+    "description": "The Sony Gaming Model 4 is a premium gaming product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Sony",
+      "Category": "Gaming",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Silver",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 50,
+    "name": "Sony Gaming Model 5",
+    "slug": "sony-gaming-model-5",
+    "brand": "Sony",
+    "category": "Gaming",
+    "price": 1466,
+    "discount": 10,
+    "stock": 45,
+    "rating": 4.4,
+    "reviews": 3522,
+    "thumbnail": "https://picsum.photos/seed/sony-gaming-model-5/600/600",
+    "images": [
+      "https://picsum.photos/seed/sony-gaming-model-51/800/800",
+      "https://picsum.photos/seed/sony-gaming-model-52/800/800",
+      "https://picsum.photos/seed/sony-gaming-model-53/800/800"
+    ],
+    "description": "The Sony Gaming Model 5 is a premium gaming product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Sony",
+      "Category": "Gaming",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "Blue",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 51,
+    "name": "Sony Gaming Model 6",
+    "slug": "sony-gaming-model-6",
+    "brand": "Sony",
+    "category": "Gaming",
+    "price": 1879,
+    "discount": 10,
+    "stock": 0,
+    "rating": 4.8,
+    "reviews": 2837,
+    "thumbnail": "https://picsum.photos/seed/sony-gaming-model-6/600/600",
+    "images": [
+      "https://picsum.photos/seed/sony-gaming-model-61/800/800",
+      "https://picsum.photos/seed/sony-gaming-model-62/800/800",
+      "https://picsum.photos/seed/sony-gaming-model-63/800/800"
+    ],
+    "description": "The Sony Gaming Model 6 is a premium gaming product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Sony",
+      "Category": "Gaming",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "Green",
+      "Black"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 52,
+    "name": "Nintendo Gaming Model 7",
+    "slug": "nintendo-gaming-model-7",
+    "brand": "Nintendo",
+    "category": "Gaming",
+    "price": 1980,
+    "discount": 5,
+    "stock": 42,
+    "rating": 4.0,
+    "reviews": 418,
+    "thumbnail": "https://picsum.photos/seed/nintendo-gaming-model-7/600/600",
+    "images": [
+      "https://picsum.photos/seed/nintendo-gaming-model-71/800/800",
+      "https://picsum.photos/seed/nintendo-gaming-model-72/800/800",
+      "https://picsum.photos/seed/nintendo-gaming-model-73/800/800"
+    ],
+    "description": "The Nintendo Gaming Model 7 is a premium gaming product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Nintendo",
+      "Category": "Gaming",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "Green",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 53,
+    "name": "Sony Gaming Model 8",
+    "slug": "sony-gaming-model-8",
+    "brand": "Sony",
+    "category": "Gaming",
+    "price": 1284,
+    "discount": 5,
+    "stock": 3,
+    "rating": 4.2,
+    "reviews": 2808,
+    "thumbnail": "https://picsum.photos/seed/sony-gaming-model-8/600/600",
+    "images": [
+      "https://picsum.photos/seed/sony-gaming-model-81/800/800",
+      "https://picsum.photos/seed/sony-gaming-model-82/800/800",
+      "https://picsum.photos/seed/sony-gaming-model-83/800/800"
+    ],
+    "description": "The Sony Gaming Model 8 is a premium gaming product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Sony",
+      "Category": "Gaming",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "Purple",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 54,
+    "name": "Sony Gaming Model 9",
+    "slug": "sony-gaming-model-9",
+    "brand": "Sony",
+    "category": "Gaming",
+    "price": 1867,
+    "discount": 10,
+    "stock": 100,
+    "rating": 4.1,
+    "reviews": 3505,
+    "thumbnail": "https://picsum.photos/seed/sony-gaming-model-9/600/600",
+    "images": [
+      "https://picsum.photos/seed/sony-gaming-model-91/800/800",
+      "https://picsum.photos/seed/sony-gaming-model-92/800/800",
+      "https://picsum.photos/seed/sony-gaming-model-93/800/800"
+    ],
+    "description": "The Sony Gaming Model 9 is a premium gaming product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Sony",
+      "Category": "Gaming",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Blue",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 55,
+    "name": "Sony Camera Model 1",
+    "slug": "sony-camera-model-1",
+    "brand": "Sony",
+    "category": "Cameras",
+    "price": 364,
+    "discount": 20,
+    "stock": 60,
+    "rating": 3.7,
+    "reviews": 1200,
+    "thumbnail": "https://picsum.photos/seed/sony-camera-model-1/600/600",
+    "images": [
+      "https://picsum.photos/seed/sony-camera-model-11/800/800",
+      "https://picsum.photos/seed/sony-camera-model-12/800/800",
+      "https://picsum.photos/seed/sony-camera-model-13/800/800"
+    ],
+    "description": "The Sony Camera Model 1 is a premium cameras product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Sony",
+      "Category": "Cameras",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Black",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 56,
+    "name": "Nikon Camera Model 2",
+    "slug": "nikon-camera-model-2",
+    "brand": "Nikon",
+    "category": "Cameras",
+    "price": 1985,
+    "discount": 20,
+    "stock": 62,
+    "rating": 4.6,
+    "reviews": 2630,
+    "thumbnail": "https://picsum.photos/seed/nikon-camera-model-2/600/600",
+    "images": [
+      "https://picsum.photos/seed/nikon-camera-model-21/800/800",
+      "https://picsum.photos/seed/nikon-camera-model-22/800/800",
+      "https://picsum.photos/seed/nikon-camera-model-23/800/800"
+    ],
+    "description": "The Nikon Camera Model 2 is a premium cameras product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Nikon",
+      "Category": "Cameras",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Silver",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 57,
+    "name": "Canon Camera Model 3",
+    "slug": "canon-camera-model-3",
+    "brand": "Canon",
+    "category": "Cameras",
+    "price": 1800,
+    "discount": 25,
+    "stock": 108,
+    "rating": 3.6,
+    "reviews": 3585,
+    "thumbnail": "https://picsum.photos/seed/canon-camera-model-3/600/600",
+    "images": [
+      "https://picsum.photos/seed/canon-camera-model-31/800/800",
+      "https://picsum.photos/seed/canon-camera-model-32/800/800",
+      "https://picsum.photos/seed/canon-camera-model-33/800/800"
+    ],
+    "description": "The Canon Camera Model 3 is a premium cameras product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Canon",
+      "Category": "Cameras",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "White",
+      "Black"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 58,
+    "name": "Canon Camera Model 4",
+    "slug": "canon-camera-model-4",
+    "brand": "Canon",
+    "category": "Cameras",
+    "price": 1877,
+    "discount": 20,
+    "stock": 31,
+    "rating": 3.6,
+    "reviews": 3188,
+    "thumbnail": "https://picsum.photos/seed/canon-camera-model-4/600/600",
+    "images": [
+      "https://picsum.photos/seed/canon-camera-model-41/800/800",
+      "https://picsum.photos/seed/canon-camera-model-42/800/800",
+      "https://picsum.photos/seed/canon-camera-model-43/800/800"
+    ],
+    "description": "The Canon Camera Model 4 is a premium cameras product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Canon",
+      "Category": "Cameras",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Silver",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 59,
+    "name": "Nikon Camera Model 5",
+    "slug": "nikon-camera-model-5",
+    "brand": "Nikon",
+    "category": "Cameras",
+    "price": 971,
+    "discount": 30,
+    "stock": 66,
+    "rating": 4.8,
+    "reviews": 93,
+    "thumbnail": "https://picsum.photos/seed/nikon-camera-model-5/600/600",
+    "images": [
+      "https://picsum.photos/seed/nikon-camera-model-51/800/800",
+      "https://picsum.photos/seed/nikon-camera-model-52/800/800",
+      "https://picsum.photos/seed/nikon-camera-model-53/800/800"
+    ],
+    "description": "The Nikon Camera Model 5 is a premium cameras product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Nikon",
+      "Category": "Cameras",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "Purple",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 60,
+    "name": "Nikon Camera Model 6",
+    "slug": "nikon-camera-model-6",
+    "brand": "Nikon",
+    "category": "Cameras",
+    "price": 1262,
+    "discount": 10,
+    "stock": 75,
+    "rating": 3.8,
+    "reviews": 2971,
+    "thumbnail": "https://picsum.photos/seed/nikon-camera-model-6/600/600",
+    "images": [
+      "https://picsum.photos/seed/nikon-camera-model-61/800/800",
+      "https://picsum.photos/seed/nikon-camera-model-62/800/800",
+      "https://picsum.photos/seed/nikon-camera-model-63/800/800"
+    ],
+    "description": "The Nikon Camera Model 6 is a premium cameras product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Nikon",
+      "Category": "Cameras",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Silver",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 61,
+    "name": "Canon Camera Model 7",
+    "slug": "canon-camera-model-7",
+    "brand": "Canon",
+    "category": "Cameras",
+    "price": 129,
+    "discount": 30,
+    "stock": 50,
+    "rating": 5.0,
+    "reviews": 3235,
+    "thumbnail": "https://picsum.photos/seed/canon-camera-model-7/600/600",
+    "images": [
+      "https://picsum.photos/seed/canon-camera-model-71/800/800",
+      "https://picsum.photos/seed/canon-camera-model-72/800/800",
+      "https://picsum.photos/seed/canon-camera-model-73/800/800"
+    ],
+    "description": "The Canon Camera Model 7 is a premium cameras product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Canon",
+      "Category": "Cameras",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Black",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 62,
+    "name": "Sony Camera Model 8",
+    "slug": "sony-camera-model-8",
+    "brand": "Sony",
+    "category": "Cameras",
+    "price": 1421,
+    "discount": 30,
+    "stock": 38,
+    "rating": 4.8,
+    "reviews": 586,
+    "thumbnail": "https://picsum.photos/seed/sony-camera-model-8/600/600",
+    "images": [
+      "https://picsum.photos/seed/sony-camera-model-81/800/800",
+      "https://picsum.photos/seed/sony-camera-model-82/800/800",
+      "https://picsum.photos/seed/sony-camera-model-83/800/800"
+    ],
+    "description": "The Sony Camera Model 8 is a premium cameras product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Sony",
+      "Category": "Cameras",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Blue",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 63,
+    "name": "Canon Camera Model 9",
+    "slug": "canon-camera-model-9",
+    "brand": "Canon",
+    "category": "Cameras",
+    "price": 748,
+    "discount": 15,
+    "stock": 87,
+    "rating": 4.2,
+    "reviews": 3723,
+    "thumbnail": "https://picsum.photos/seed/canon-camera-model-9/600/600",
+    "images": [
+      "https://picsum.photos/seed/canon-camera-model-91/800/800",
+      "https://picsum.photos/seed/canon-camera-model-92/800/800",
+      "https://picsum.photos/seed/canon-camera-model-93/800/800"
+    ],
+    "description": "The Canon Camera Model 9 is a premium cameras product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Canon",
+      "Category": "Cameras",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "Green",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 64,
+    "name": "Philips Home Appliance Model 1",
+    "slug": "philips-home-appliance-model-1",
+    "brand": "Philips",
+    "category": "Home Appliances",
+    "price": 1731,
+    "discount": 15,
+    "stock": 84,
+    "rating": 4.7,
+    "reviews": 3702,
+    "thumbnail": "https://picsum.photos/seed/philips-home-appliance-model-1/600/600",
+    "images": [
+      "https://picsum.photos/seed/philips-home-appliance-model-11/800/800",
+      "https://picsum.photos/seed/philips-home-appliance-model-12/800/800",
+      "https://picsum.photos/seed/philips-home-appliance-model-13/800/800"
+    ],
+    "description": "The Philips Home Appliance Model 1 is a premium home appliances product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Philips",
+      "Category": "Home Appliances",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Purple",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 65,
+    "name": "Whirlpool Home Appliance Model 2",
+    "slug": "whirlpool-home-appliance-model-2",
+    "brand": "Whirlpool",
+    "category": "Home Appliances",
+    "price": 383,
+    "discount": 30,
+    "stock": 112,
+    "rating": 4.8,
+    "reviews": 2163,
+    "thumbnail": "https://picsum.photos/seed/whirlpool-home-appliance-model-2/600/600",
+    "images": [
+      "https://picsum.photos/seed/whirlpool-home-appliance-model-21/800/800",
+      "https://picsum.photos/seed/whirlpool-home-appliance-model-22/800/800",
+      "https://picsum.photos/seed/whirlpool-home-appliance-model-23/800/800"
+    ],
+    "description": "The Whirlpool Home Appliance Model 2 is a premium home appliances product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Whirlpool",
+      "Category": "Home Appliances",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "White",
+      "Black"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 66,
+    "name": "LG Home Appliance Model 3",
+    "slug": "lg-home-appliance-model-3",
+    "brand": "LG",
+    "category": "Home Appliances",
+    "price": 778,
+    "discount": 0,
+    "stock": 108,
+    "rating": 4.1,
+    "reviews": 3940,
+    "thumbnail": "https://picsum.photos/seed/lg-home-appliance-model-3/600/600",
+    "images": [
+      "https://picsum.photos/seed/lg-home-appliance-model-31/800/800",
+      "https://picsum.photos/seed/lg-home-appliance-model-32/800/800",
+      "https://picsum.photos/seed/lg-home-appliance-model-33/800/800"
+    ],
+    "description": "The LG Home Appliance Model 3 is a premium home appliances product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "LG",
+      "Category": "Home Appliances",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Black",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 67,
+    "name": "Whirlpool Home Appliance Model 4",
+    "slug": "whirlpool-home-appliance-model-4",
+    "brand": "Whirlpool",
+    "category": "Home Appliances",
+    "price": 285,
+    "discount": 0,
+    "stock": 21,
+    "rating": 4.8,
+    "reviews": 4912,
+    "thumbnail": "https://picsum.photos/seed/whirlpool-home-appliance-model-4/600/600",
+    "images": [
+      "https://picsum.photos/seed/whirlpool-home-appliance-model-41/800/800",
+      "https://picsum.photos/seed/whirlpool-home-appliance-model-42/800/800",
+      "https://picsum.photos/seed/whirlpool-home-appliance-model-43/800/800"
+    ],
+    "description": "The Whirlpool Home Appliance Model 4 is a premium home appliances product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Whirlpool",
+      "Category": "Home Appliances",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Blue",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 68,
+    "name": "LG Home Appliance Model 5",
+    "slug": "lg-home-appliance-model-5",
+    "brand": "LG",
+    "category": "Home Appliances",
+    "price": 668,
+    "discount": 0,
+    "stock": 35,
+    "rating": 4.9,
+    "reviews": 363,
+    "thumbnail": "https://picsum.photos/seed/lg-home-appliance-model-5/600/600",
+    "images": [
+      "https://picsum.photos/seed/lg-home-appliance-model-51/800/800",
+      "https://picsum.photos/seed/lg-home-appliance-model-52/800/800",
+      "https://picsum.photos/seed/lg-home-appliance-model-53/800/800"
+    ],
+    "description": "The LG Home Appliance Model 5 is a premium home appliances product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "LG",
+      "Category": "Home Appliances",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "White",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 69,
+    "name": "Whirlpool Home Appliance Model 6",
+    "slug": "whirlpool-home-appliance-model-6",
+    "brand": "Whirlpool",
+    "category": "Home Appliances",
+    "price": 906,
+    "discount": 10,
+    "stock": 11,
+    "rating": 4.3,
+    "reviews": 3330,
+    "thumbnail": "https://picsum.photos/seed/whirlpool-home-appliance-model-6/600/600",
+    "images": [
+      "https://picsum.photos/seed/whirlpool-home-appliance-model-61/800/800",
+      "https://picsum.photos/seed/whirlpool-home-appliance-model-62/800/800",
+      "https://picsum.photos/seed/whirlpool-home-appliance-model-63/800/800"
+    ],
+    "description": "The Whirlpool Home Appliance Model 6 is a premium home appliances product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Whirlpool",
+      "Category": "Home Appliances",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "Green",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 70,
+    "name": "Philips Home Appliance Model 7",
+    "slug": "philips-home-appliance-model-7",
+    "brand": "Philips",
+    "category": "Home Appliances",
+    "price": 597,
+    "discount": 0,
+    "stock": 49,
+    "rating": 4.2,
+    "reviews": 1714,
+    "thumbnail": "https://picsum.photos/seed/philips-home-appliance-model-7/600/600",
+    "images": [
+      "https://picsum.photos/seed/philips-home-appliance-model-71/800/800",
+      "https://picsum.photos/seed/philips-home-appliance-model-72/800/800",
+      "https://picsum.photos/seed/philips-home-appliance-model-73/800/800"
+    ],
+    "description": "The Philips Home Appliance Model 7 is a premium home appliances product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Philips",
+      "Category": "Home Appliances",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Purple",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 71,
+    "name": "LG Home Appliance Model 8",
+    "slug": "lg-home-appliance-model-8",
+    "brand": "LG",
+    "category": "Home Appliances",
+    "price": 527,
+    "discount": 5,
+    "stock": 71,
+    "rating": 4.8,
+    "reviews": 1870,
+    "thumbnail": "https://picsum.photos/seed/lg-home-appliance-model-8/600/600",
+    "images": [
+      "https://picsum.photos/seed/lg-home-appliance-model-81/800/800",
+      "https://picsum.photos/seed/lg-home-appliance-model-82/800/800",
+      "https://picsum.photos/seed/lg-home-appliance-model-83/800/800"
+    ],
+    "description": "The LG Home Appliance Model 8 is a premium home appliances product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "LG",
+      "Category": "Home Appliances",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Blue",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 72,
+    "name": "LG Home Appliance Model 9",
+    "slug": "lg-home-appliance-model-9",
+    "brand": "LG",
+    "category": "Home Appliances",
+    "price": 1359,
+    "discount": 10,
+    "stock": 12,
+    "rating": 4.3,
+    "reviews": 1586,
+    "thumbnail": "https://picsum.photos/seed/lg-home-appliance-model-9/600/600",
+    "images": [
+      "https://picsum.photos/seed/lg-home-appliance-model-91/800/800",
+      "https://picsum.photos/seed/lg-home-appliance-model-92/800/800",
+      "https://picsum.photos/seed/lg-home-appliance-model-93/800/800"
+    ],
+    "description": "The LG Home Appliance Model 9 is a premium home appliances product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "LG",
+      "Category": "Home Appliances",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Blue",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 73,
+    "name": "HomeCentre Furniture Model 1",
+    "slug": "homecentre-furniture-model-1",
+    "brand": "HomeCentre",
+    "category": "Furniture",
+    "price": 87,
+    "discount": 20,
+    "stock": 77,
+    "rating": 4.2,
+    "reviews": 2648,
+    "thumbnail": "https://picsum.photos/seed/homecentre-furniture-model-1/600/600",
+    "images": [
+      "https://picsum.photos/seed/homecentre-furniture-model-11/800/800",
+      "https://picsum.photos/seed/homecentre-furniture-model-12/800/800",
+      "https://picsum.photos/seed/homecentre-furniture-model-13/800/800"
+    ],
+    "description": "The HomeCentre Furniture Model 1 is a premium furniture product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "HomeCentre",
+      "Category": "Furniture",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Purple",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 74,
+    "name": "Urban Ladder Furniture Model 2",
+    "slug": "urban-ladder-furniture-model-2",
+    "brand": "Urban Ladder",
+    "category": "Furniture",
+    "price": 121,
+    "discount": 15,
+    "stock": 77,
+    "rating": 3.6,
+    "reviews": 3680,
+    "thumbnail": "https://picsum.photos/seed/urban-ladder-furniture-model-2/600/600",
+    "images": [
+      "https://picsum.photos/seed/urban-ladder-furniture-model-21/800/800",
+      "https://picsum.photos/seed/urban-ladder-furniture-model-22/800/800",
+      "https://picsum.photos/seed/urban-ladder-furniture-model-23/800/800"
+    ],
+    "description": "The Urban Ladder Furniture Model 2 is a premium furniture product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Urban Ladder",
+      "Category": "Furniture",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Black",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 75,
+    "name": "HomeCentre Furniture Model 3",
+    "slug": "homecentre-furniture-model-3",
+    "brand": "HomeCentre",
+    "category": "Furniture",
+    "price": 1816,
+    "discount": 20,
+    "stock": 113,
+    "rating": 4.3,
+    "reviews": 840,
+    "thumbnail": "https://picsum.photos/seed/homecentre-furniture-model-3/600/600",
+    "images": [
+      "https://picsum.photos/seed/homecentre-furniture-model-31/800/800",
+      "https://picsum.photos/seed/homecentre-furniture-model-32/800/800",
+      "https://picsum.photos/seed/homecentre-furniture-model-33/800/800"
+    ],
+    "description": "The HomeCentre Furniture Model 3 is a premium furniture product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "HomeCentre",
+      "Category": "Furniture",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Silver",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 76,
+    "name": "IKEA Furniture Model 4",
+    "slug": "ikea-furniture-model-4",
+    "brand": "IKEA",
+    "category": "Furniture",
+    "price": 452,
+    "discount": 30,
+    "stock": 24,
+    "rating": 4.4,
+    "reviews": 4445,
+    "thumbnail": "https://picsum.photos/seed/ikea-furniture-model-4/600/600",
+    "images": [
+      "https://picsum.photos/seed/ikea-furniture-model-41/800/800",
+      "https://picsum.photos/seed/ikea-furniture-model-42/800/800",
+      "https://picsum.photos/seed/ikea-furniture-model-43/800/800"
+    ],
+    "description": "The IKEA Furniture Model 4 is a premium furniture product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "IKEA",
+      "Category": "Furniture",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Blue",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 77,
+    "name": "IKEA Furniture Model 5",
+    "slug": "ikea-furniture-model-5",
+    "brand": "IKEA",
+    "category": "Furniture",
+    "price": 172,
+    "discount": 25,
+    "stock": 34,
+    "rating": 4.0,
+    "reviews": 410,
+    "thumbnail": "https://picsum.photos/seed/ikea-furniture-model-5/600/600",
+    "images": [
+      "https://picsum.photos/seed/ikea-furniture-model-51/800/800",
+      "https://picsum.photos/seed/ikea-furniture-model-52/800/800",
+      "https://picsum.photos/seed/ikea-furniture-model-53/800/800"
+    ],
+    "description": "The IKEA Furniture Model 5 is a premium furniture product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "IKEA",
+      "Category": "Furniture",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Purple",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 78,
+    "name": "HomeCentre Furniture Model 6",
+    "slug": "homecentre-furniture-model-6",
+    "brand": "HomeCentre",
+    "category": "Furniture",
+    "price": 656,
+    "discount": 10,
+    "stock": 55,
+    "rating": 3.7,
+    "reviews": 1074,
+    "thumbnail": "https://picsum.photos/seed/homecentre-furniture-model-6/600/600",
+    "images": [
+      "https://picsum.photos/seed/homecentre-furniture-model-61/800/800",
+      "https://picsum.photos/seed/homecentre-furniture-model-62/800/800",
+      "https://picsum.photos/seed/homecentre-furniture-model-63/800/800"
+    ],
+    "description": "The HomeCentre Furniture Model 6 is a premium furniture product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "HomeCentre",
+      "Category": "Furniture",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Silver",
+      "Black"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 79,
+    "name": "IKEA Furniture Model 7",
+    "slug": "ikea-furniture-model-7",
+    "brand": "IKEA",
+    "category": "Furniture",
+    "price": 1903,
+    "discount": 20,
+    "stock": 95,
+    "rating": 4.0,
+    "reviews": 4551,
+    "thumbnail": "https://picsum.photos/seed/ikea-furniture-model-7/600/600",
+    "images": [
+      "https://picsum.photos/seed/ikea-furniture-model-71/800/800",
+      "https://picsum.photos/seed/ikea-furniture-model-72/800/800",
+      "https://picsum.photos/seed/ikea-furniture-model-73/800/800"
+    ],
+    "description": "The IKEA Furniture Model 7 is a premium furniture product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "IKEA",
+      "Category": "Furniture",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Silver",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 80,
+    "name": "IKEA Furniture Model 8",
+    "slug": "ikea-furniture-model-8",
+    "brand": "IKEA",
+    "category": "Furniture",
+    "price": 646,
+    "discount": 10,
+    "stock": 93,
+    "rating": 4.1,
+    "reviews": 2962,
+    "thumbnail": "https://picsum.photos/seed/ikea-furniture-model-8/600/600",
+    "images": [
+      "https://picsum.photos/seed/ikea-furniture-model-81/800/800",
+      "https://picsum.photos/seed/ikea-furniture-model-82/800/800",
+      "https://picsum.photos/seed/ikea-furniture-model-83/800/800"
+    ],
+    "description": "The IKEA Furniture Model 8 is a premium furniture product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "IKEA",
+      "Category": "Furniture",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "Purple",
+      "Black"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 81,
+    "name": "IKEA Furniture Model 9",
+    "slug": "ikea-furniture-model-9",
+    "brand": "IKEA",
+    "category": "Furniture",
+    "price": 1772,
+    "discount": 10,
+    "stock": 97,
+    "rating": 3.7,
+    "reviews": 3188,
+    "thumbnail": "https://picsum.photos/seed/ikea-furniture-model-9/600/600",
+    "images": [
+      "https://picsum.photos/seed/ikea-furniture-model-91/800/800",
+      "https://picsum.photos/seed/ikea-furniture-model-92/800/800",
+      "https://picsum.photos/seed/ikea-furniture-model-93/800/800"
+    ],
+    "description": "The IKEA Furniture Model 9 is a premium furniture product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "IKEA",
+      "Category": "Furniture",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Blue",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 82,
+    "name": "Prestige Kitchen Model 1",
+    "slug": "prestige-kitchen-model-1",
+    "brand": "Prestige",
+    "category": "Kitchen",
+    "price": 1368,
+    "discount": 20,
+    "stock": 55,
+    "rating": 4.3,
+    "reviews": 1930,
+    "thumbnail": "https://picsum.photos/seed/prestige-kitchen-model-1/600/600",
+    "images": [
+      "https://picsum.photos/seed/prestige-kitchen-model-11/800/800",
+      "https://picsum.photos/seed/prestige-kitchen-model-12/800/800",
+      "https://picsum.photos/seed/prestige-kitchen-model-13/800/800"
+    ],
+    "description": "The Prestige Kitchen Model 1 is a premium kitchen product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Prestige",
+      "Category": "Kitchen",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "Green",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 83,
+    "name": "Philips Kitchen Model 2",
+    "slug": "philips-kitchen-model-2",
+    "brand": "Philips",
+    "category": "Kitchen",
+    "price": 1352,
+    "discount": 25,
+    "stock": 17,
+    "rating": 4.2,
+    "reviews": 1435,
+    "thumbnail": "https://picsum.photos/seed/philips-kitchen-model-2/600/600",
+    "images": [
+      "https://picsum.photos/seed/philips-kitchen-model-21/800/800",
+      "https://picsum.photos/seed/philips-kitchen-model-22/800/800",
+      "https://picsum.photos/seed/philips-kitchen-model-23/800/800"
+    ],
+    "description": "The Philips Kitchen Model 2 is a premium kitchen product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Philips",
+      "Category": "Kitchen",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "Purple",
+      "Black"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 84,
+    "name": "Philips Kitchen Model 3",
+    "slug": "philips-kitchen-model-3",
+    "brand": "Philips",
+    "category": "Kitchen",
+    "price": 425,
+    "discount": 30,
+    "stock": 88,
+    "rating": 4.5,
+    "reviews": 2096,
+    "thumbnail": "https://picsum.photos/seed/philips-kitchen-model-3/600/600",
+    "images": [
+      "https://picsum.photos/seed/philips-kitchen-model-31/800/800",
+      "https://picsum.photos/seed/philips-kitchen-model-32/800/800",
+      "https://picsum.photos/seed/philips-kitchen-model-33/800/800"
+    ],
+    "description": "The Philips Kitchen Model 3 is a premium kitchen product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Philips",
+      "Category": "Kitchen",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "Black",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 85,
+    "name": "Wonderchef Kitchen Model 4",
+    "slug": "wonderchef-kitchen-model-4",
+    "brand": "Wonderchef",
+    "category": "Kitchen",
+    "price": 1832,
+    "discount": 25,
+    "stock": 85,
+    "rating": 3.7,
+    "reviews": 1740,
+    "thumbnail": "https://picsum.photos/seed/wonderchef-kitchen-model-4/600/600",
+    "images": [
+      "https://picsum.photos/seed/wonderchef-kitchen-model-41/800/800",
+      "https://picsum.photos/seed/wonderchef-kitchen-model-42/800/800",
+      "https://picsum.photos/seed/wonderchef-kitchen-model-43/800/800"
+    ],
+    "description": "The Wonderchef Kitchen Model 4 is a premium kitchen product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Wonderchef",
+      "Category": "Kitchen",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Black",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 86,
+    "name": "Prestige Kitchen Model 5",
+    "slug": "prestige-kitchen-model-5",
+    "brand": "Prestige",
+    "category": "Kitchen",
+    "price": 670,
+    "discount": 10,
+    "stock": 28,
+    "rating": 4.4,
+    "reviews": 1846,
+    "thumbnail": "https://picsum.photos/seed/prestige-kitchen-model-5/600/600",
+    "images": [
+      "https://picsum.photos/seed/prestige-kitchen-model-51/800/800",
+      "https://picsum.photos/seed/prestige-kitchen-model-52/800/800",
+      "https://picsum.photos/seed/prestige-kitchen-model-53/800/800"
+    ],
+    "description": "The Prestige Kitchen Model 5 is a premium kitchen product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Prestige",
+      "Category": "Kitchen",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Purple",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 87,
+    "name": "Wonderchef Kitchen Model 6",
+    "slug": "wonderchef-kitchen-model-6",
+    "brand": "Wonderchef",
+    "category": "Kitchen",
+    "price": 1470,
+    "discount": 30,
+    "stock": 111,
+    "rating": 4.1,
+    "reviews": 2237,
+    "thumbnail": "https://picsum.photos/seed/wonderchef-kitchen-model-6/600/600",
+    "images": [
+      "https://picsum.photos/seed/wonderchef-kitchen-model-61/800/800",
+      "https://picsum.photos/seed/wonderchef-kitchen-model-62/800/800",
+      "https://picsum.photos/seed/wonderchef-kitchen-model-63/800/800"
+    ],
+    "description": "The Wonderchef Kitchen Model 6 is a premium kitchen product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Wonderchef",
+      "Category": "Kitchen",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Purple",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 88,
+    "name": "Prestige Kitchen Model 7",
+    "slug": "prestige-kitchen-model-7",
+    "brand": "Prestige",
+    "category": "Kitchen",
+    "price": 1802,
+    "discount": 30,
+    "stock": 23,
+    "rating": 4.9,
+    "reviews": 3990,
+    "thumbnail": "https://picsum.photos/seed/prestige-kitchen-model-7/600/600",
+    "images": [
+      "https://picsum.photos/seed/prestige-kitchen-model-71/800/800",
+      "https://picsum.photos/seed/prestige-kitchen-model-72/800/800",
+      "https://picsum.photos/seed/prestige-kitchen-model-73/800/800"
+    ],
+    "description": "The Prestige Kitchen Model 7 is a premium kitchen product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Prestige",
+      "Category": "Kitchen",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "Green",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 89,
+    "name": "Prestige Kitchen Model 8",
+    "slug": "prestige-kitchen-model-8",
+    "brand": "Prestige",
+    "category": "Kitchen",
+    "price": 379,
+    "discount": 25,
+    "stock": 113,
+    "rating": 4.5,
+    "reviews": 2062,
+    "thumbnail": "https://picsum.photos/seed/prestige-kitchen-model-8/600/600",
+    "images": [
+      "https://picsum.photos/seed/prestige-kitchen-model-81/800/800",
+      "https://picsum.photos/seed/prestige-kitchen-model-82/800/800",
+      "https://picsum.photos/seed/prestige-kitchen-model-83/800/800"
+    ],
+    "description": "The Prestige Kitchen Model 8 is a premium kitchen product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Prestige",
+      "Category": "Kitchen",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "White",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 90,
+    "name": "Prestige Kitchen Model 9",
+    "slug": "prestige-kitchen-model-9",
+    "brand": "Prestige",
+    "category": "Kitchen",
+    "price": 1282,
+    "discount": 20,
+    "stock": 15,
+    "rating": 4.8,
+    "reviews": 3101,
+    "thumbnail": "https://picsum.photos/seed/prestige-kitchen-model-9/600/600",
+    "images": [
+      "https://picsum.photos/seed/prestige-kitchen-model-91/800/800",
+      "https://picsum.photos/seed/prestige-kitchen-model-92/800/800",
+      "https://picsum.photos/seed/prestige-kitchen-model-93/800/800"
+    ],
+    "description": "The Prestige Kitchen Model 9 is a premium kitchen product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Prestige",
+      "Category": "Kitchen",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Green",
+      "Black"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 91,
+    "name": "H&M Fashion Model 1",
+    "slug": "h&m-fashion-model-1",
+    "brand": "H&M",
+    "category": "Fashion",
+    "price": 833,
+    "discount": 20,
+    "stock": 45,
+    "rating": 4.2,
+    "reviews": 2956,
+    "thumbnail": "https://picsum.photos/seed/h&m-fashion-model-1/600/600",
+    "images": [
+      "https://picsum.photos/seed/h&m-fashion-model-11/800/800",
+      "https://picsum.photos/seed/h&m-fashion-model-12/800/800",
+      "https://picsum.photos/seed/h&m-fashion-model-13/800/800"
+    ],
+    "description": "The H&M Fashion Model 1 is a premium fashion product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "H&M",
+      "Category": "Fashion",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Blue",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 92,
+    "name": "H&M Fashion Model 2",
+    "slug": "h&m-fashion-model-2",
+    "brand": "H&M",
+    "category": "Fashion",
+    "price": 119,
+    "discount": 10,
+    "stock": 22,
+    "rating": 4.5,
+    "reviews": 2912,
+    "thumbnail": "https://picsum.photos/seed/h&m-fashion-model-2/600/600",
+    "images": [
+      "https://picsum.photos/seed/h&m-fashion-model-21/800/800",
+      "https://picsum.photos/seed/h&m-fashion-model-22/800/800",
+      "https://picsum.photos/seed/h&m-fashion-model-23/800/800"
+    ],
+    "description": "The H&M Fashion Model 2 is a premium fashion product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "H&M",
+      "Category": "Fashion",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Silver",
+      "Blue"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 93,
+    "name": "H&M Fashion Model 3",
+    "slug": "h&m-fashion-model-3",
+    "brand": "H&M",
+    "category": "Fashion",
+    "price": 1725,
+    "discount": 10,
+    "stock": 105,
+    "rating": 4.1,
+    "reviews": 214,
+    "thumbnail": "https://picsum.photos/seed/h&m-fashion-model-3/600/600",
+    "images": [
+      "https://picsum.photos/seed/h&m-fashion-model-31/800/800",
+      "https://picsum.photos/seed/h&m-fashion-model-32/800/800",
+      "https://picsum.photos/seed/h&m-fashion-model-33/800/800"
+    ],
+    "description": "The H&M Fashion Model 3 is a premium fashion product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "H&M",
+      "Category": "Fashion",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Blue",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 94,
+    "name": "Zara Fashion Model 4",
+    "slug": "zara-fashion-model-4",
+    "brand": "Zara",
+    "category": "Fashion",
+    "price": 180,
+    "discount": 20,
+    "stock": 21,
+    "rating": 4.4,
+    "reviews": 2398,
+    "thumbnail": "https://picsum.photos/seed/zara-fashion-model-4/600/600",
+    "images": [
+      "https://picsum.photos/seed/zara-fashion-model-41/800/800",
+      "https://picsum.photos/seed/zara-fashion-model-42/800/800",
+      "https://picsum.photos/seed/zara-fashion-model-43/800/800"
+    ],
+    "description": "The Zara Fashion Model 4 is a premium fashion product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Zara",
+      "Category": "Fashion",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Green",
+      "Blue"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 95,
+    "name": "Zara Fashion Model 5",
+    "slug": "zara-fashion-model-5",
+    "brand": "Zara",
+    "category": "Fashion",
+    "price": 1338,
+    "discount": 25,
+    "stock": 84,
+    "rating": 4.9,
+    "reviews": 1074,
+    "thumbnail": "https://picsum.photos/seed/zara-fashion-model-5/600/600",
+    "images": [
+      "https://picsum.photos/seed/zara-fashion-model-51/800/800",
+      "https://picsum.photos/seed/zara-fashion-model-52/800/800",
+      "https://picsum.photos/seed/zara-fashion-model-53/800/800"
+    ],
+    "description": "The Zara Fashion Model 5 is a premium fashion product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Zara",
+      "Category": "Fashion",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Silver",
+      "Blue"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 96,
+    "name": "H&M Fashion Model 6",
+    "slug": "h&m-fashion-model-6",
+    "brand": "H&M",
+    "category": "Fashion",
+    "price": 444,
+    "discount": 30,
+    "stock": 15,
+    "rating": 4.0,
+    "reviews": 1052,
+    "thumbnail": "https://picsum.photos/seed/h&m-fashion-model-6/600/600",
+    "images": [
+      "https://picsum.photos/seed/h&m-fashion-model-61/800/800",
+      "https://picsum.photos/seed/h&m-fashion-model-62/800/800",
+      "https://picsum.photos/seed/h&m-fashion-model-63/800/800"
+    ],
+    "description": "The H&M Fashion Model 6 is a premium fashion product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "H&M",
+      "Category": "Fashion",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Blue",
+      "Purple"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 97,
+    "name": "H&M Fashion Model 7",
+    "slug": "h&m-fashion-model-7",
+    "brand": "H&M",
+    "category": "Fashion",
+    "price": 1928,
+    "discount": 10,
+    "stock": 19,
+    "rating": 4.8,
+    "reviews": 3917,
+    "thumbnail": "https://picsum.photos/seed/h&m-fashion-model-7/600/600",
+    "images": [
+      "https://picsum.photos/seed/h&m-fashion-model-71/800/800",
+      "https://picsum.photos/seed/h&m-fashion-model-72/800/800",
+      "https://picsum.photos/seed/h&m-fashion-model-73/800/800"
+    ],
+    "description": "The H&M Fashion Model 7 is a premium fashion product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "H&M",
+      "Category": "Fashion",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Silver",
+      "Green"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 98,
+    "name": "Uniqlo Fashion Model 8",
+    "slug": "uniqlo-fashion-model-8",
+    "brand": "Uniqlo",
+    "category": "Fashion",
+    "price": 1791,
+    "discount": 20,
+    "stock": 38,
+    "rating": 3.8,
+    "reviews": 1648,
+    "thumbnail": "https://picsum.photos/seed/uniqlo-fashion-model-8/600/600",
+    "images": [
+      "https://picsum.photos/seed/uniqlo-fashion-model-81/800/800",
+      "https://picsum.photos/seed/uniqlo-fashion-model-82/800/800",
+      "https://picsum.photos/seed/uniqlo-fashion-model-83/800/800"
+    ],
+    "description": "The Uniqlo Fashion Model 8 is a premium fashion product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Uniqlo",
+      "Category": "Fashion",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Blue",
+      "Purple"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 99,
+    "name": "Zara Fashion Model 9",
+    "slug": "zara-fashion-model-9",
+    "brand": "Zara",
+    "category": "Fashion",
+    "price": 1120,
+    "discount": 30,
+    "stock": 20,
+    "rating": 3.9,
+    "reviews": 4601,
+    "thumbnail": "https://picsum.photos/seed/zara-fashion-model-9/600/600",
+    "images": [
+      "https://picsum.photos/seed/zara-fashion-model-91/800/800",
+      "https://picsum.photos/seed/zara-fashion-model-92/800/800",
+      "https://picsum.photos/seed/zara-fashion-model-93/800/800"
+    ],
+    "description": "The Zara Fashion Model 9 is a premium fashion product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Zara",
+      "Category": "Fashion",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Silver",
+      "Purple"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 100,
+    "name": "Puma Shoe Model 1",
+    "slug": "puma-shoe-model-1",
+    "brand": "Puma",
+    "category": "Shoes",
+    "price": 116,
+    "discount": 5,
+    "stock": 113,
+    "rating": 4.2,
+    "reviews": 469,
+    "thumbnail": "https://picsum.photos/seed/puma-shoe-model-1/600/600",
+    "images": [
+      "https://picsum.photos/seed/puma-shoe-model-11/800/800",
+      "https://picsum.photos/seed/puma-shoe-model-12/800/800",
+      "https://picsum.photos/seed/puma-shoe-model-13/800/800"
+    ],
+    "description": "The Puma Shoe Model 1 is a premium shoes product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Puma",
+      "Category": "Shoes",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "Purple",
+      "Blue"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 101,
+    "name": "Nike Shoe Model 2",
+    "slug": "nike-shoe-model-2",
+    "brand": "Nike",
+    "category": "Shoes",
+    "price": 1979,
+    "discount": 20,
+    "stock": 55,
+    "rating": 3.9,
+    "reviews": 1342,
+    "thumbnail": "https://picsum.photos/seed/nike-shoe-model-2/600/600",
+    "images": [
+      "https://picsum.photos/seed/nike-shoe-model-21/800/800",
+      "https://picsum.photos/seed/nike-shoe-model-22/800/800",
+      "https://picsum.photos/seed/nike-shoe-model-23/800/800"
+    ],
+    "description": "The Nike Shoe Model 2 is a premium shoes product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Nike",
+      "Category": "Shoes",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Silver",
+      "Green"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 102,
+    "name": "Adidas Shoe Model 3",
+    "slug": "adidas-shoe-model-3",
+    "brand": "Adidas",
+    "category": "Shoes",
+    "price": 325,
+    "discount": 5,
+    "stock": 101,
+    "rating": 4.6,
+    "reviews": 3278,
+    "thumbnail": "https://picsum.photos/seed/adidas-shoe-model-3/600/600",
+    "images": [
+      "https://picsum.photos/seed/adidas-shoe-model-31/800/800",
+      "https://picsum.photos/seed/adidas-shoe-model-32/800/800",
+      "https://picsum.photos/seed/adidas-shoe-model-33/800/800"
+    ],
+    "description": "The Adidas Shoe Model 3 is a premium shoes product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Adidas",
+      "Category": "Shoes",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Black",
+      "Purple"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 103,
+    "name": "Adidas Shoe Model 4",
+    "slug": "adidas-shoe-model-4",
+    "brand": "Adidas",
+    "category": "Shoes",
+    "price": 1439,
+    "discount": 0,
+    "stock": 108,
+    "rating": 3.7,
+    "reviews": 4264,
+    "thumbnail": "https://picsum.photos/seed/adidas-shoe-model-4/600/600",
+    "images": [
+      "https://picsum.photos/seed/adidas-shoe-model-41/800/800",
+      "https://picsum.photos/seed/adidas-shoe-model-42/800/800",
+      "https://picsum.photos/seed/adidas-shoe-model-43/800/800"
+    ],
+    "description": "The Adidas Shoe Model 4 is a premium shoes product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Adidas",
+      "Category": "Shoes",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Blue",
+      "Purple"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 104,
+    "name": "Adidas Shoe Model 5",
+    "slug": "adidas-shoe-model-5",
+    "brand": "Adidas",
+    "category": "Shoes",
+    "price": 1963,
+    "discount": 0,
+    "stock": 44,
+    "rating": 4.6,
+    "reviews": 2667,
+    "thumbnail": "https://picsum.photos/seed/adidas-shoe-model-5/600/600",
+    "images": [
+      "https://picsum.photos/seed/adidas-shoe-model-51/800/800",
+      "https://picsum.photos/seed/adidas-shoe-model-52/800/800",
+      "https://picsum.photos/seed/adidas-shoe-model-53/800/800"
+    ],
+    "description": "The Adidas Shoe Model 5 is a premium shoes product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Adidas",
+      "Category": "Shoes",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Purple",
+      "Black"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 105,
+    "name": "Puma Shoe Model 6",
+    "slug": "puma-shoe-model-6",
+    "brand": "Puma",
+    "category": "Shoes",
+    "price": 872,
+    "discount": 5,
+    "stock": 118,
+    "rating": 4.2,
+    "reviews": 1159,
+    "thumbnail": "https://picsum.photos/seed/puma-shoe-model-6/600/600",
+    "images": [
+      "https://picsum.photos/seed/puma-shoe-model-61/800/800",
+      "https://picsum.photos/seed/puma-shoe-model-62/800/800",
+      "https://picsum.photos/seed/puma-shoe-model-63/800/800"
+    ],
+    "description": "The Puma Shoe Model 6 is a premium shoes product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Puma",
+      "Category": "Shoes",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "White",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 106,
+    "name": "Nike Shoe Model 7",
+    "slug": "nike-shoe-model-7",
+    "brand": "Nike",
+    "category": "Shoes",
+    "price": 602,
+    "discount": 0,
+    "stock": 4,
+    "rating": 4.4,
+    "reviews": 4514,
+    "thumbnail": "https://picsum.photos/seed/nike-shoe-model-7/600/600",
+    "images": [
+      "https://picsum.photos/seed/nike-shoe-model-71/800/800",
+      "https://picsum.photos/seed/nike-shoe-model-72/800/800",
+      "https://picsum.photos/seed/nike-shoe-model-73/800/800"
+    ],
+    "description": "The Nike Shoe Model 7 is a premium shoes product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Nike",
+      "Category": "Shoes",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Silver",
+      "Green"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 107,
+    "name": "Adidas Shoe Model 8",
+    "slug": "adidas-shoe-model-8",
+    "brand": "Adidas",
+    "category": "Shoes",
+    "price": 423,
+    "discount": 5,
+    "stock": 96,
+    "rating": 3.9,
+    "reviews": 180,
+    "thumbnail": "https://picsum.photos/seed/adidas-shoe-model-8/600/600",
+    "images": [
+      "https://picsum.photos/seed/adidas-shoe-model-81/800/800",
+      "https://picsum.photos/seed/adidas-shoe-model-82/800/800",
+      "https://picsum.photos/seed/adidas-shoe-model-83/800/800"
+    ],
+    "description": "The Adidas Shoe Model 8 is a premium shoes product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Adidas",
+      "Category": "Shoes",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Purple",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 108,
+    "name": "Adidas Shoe Model 9",
+    "slug": "adidas-shoe-model-9",
+    "brand": "Adidas",
+    "category": "Shoes",
+    "price": 503,
+    "discount": 15,
+    "stock": 104,
+    "rating": 4.7,
+    "reviews": 108,
+    "thumbnail": "https://picsum.photos/seed/adidas-shoe-model-9/600/600",
+    "images": [
+      "https://picsum.photos/seed/adidas-shoe-model-91/800/800",
+      "https://picsum.photos/seed/adidas-shoe-model-92/800/800",
+      "https://picsum.photos/seed/adidas-shoe-model-93/800/800"
+    ],
+    "description": "The Adidas Shoe Model 9 is a premium shoes product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Adidas",
+      "Category": "Shoes",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "Green",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 109,
+    "name": "Fossil Watche Model 1",
+    "slug": "fossil-watche-model-1",
+    "brand": "Fossil",
+    "category": "Watches",
+    "price": 625,
+    "discount": 0,
+    "stock": 11,
+    "rating": 4.9,
+    "reviews": 3748,
+    "thumbnail": "https://picsum.photos/seed/fossil-watche-model-1/600/600",
+    "images": [
+      "https://picsum.photos/seed/fossil-watche-model-11/800/800",
+      "https://picsum.photos/seed/fossil-watche-model-12/800/800",
+      "https://picsum.photos/seed/fossil-watche-model-13/800/800"
+    ],
+    "description": "The Fossil Watche Model 1 is a premium watches product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Fossil",
+      "Category": "Watches",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "White",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 110,
+    "name": "Casio Watche Model 2",
+    "slug": "casio-watche-model-2",
+    "brand": "Casio",
+    "category": "Watches",
+    "price": 1324,
+    "discount": 5,
+    "stock": 73,
+    "rating": 4.6,
+    "reviews": 4125,
+    "thumbnail": "https://picsum.photos/seed/casio-watche-model-2/600/600",
+    "images": [
+      "https://picsum.photos/seed/casio-watche-model-21/800/800",
+      "https://picsum.photos/seed/casio-watche-model-22/800/800",
+      "https://picsum.photos/seed/casio-watche-model-23/800/800"
+    ],
+    "description": "The Casio Watche Model 2 is a premium watches product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Casio",
+      "Category": "Watches",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "White",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 111,
+    "name": "Seiko Watche Model 3",
+    "slug": "seiko-watche-model-3",
+    "brand": "Seiko",
+    "category": "Watches",
+    "price": 621,
+    "discount": 30,
+    "stock": 28,
+    "rating": 3.8,
+    "reviews": 4537,
+    "thumbnail": "https://picsum.photos/seed/seiko-watche-model-3/600/600",
+    "images": [
+      "https://picsum.photos/seed/seiko-watche-model-31/800/800",
+      "https://picsum.photos/seed/seiko-watche-model-32/800/800",
+      "https://picsum.photos/seed/seiko-watche-model-33/800/800"
+    ],
+    "description": "The Seiko Watche Model 3 is a premium watches product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Seiko",
+      "Category": "Watches",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Silver",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 112,
+    "name": "Casio Watche Model 4",
+    "slug": "casio-watche-model-4",
+    "brand": "Casio",
+    "category": "Watches",
+    "price": 972,
+    "discount": 20,
+    "stock": 70,
+    "rating": 4.2,
+    "reviews": 4184,
+    "thumbnail": "https://picsum.photos/seed/casio-watche-model-4/600/600",
+    "images": [
+      "https://picsum.photos/seed/casio-watche-model-41/800/800",
+      "https://picsum.photos/seed/casio-watche-model-42/800/800",
+      "https://picsum.photos/seed/casio-watche-model-43/800/800"
+    ],
+    "description": "The Casio Watche Model 4 is a premium watches product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Casio",
+      "Category": "Watches",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Blue",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 113,
+    "name": "Seiko Watche Model 5",
+    "slug": "seiko-watche-model-5",
+    "brand": "Seiko",
+    "category": "Watches",
+    "price": 1502,
+    "discount": 30,
+    "stock": 69,
+    "rating": 5.0,
+    "reviews": 4451,
+    "thumbnail": "https://picsum.photos/seed/seiko-watche-model-5/600/600",
+    "images": [
+      "https://picsum.photos/seed/seiko-watche-model-51/800/800",
+      "https://picsum.photos/seed/seiko-watche-model-52/800/800",
+      "https://picsum.photos/seed/seiko-watche-model-53/800/800"
+    ],
+    "description": "The Seiko Watche Model 5 is a premium watches product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Seiko",
+      "Category": "Watches",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Silver",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 114,
+    "name": "Fossil Watche Model 6",
+    "slug": "fossil-watche-model-6",
+    "brand": "Fossil",
+    "category": "Watches",
+    "price": 1407,
+    "discount": 5,
+    "stock": 19,
+    "rating": 5.0,
+    "reviews": 2463,
+    "thumbnail": "https://picsum.photos/seed/fossil-watche-model-6/600/600",
+    "images": [
+      "https://picsum.photos/seed/fossil-watche-model-61/800/800",
+      "https://picsum.photos/seed/fossil-watche-model-62/800/800",
+      "https://picsum.photos/seed/fossil-watche-model-63/800/800"
+    ],
+    "description": "The Fossil Watche Model 6 is a premium watches product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Fossil",
+      "Category": "Watches",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Green",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 115,
+    "name": "Seiko Watche Model 7",
+    "slug": "seiko-watche-model-7",
+    "brand": "Seiko",
+    "category": "Watches",
+    "price": 1074,
+    "discount": 30,
+    "stock": 0,
+    "rating": 4.9,
+    "reviews": 1719,
+    "thumbnail": "https://picsum.photos/seed/seiko-watche-model-7/600/600",
+    "images": [
+      "https://picsum.photos/seed/seiko-watche-model-71/800/800",
+      "https://picsum.photos/seed/seiko-watche-model-72/800/800",
+      "https://picsum.photos/seed/seiko-watche-model-73/800/800"
+    ],
+    "description": "The Seiko Watche Model 7 is a premium watches product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Seiko",
+      "Category": "Watches",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Black",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 116,
+    "name": "Seiko Watche Model 8",
+    "slug": "seiko-watche-model-8",
+    "brand": "Seiko",
+    "category": "Watches",
+    "price": 683,
+    "discount": 10,
+    "stock": 93,
+    "rating": 4.8,
+    "reviews": 3449,
+    "thumbnail": "https://picsum.photos/seed/seiko-watche-model-8/600/600",
+    "images": [
+      "https://picsum.photos/seed/seiko-watche-model-81/800/800",
+      "https://picsum.photos/seed/seiko-watche-model-82/800/800",
+      "https://picsum.photos/seed/seiko-watche-model-83/800/800"
+    ],
+    "description": "The Seiko Watche Model 8 is a premium watches product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Seiko",
+      "Category": "Watches",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Silver",
+      "Black"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 117,
+    "name": "Casio Watche Model 9",
+    "slug": "casio-watche-model-9",
+    "brand": "Casio",
+    "category": "Watches",
+    "price": 691,
+    "discount": 0,
+    "stock": 48,
+    "rating": 5.0,
+    "reviews": 2367,
+    "thumbnail": "https://picsum.photos/seed/casio-watche-model-9/600/600",
+    "images": [
+      "https://picsum.photos/seed/casio-watche-model-91/800/800",
+      "https://picsum.photos/seed/casio-watche-model-92/800/800",
+      "https://picsum.photos/seed/casio-watche-model-93/800/800"
+    ],
+    "description": "The Casio Watche Model 9 is a premium watches product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Casio",
+      "Category": "Watches",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "White",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 118,
+    "name": "Maybelline Beauty Model 1",
+    "slug": "maybelline-beauty-model-1",
+    "brand": "Maybelline",
+    "category": "Beauty",
+    "price": 1395,
+    "discount": 25,
+    "stock": 70,
+    "rating": 4.8,
+    "reviews": 4375,
+    "thumbnail": "https://picsum.photos/seed/maybelline-beauty-model-1/600/600",
+    "images": [
+      "https://picsum.photos/seed/maybelline-beauty-model-11/800/800",
+      "https://picsum.photos/seed/maybelline-beauty-model-12/800/800",
+      "https://picsum.photos/seed/maybelline-beauty-model-13/800/800"
+    ],
+    "description": "The Maybelline Beauty Model 1 is a premium beauty product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Maybelline",
+      "Category": "Beauty",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "Black",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 119,
+    "name": "L'Oreal Beauty Model 2",
+    "slug": "loreal-beauty-model-2",
+    "brand": "L'Oreal",
+    "category": "Beauty",
+    "price": 941,
+    "discount": 25,
+    "stock": 23,
+    "rating": 3.8,
+    "reviews": 4044,
+    "thumbnail": "https://picsum.photos/seed/loreal-beauty-model-2/600/600",
+    "images": [
+      "https://picsum.photos/seed/loreal-beauty-model-21/800/800",
+      "https://picsum.photos/seed/loreal-beauty-model-22/800/800",
+      "https://picsum.photos/seed/loreal-beauty-model-23/800/800"
+    ],
+    "description": "The L'Oreal Beauty Model 2 is a premium beauty product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "L'Oreal",
+      "Category": "Beauty",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "Green",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 120,
+    "name": "L'Oreal Beauty Model 3",
+    "slug": "loreal-beauty-model-3",
+    "brand": "L'Oreal",
+    "category": "Beauty",
+    "price": 119,
+    "discount": 25,
+    "stock": 58,
+    "rating": 4.5,
+    "reviews": 1224,
+    "thumbnail": "https://picsum.photos/seed/loreal-beauty-model-3/600/600",
+    "images": [
+      "https://picsum.photos/seed/loreal-beauty-model-31/800/800",
+      "https://picsum.photos/seed/loreal-beauty-model-32/800/800",
+      "https://picsum.photos/seed/loreal-beauty-model-33/800/800"
+    ],
+    "description": "The L'Oreal Beauty Model 3 is a premium beauty product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "L'Oreal",
+      "Category": "Beauty",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "Black",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 121,
+    "name": "Maybelline Beauty Model 4",
+    "slug": "maybelline-beauty-model-4",
+    "brand": "Maybelline",
+    "category": "Beauty",
+    "price": 1365,
+    "discount": 15,
+    "stock": 98,
+    "rating": 3.9,
+    "reviews": 4813,
+    "thumbnail": "https://picsum.photos/seed/maybelline-beauty-model-4/600/600",
+    "images": [
+      "https://picsum.photos/seed/maybelline-beauty-model-41/800/800",
+      "https://picsum.photos/seed/maybelline-beauty-model-42/800/800",
+      "https://picsum.photos/seed/maybelline-beauty-model-43/800/800"
+    ],
+    "description": "The Maybelline Beauty Model 4 is a premium beauty product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Maybelline",
+      "Category": "Beauty",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "Purple",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 122,
+    "name": "L'Oreal Beauty Model 5",
+    "slug": "loreal-beauty-model-5",
+    "brand": "L'Oreal",
+    "category": "Beauty",
+    "price": 1322,
+    "discount": 10,
+    "stock": 43,
+    "rating": 4.8,
+    "reviews": 2092,
+    "thumbnail": "https://picsum.photos/seed/loreal-beauty-model-5/600/600",
+    "images": [
+      "https://picsum.photos/seed/loreal-beauty-model-51/800/800",
+      "https://picsum.photos/seed/loreal-beauty-model-52/800/800",
+      "https://picsum.photos/seed/loreal-beauty-model-53/800/800"
+    ],
+    "description": "The L'Oreal Beauty Model 5 is a premium beauty product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "L'Oreal",
+      "Category": "Beauty",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Green",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 123,
+    "name": "Nivea Beauty Model 6",
+    "slug": "nivea-beauty-model-6",
+    "brand": "Nivea",
+    "category": "Beauty",
+    "price": 1481,
+    "discount": 15,
+    "stock": 18,
+    "rating": 3.7,
+    "reviews": 3080,
+    "thumbnail": "https://picsum.photos/seed/nivea-beauty-model-6/600/600",
+    "images": [
+      "https://picsum.photos/seed/nivea-beauty-model-61/800/800",
+      "https://picsum.photos/seed/nivea-beauty-model-62/800/800",
+      "https://picsum.photos/seed/nivea-beauty-model-63/800/800"
+    ],
+    "description": "The Nivea Beauty Model 6 is a premium beauty product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Nivea",
+      "Category": "Beauty",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Blue",
+      "Black"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 124,
+    "name": "L'Oreal Beauty Model 7",
+    "slug": "loreal-beauty-model-7",
+    "brand": "L'Oreal",
+    "category": "Beauty",
+    "price": 1575,
+    "discount": 5,
+    "stock": 104,
+    "rating": 4.6,
+    "reviews": 1619,
+    "thumbnail": "https://picsum.photos/seed/loreal-beauty-model-7/600/600",
+    "images": [
+      "https://picsum.photos/seed/loreal-beauty-model-71/800/800",
+      "https://picsum.photos/seed/loreal-beauty-model-72/800/800",
+      "https://picsum.photos/seed/loreal-beauty-model-73/800/800"
+    ],
+    "description": "The L'Oreal Beauty Model 7 is a premium beauty product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "L'Oreal",
+      "Category": "Beauty",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Blue",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 125,
+    "name": "L'Oreal Beauty Model 8",
+    "slug": "loreal-beauty-model-8",
+    "brand": "L'Oreal",
+    "category": "Beauty",
+    "price": 860,
+    "discount": 5,
+    "stock": 56,
+    "rating": 4.0,
+    "reviews": 510,
+    "thumbnail": "https://picsum.photos/seed/loreal-beauty-model-8/600/600",
+    "images": [
+      "https://picsum.photos/seed/loreal-beauty-model-81/800/800",
+      "https://picsum.photos/seed/loreal-beauty-model-82/800/800",
+      "https://picsum.photos/seed/loreal-beauty-model-83/800/800"
+    ],
+    "description": "The L'Oreal Beauty Model 8 is a premium beauty product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "L'Oreal",
+      "Category": "Beauty",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Purple",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 126,
+    "name": "Nivea Beauty Model 9",
+    "slug": "nivea-beauty-model-9",
+    "brand": "Nivea",
+    "category": "Beauty",
+    "price": 1701,
+    "discount": 15,
+    "stock": 116,
+    "rating": 4.1,
+    "reviews": 1120,
+    "thumbnail": "https://picsum.photos/seed/nivea-beauty-model-9/600/600",
+    "images": [
+      "https://picsum.photos/seed/nivea-beauty-model-91/800/800",
+      "https://picsum.photos/seed/nivea-beauty-model-92/800/800",
+      "https://picsum.photos/seed/nivea-beauty-model-93/800/800"
+    ],
+    "description": "The Nivea Beauty Model 9 is a premium beauty product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Nivea",
+      "Category": "Beauty",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Purple",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 127,
+    "name": "Decathlon Sport Model 1",
+    "slug": "decathlon-sport-model-1",
+    "brand": "Decathlon",
+    "category": "Sports",
+    "price": 1299,
+    "discount": 5,
+    "stock": 37,
+    "rating": 4.8,
+    "reviews": 1896,
+    "thumbnail": "https://picsum.photos/seed/decathlon-sport-model-1/600/600",
+    "images": [
+      "https://picsum.photos/seed/decathlon-sport-model-11/800/800",
+      "https://picsum.photos/seed/decathlon-sport-model-12/800/800",
+      "https://picsum.photos/seed/decathlon-sport-model-13/800/800"
+    ],
+    "description": "The Decathlon Sport Model 1 is a premium sports product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Decathlon",
+      "Category": "Sports",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "Green",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 128,
+    "name": "Yonex Sport Model 2",
+    "slug": "yonex-sport-model-2",
+    "brand": "Yonex",
+    "category": "Sports",
+    "price": 679,
+    "discount": 10,
+    "stock": 40,
+    "rating": 3.7,
+    "reviews": 483,
+    "thumbnail": "https://picsum.photos/seed/yonex-sport-model-2/600/600",
+    "images": [
+      "https://picsum.photos/seed/yonex-sport-model-21/800/800",
+      "https://picsum.photos/seed/yonex-sport-model-22/800/800",
+      "https://picsum.photos/seed/yonex-sport-model-23/800/800"
+    ],
+    "description": "The Yonex Sport Model 2 is a premium sports product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Yonex",
+      "Category": "Sports",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "White",
+      "Black"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 129,
+    "name": "Nike Sport Model 3",
+    "slug": "nike-sport-model-3",
+    "brand": "Nike",
+    "category": "Sports",
+    "price": 1809,
+    "discount": 20,
+    "stock": 65,
+    "rating": 3.5,
+    "reviews": 4892,
+    "thumbnail": "https://picsum.photos/seed/nike-sport-model-3/600/600",
+    "images": [
+      "https://picsum.photos/seed/nike-sport-model-31/800/800",
+      "https://picsum.photos/seed/nike-sport-model-32/800/800",
+      "https://picsum.photos/seed/nike-sport-model-33/800/800"
+    ],
+    "description": "The Nike Sport Model 3 is a premium sports product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Nike",
+      "Category": "Sports",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "Black",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 130,
+    "name": "Decathlon Sport Model 4",
+    "slug": "decathlon-sport-model-4",
+    "brand": "Decathlon",
+    "category": "Sports",
+    "price": 1460,
+    "discount": 15,
+    "stock": 80,
+    "rating": 3.9,
+    "reviews": 1851,
+    "thumbnail": "https://picsum.photos/seed/decathlon-sport-model-4/600/600",
+    "images": [
+      "https://picsum.photos/seed/decathlon-sport-model-41/800/800",
+      "https://picsum.photos/seed/decathlon-sport-model-42/800/800",
+      "https://picsum.photos/seed/decathlon-sport-model-43/800/800"
+    ],
+    "description": "The Decathlon Sport Model 4 is a premium sports product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Decathlon",
+      "Category": "Sports",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Black",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 131,
+    "name": "Yonex Sport Model 5",
+    "slug": "yonex-sport-model-5",
+    "brand": "Yonex",
+    "category": "Sports",
+    "price": 70,
+    "discount": 25,
+    "stock": 103,
+    "rating": 3.7,
+    "reviews": 1560,
+    "thumbnail": "https://picsum.photos/seed/yonex-sport-model-5/600/600",
+    "images": [
+      "https://picsum.photos/seed/yonex-sport-model-51/800/800",
+      "https://picsum.photos/seed/yonex-sport-model-52/800/800",
+      "https://picsum.photos/seed/yonex-sport-model-53/800/800"
+    ],
+    "description": "The Yonex Sport Model 5 is a premium sports product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Yonex",
+      "Category": "Sports",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "Purple",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 132,
+    "name": "Decathlon Sport Model 6",
+    "slug": "decathlon-sport-model-6",
+    "brand": "Decathlon",
+    "category": "Sports",
+    "price": 1419,
+    "discount": 20,
+    "stock": 49,
+    "rating": 4.4,
+    "reviews": 3975,
+    "thumbnail": "https://picsum.photos/seed/decathlon-sport-model-6/600/600",
+    "images": [
+      "https://picsum.photos/seed/decathlon-sport-model-61/800/800",
+      "https://picsum.photos/seed/decathlon-sport-model-62/800/800",
+      "https://picsum.photos/seed/decathlon-sport-model-63/800/800"
+    ],
+    "description": "The Decathlon Sport Model 6 is a premium sports product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Decathlon",
+      "Category": "Sports",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Purple",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 133,
+    "name": "Nike Sport Model 7",
+    "slug": "nike-sport-model-7",
+    "brand": "Nike",
+    "category": "Sports",
+    "price": 105,
+    "discount": 20,
+    "stock": 56,
+    "rating": 3.6,
+    "reviews": 3190,
+    "thumbnail": "https://picsum.photos/seed/nike-sport-model-7/600/600",
+    "images": [
+      "https://picsum.photos/seed/nike-sport-model-71/800/800",
+      "https://picsum.photos/seed/nike-sport-model-72/800/800",
+      "https://picsum.photos/seed/nike-sport-model-73/800/800"
+    ],
+    "description": "The Nike Sport Model 7 is a premium sports product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Nike",
+      "Category": "Sports",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Black",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 134,
+    "name": "Yonex Sport Model 8",
+    "slug": "yonex-sport-model-8",
+    "brand": "Yonex",
+    "category": "Sports",
+    "price": 1389,
+    "discount": 10,
+    "stock": 74,
+    "rating": 5.0,
+    "reviews": 2559,
+    "thumbnail": "https://picsum.photos/seed/yonex-sport-model-8/600/600",
+    "images": [
+      "https://picsum.photos/seed/yonex-sport-model-81/800/800",
+      "https://picsum.photos/seed/yonex-sport-model-82/800/800",
+      "https://picsum.photos/seed/yonex-sport-model-83/800/800"
+    ],
+    "description": "The Yonex Sport Model 8 is a premium sports product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Yonex",
+      "Category": "Sports",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Black",
+      "Blue"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 135,
+    "name": "Yonex Sport Model 9",
+    "slug": "yonex-sport-model-9",
+    "brand": "Yonex",
+    "category": "Sports",
+    "price": 1686,
+    "discount": 20,
+    "stock": 65,
+    "rating": 3.7,
+    "reviews": 3273,
+    "thumbnail": "https://picsum.photos/seed/yonex-sport-model-9/600/600",
+    "images": [
+      "https://picsum.photos/seed/yonex-sport-model-91/800/800",
+      "https://picsum.photos/seed/yonex-sport-model-92/800/800",
+      "https://picsum.photos/seed/yonex-sport-model-93/800/800"
+    ],
+    "description": "The Yonex Sport Model 9 is a premium sports product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Yonex",
+      "Category": "Sports",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "White",
+      "Black"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 136,
+    "name": "OReilly Book Model 1",
+    "slug": "oreilly-book-model-1",
+    "brand": "OReilly",
+    "category": "Books",
+    "price": 28,
+    "discount": 25,
+    "stock": 106,
+    "rating": 4.3,
+    "reviews": 956,
+    "thumbnail": "https://picsum.photos/seed/oreilly-book-model-1/600/600",
+    "images": [
+      "https://picsum.photos/seed/oreilly-book-model-11/800/800",
+      "https://picsum.photos/seed/oreilly-book-model-12/800/800",
+      "https://picsum.photos/seed/oreilly-book-model-13/800/800"
+    ],
+    "description": "The OReilly Book Model 1 is a premium books product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "OReilly",
+      "Category": "Books",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "Black",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 137,
+    "name": "OReilly Book Model 2",
+    "slug": "oreilly-book-model-2",
+    "brand": "OReilly",
+    "category": "Books",
+    "price": 1708,
+    "discount": 25,
+    "stock": 15,
+    "rating": 5.0,
+    "reviews": 2413,
+    "thumbnail": "https://picsum.photos/seed/oreilly-book-model-2/600/600",
+    "images": [
+      "https://picsum.photos/seed/oreilly-book-model-21/800/800",
+      "https://picsum.photos/seed/oreilly-book-model-22/800/800",
+      "https://picsum.photos/seed/oreilly-book-model-23/800/800"
+    ],
+    "description": "The OReilly Book Model 2 is a premium books product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "OReilly",
+      "Category": "Books",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "White",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 138,
+    "name": "OReilly Book Model 3",
+    "slug": "oreilly-book-model-3",
+    "brand": "OReilly",
+    "category": "Books",
+    "price": 1840,
+    "discount": 30,
+    "stock": 63,
+    "rating": 4.5,
+    "reviews": 1445,
+    "thumbnail": "https://picsum.photos/seed/oreilly-book-model-3/600/600",
+    "images": [
+      "https://picsum.photos/seed/oreilly-book-model-31/800/800",
+      "https://picsum.photos/seed/oreilly-book-model-32/800/800",
+      "https://picsum.photos/seed/oreilly-book-model-33/800/800"
+    ],
+    "description": "The OReilly Book Model 3 is a premium books product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "OReilly",
+      "Category": "Books",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Purple",
+      "Blue",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 139,
+    "name": "HarperCollins Book Model 4",
+    "slug": "harpercollins-book-model-4",
+    "brand": "HarperCollins",
+    "category": "Books",
+    "price": 1911,
+    "discount": 15,
+    "stock": 41,
+    "rating": 4.0,
+    "reviews": 236,
+    "thumbnail": "https://picsum.photos/seed/harpercollins-book-model-4/600/600",
+    "images": [
+      "https://picsum.photos/seed/harpercollins-book-model-41/800/800",
+      "https://picsum.photos/seed/harpercollins-book-model-42/800/800",
+      "https://picsum.photos/seed/harpercollins-book-model-43/800/800"
+    ],
+    "description": "The HarperCollins Book Model 4 is a premium books product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "HarperCollins",
+      "Category": "Books",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Purple",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 140,
+    "name": "Penguin Book Model 5",
+    "slug": "penguin-book-model-5",
+    "brand": "Penguin",
+    "category": "Books",
+    "price": 1984,
+    "discount": 5,
+    "stock": 9,
+    "rating": 4.9,
+    "reviews": 1968,
+    "thumbnail": "https://picsum.photos/seed/penguin-book-model-5/600/600",
+    "images": [
+      "https://picsum.photos/seed/penguin-book-model-51/800/800",
+      "https://picsum.photos/seed/penguin-book-model-52/800/800",
+      "https://picsum.photos/seed/penguin-book-model-53/800/800"
+    ],
+    "description": "The Penguin Book Model 5 is a premium books product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Penguin",
+      "Category": "Books",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Black",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 141,
+    "name": "Penguin Book Model 6",
+    "slug": "penguin-book-model-6",
+    "brand": "Penguin",
+    "category": "Books",
+    "price": 1521,
+    "discount": 5,
+    "stock": 33,
+    "rating": 4.1,
+    "reviews": 139,
+    "thumbnail": "https://picsum.photos/seed/penguin-book-model-6/600/600",
+    "images": [
+      "https://picsum.photos/seed/penguin-book-model-61/800/800",
+      "https://picsum.photos/seed/penguin-book-model-62/800/800",
+      "https://picsum.photos/seed/penguin-book-model-63/800/800"
+    ],
+    "description": "The Penguin Book Model 6 is a premium books product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Penguin",
+      "Category": "Books",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Silver",
+      "Purple",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 142,
+    "name": "Penguin Book Model 7",
+    "slug": "penguin-book-model-7",
+    "brand": "Penguin",
+    "category": "Books",
+    "price": 1724,
+    "discount": 20,
+    "stock": 62,
+    "rating": 4.3,
+    "reviews": 1072,
+    "thumbnail": "https://picsum.photos/seed/penguin-book-model-7/600/600",
+    "images": [
+      "https://picsum.photos/seed/penguin-book-model-71/800/800",
+      "https://picsum.photos/seed/penguin-book-model-72/800/800",
+      "https://picsum.photos/seed/penguin-book-model-73/800/800"
+    ],
+    "description": "The Penguin Book Model 7 is a premium books product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Penguin",
+      "Category": "Books",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Green",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 143,
+    "name": "OReilly Book Model 8",
+    "slug": "oreilly-book-model-8",
+    "brand": "OReilly",
+    "category": "Books",
+    "price": 89,
+    "discount": 25,
+    "stock": 7,
+    "rating": 3.5,
+    "reviews": 471,
+    "thumbnail": "https://picsum.photos/seed/oreilly-book-model-8/600/600",
+    "images": [
+      "https://picsum.photos/seed/oreilly-book-model-81/800/800",
+      "https://picsum.photos/seed/oreilly-book-model-82/800/800",
+      "https://picsum.photos/seed/oreilly-book-model-83/800/800"
+    ],
+    "description": "The OReilly Book Model 8 is a premium books product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "OReilly",
+      "Category": "Books",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "Green",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 144,
+    "name": "Penguin Book Model 9",
+    "slug": "penguin-book-model-9",
+    "brand": "Penguin",
+    "category": "Books",
+    "price": 1558,
+    "discount": 25,
+    "stock": 11,
+    "rating": 4.0,
+    "reviews": 4260,
+    "thumbnail": "https://picsum.photos/seed/penguin-book-model-9/600/600",
+    "images": [
+      "https://picsum.photos/seed/penguin-book-model-91/800/800",
+      "https://picsum.photos/seed/penguin-book-model-92/800/800",
+      "https://picsum.photos/seed/penguin-book-model-93/800/800"
+    ],
+    "description": "The Penguin Book Model 9 is a premium books product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Penguin",
+      "Category": "Books",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Purple",
+      "Green"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 145,
+    "name": "Mattel Toy Model 1",
+    "slug": "mattel-toy-model-1",
+    "brand": "Mattel",
+    "category": "Toys",
+    "price": 1710,
+    "discount": 25,
+    "stock": 8,
+    "rating": 3.8,
+    "reviews": 139,
+    "thumbnail": "https://picsum.photos/seed/mattel-toy-model-1/600/600",
+    "images": [
+      "https://picsum.photos/seed/mattel-toy-model-11/800/800",
+      "https://picsum.photos/seed/mattel-toy-model-12/800/800",
+      "https://picsum.photos/seed/mattel-toy-model-13/800/800"
+    ],
+    "description": "The Mattel Toy Model 1 is a premium toys product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Mattel",
+      "Category": "Toys",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Purple",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 146,
+    "name": "LEGO Toy Model 2",
+    "slug": "lego-toy-model-2",
+    "brand": "LEGO",
+    "category": "Toys",
+    "price": 222,
+    "discount": 0,
+    "stock": 39,
+    "rating": 3.6,
+    "reviews": 1436,
+    "thumbnail": "https://picsum.photos/seed/lego-toy-model-2/600/600",
+    "images": [
+      "https://picsum.photos/seed/lego-toy-model-21/800/800",
+      "https://picsum.photos/seed/lego-toy-model-22/800/800",
+      "https://picsum.photos/seed/lego-toy-model-23/800/800"
+    ],
+    "description": "The LEGO Toy Model 2 is a premium toys product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "LEGO",
+      "Category": "Toys",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "White",
+      "Black",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 147,
+    "name": "Mattel Toy Model 3",
+    "slug": "mattel-toy-model-3",
+    "brand": "Mattel",
+    "category": "Toys",
+    "price": 1982,
+    "discount": 5,
+    "stock": 15,
+    "rating": 4.4,
+    "reviews": 2358,
+    "thumbnail": "https://picsum.photos/seed/mattel-toy-model-3/600/600",
+    "images": [
+      "https://picsum.photos/seed/mattel-toy-model-31/800/800",
+      "https://picsum.photos/seed/mattel-toy-model-32/800/800",
+      "https://picsum.photos/seed/mattel-toy-model-33/800/800"
+    ],
+    "description": "The Mattel Toy Model 3 is a premium toys product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Mattel",
+      "Category": "Toys",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Purple",
+      "Silver"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 148,
+    "name": "Hasbro Toy Model 4",
+    "slug": "hasbro-toy-model-4",
+    "brand": "Hasbro",
+    "category": "Toys",
+    "price": 638,
+    "discount": 0,
+    "stock": 111,
+    "rating": 4.4,
+    "reviews": 1702,
+    "thumbnail": "https://picsum.photos/seed/hasbro-toy-model-4/600/600",
+    "images": [
+      "https://picsum.photos/seed/hasbro-toy-model-41/800/800",
+      "https://picsum.photos/seed/hasbro-toy-model-42/800/800",
+      "https://picsum.photos/seed/hasbro-toy-model-43/800/800"
+    ],
+    "description": "The Hasbro Toy Model 4 is a premium toys product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Hasbro",
+      "Category": "Toys",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Black",
+      "Purple",
+      "White"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 149,
+    "name": "Mattel Toy Model 5",
+    "slug": "mattel-toy-model-5",
+    "brand": "Mattel",
+    "category": "Toys",
+    "price": 1947,
+    "discount": 20,
+    "stock": 34,
+    "rating": 4.9,
+    "reviews": 4437,
+    "thumbnail": "https://picsum.photos/seed/mattel-toy-model-5/600/600",
+    "images": [
+      "https://picsum.photos/seed/mattel-toy-model-51/800/800",
+      "https://picsum.photos/seed/mattel-toy-model-52/800/800",
+      "https://picsum.photos/seed/mattel-toy-model-53/800/800"
+    ],
+    "description": "The Mattel Toy Model 5 is a premium toys product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Mattel",
+      "Category": "Toys",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Blue",
+      "Silver",
+      "Black"
+    ],
+    "sizes": [],
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": 150,
+    "name": "Mattel Toy Model 6",
+    "slug": "mattel-toy-model-6",
+    "brand": "Mattel",
+    "category": "Toys",
+    "price": 1330,
+    "discount": 15,
+    "stock": 77,
+    "rating": 5.0,
+    "reviews": 2907,
+    "thumbnail": "https://picsum.photos/seed/mattel-toy-model-6/600/600",
+    "images": [
+      "https://picsum.photos/seed/mattel-toy-model-61/800/800",
+      "https://picsum.photos/seed/mattel-toy-model-62/800/800",
+      "https://picsum.photos/seed/mattel-toy-model-63/800/800"
+    ],
+    "description": "The Mattel Toy Model 6 is a premium toys product designed for performance, reliability, and everyday use.",
+    "features": [
+      "Premium build",
+      "Fast performance",
+      "1-year warranty",
+      "Energy efficient"
+    ],
+    "specifications": {
+      "Brand": "Mattel",
+      "Category": "Toys",
+      "Warranty": "1 Year"
+    },
+    "colors": [
+      "Green",
+      "Silver",
+      "Purple"
+    ],
+    "sizes": [],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-07-07"
+  }
+]

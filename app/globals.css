@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+
+@theme {
+
+  --font-heading : 'IBM Plex Serif', 'sans-serif';
+
+  
+  --color-background: #f6fcfa;
+  --color-surface: #ffffff;
+  --color-card: #ffffff;
+
+  --color-heading: #052e2b;
+  --color-text: #36554f;
+  --color-text-muted: #6a8a83;
+
+  --color-primary: #059669;
+  --color-primary-hover: #047857;
+
+  --color-border: #d1fae5;
+
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/ibm-plex-serif-v20-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* ibm-plex-serif-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/ibm-plex-serif-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* ibm-plex-serif-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/ibm-plex-serif-v20-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* ibm-plex-serif-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/ibm-plex-serif-v20-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
