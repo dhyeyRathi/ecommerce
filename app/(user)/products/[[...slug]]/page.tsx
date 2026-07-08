@@ -1,6 +1,6 @@
 "use client";
 import ProductCard from "@/app/components/ProductCard";
-import React, { use } from "react";
+import React, { use, useEffect } from "react";
 import CategoricalProducts from "../components/CategoricalProducts";
 import Link from "next/link";
 import ProductPage from "../components/ProductPage";
@@ -19,6 +19,18 @@ const page = ({ params }: props) => {
   const slug = resolvedParams?.slug || [];
   const { products, categories, loading } = useProducts();
   const view = "View All >>>";
+
+  useEffect(() => {
+    if (!loading) {
+      if (window.location.hash) {
+        window.history.replaceState(null, "", window.location.pathname + window.location.search);
+      }
+      const scrollTimer = setTimeout(() => {
+        window.scrollTo(0, 0);
+      }, 50);
+      return () => clearTimeout(scrollTimer);
+    }
+  }, [loading]);
 
   if (loading) {
     return (
@@ -58,7 +70,7 @@ const page = ({ params }: props) => {
 
 
 
-  
+
 
   return (
     <div className="min-h-screen w-full flex flex-col p-4 sm:p-10 md:p-20 bg-background pt-20 text-heading">
@@ -66,11 +78,11 @@ const page = ({ params }: props) => {
         <h1 className="text-3xl sm:text-4xl md:text-5xl py-6 md:py-10">
           Product Categories Available
         </h1>
-        <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 items-center gap-4 text-[10px] sm:text-xs lg:text-sm  text-heading lg:grid-cols-10 w-full p-4">
+        <div className="flex flex-wrap gap-2 sm:gap-3 items-center justify-center w-full p-4 text-xs md:text-sm text-heading">
           {categories?.map((cat, index: number) => {
             return (
-              <div key={index} className="h-8 rounded-full border-1 flex items-center tracking-[0.025em] justify-center border-border hover:bg-primary/10">
-                <Link href={`#${cat.slug}`}>{cat.name}</Link>
+              <div key={index} className="px-4 py-1.5 rounded-full border border-border flex items-center tracking-[0.025em] justify-center hover:bg-primary/10 transition-all duration-200 cursor-pointer">
+                <Link href={`#${cat.slug}`} className="whitespace-nowrap">{cat.name}</Link>
               </div>
             )
           })}
@@ -81,7 +93,7 @@ const page = ({ params }: props) => {
       {categories?.map((category) => (
         <section key={category.slug} id={category.slug} className="w-full py-20">
 
-            <div className="flex w-full justify-between items-center px-4 md:px-10">
+          <div className="flex w-full justify-between items-center px-4 md:px-10">
             <h1 className="py-5 text-2xl sm:text-3xl md:text-4xl">
               {category.name}
             </h1>
@@ -89,7 +101,7 @@ const page = ({ params }: props) => {
               {view}
             </Link>
           </div>
-          <div className="py-6 px-4 md:py-10 md:px-20 w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
+          <div className="py-6 px-4 md:py-10 md:px-12 xl:px-20 w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 md:gap-8 justify-items-center">
             {products
               ?.filter((product: any) => product.category === category.slug)
               .slice(0, 5)
@@ -97,14 +109,16 @@ const page = ({ params }: props) => {
                 let displayClass = "";
                 if (index === 1) {
                   displayClass = "hidden sm:block";
-                } else if (index >= 2 && index <= 3) {
+                } else if (index === 2) {
                   displayClass = "hidden md:block";
-                } else if (index === 4) {
+                } else if (index === 3) {
                   displayClass = "hidden lg:block";
+                } else if (index === 4) {
+                  displayClass = "hidden xl:block";
                 }
                 return (
                   <Link href={`/products/${category.slug}/${product.slug}`}
-                    className={`flex flex-col justify-center items-center ${displayClass}`}
+                    className={`flex flex-col justify-center items-center w-full ${displayClass}`}
                     key={index}
                   >
                     <ProductCard

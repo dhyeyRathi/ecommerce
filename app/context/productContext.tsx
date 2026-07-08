@@ -1,63 +1,49 @@
-"use client";
+import React from "react";
+import { ProductClientProvider } from "./productClientContext";
 
-import React, { createContext, useContext, useState, useEffect } from "react";
+export { useProducts } from "./productClientContext";
 
-type ProductContextType = {
-  products: any[] | undefined;
-  categories: any[] | undefined;
-  loading: boolean;
-};
-
-const ProductContext = createContext<ProductContextType | undefined>(undefined);
-
-export function ProductProvider({ children }: { children: React.ReactNode }) {
-  const [products, setProducts] = useState<any[] | undefined>();
-  const [categories, setCategories] = useState<any[] | undefined>();
-  const [loading, setLoading] = useState<boolean>(true);
-
-  useEffect(() => {
-    const fetchProducts = fetch("https://dummyjson.com/products?limit=194")
-      .then((res) => res.json())
-      .then((data) => {
-        const productsWithSlug = data.products.map((product: any) => ({
-          ...product,
-          slug: product.title
-            .toLowerCase()
-            .replace(/[^\w\s-]/g, "") 
-            .trim()
-            .replace(/\s+/g, "-"),  
-        }));
-        setProducts(productsWithSlug);
-      })
-      .catch((err) => {
-        console.error("Failed to fetch products:", err);
-      });
-
-    const fetchCategories = fetch("https://dummyjson.com/products/categories")
-      .then((res) => res.json())
-      .then((data) => {
-        setCategories(data);
-      })
-      .catch((err) => {
-        console.error("Failed to fetch categories:", err);
-      });
-
-    Promise.all([fetchProducts, fetchCategories]).finally(() => {
-      setLoading(false);
+async function getProducts() {
+  try {
+    const res = await fetch("https://dummyjson.com/products?limit=194", {
+      next: { revalidate: 3600 }
     });
-  }, []);
-
-  return (
-    <ProductContext.Provider value={{ products, categories, loading }}>
-      {children}
-    </ProductContext.Provider>
-  );
+    if (!res.ok) throw new Error("Failed to fetch products");
+    const data = await res.json();
+    return data.products.map((product: any) => ({
+      ...product,
+      slug: product.title
+        .toLowerCase()
+        .replace(/[^\w\s-]/g, "") 
+        .trim()
+        .replace(/\s+/g, "-"),  
+    }));
+  } catch (err) {
+    console.error("Failed to fetch products on server:", err);
+    return [];
+  }
 }
 
-export function useProducts() {
-  const context = useContext(ProductContext);
-  if (context === undefined) {
-    throw new Error("useProducts must be used within a ProductProvider");
+async function getCategories() {
+  try {
+    const res = await fetch("https://dummyjson.com/products/categories", {
+      next: { revalidate: 3600 }
+    });
+    if (!res.ok) throw new Error("Failed to fetch categories");
+    return await res.json();
+  } catch (err) {
+    console.error("Failed to fetch categories on server:", err);
+    return [];
   }
-  return context;
+}
+
+export async function ProductProvider({ children }: { children: React.ReactNode }) {
+  const products = await getProducts();
+  const categories = await getCategories();
+
+  return (
+    <ProductClientProvider initialProducts={products} initialCategories={categories}>
+      {children}
+    </ProductClientProvider>
+  );
 }

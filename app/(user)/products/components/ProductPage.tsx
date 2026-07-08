@@ -243,28 +243,25 @@ const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
       </section>
 
       {/* reviews */}
-      <section className="w-full px-6 md:px-12 lg:px-20  py-4 md:py-8 lg:py-14 bg-background ">
-        <h1 className="text-5xl px-6 text-heading tracking-relaxed py-4 w-full text-center">Customer Reviews</h1>
-        <div className="p-6 flex w- full gap-4 bg-card rounded-lg">
+      <section className="w-full px-4 md:px-12 lg:px-20 py-6 md:py-8 lg:py-14 bg-background">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl px-4 text-heading tracking-relaxed py-6 w-full text-center font-bold">Customer Reviews</h1>
+        <div className="p-4 sm:p-6 flex w-full gap-4 bg-card rounded-lg border border-border shadow-xs">
           <div className="w-10 h-10 rounded-full flex items-center justify-center bg-primary/10 text-primary border border-primary/20 shrink-0">
             <User className="w-5 h-5" />
           </div>
-          <div className="relative w-full flex items-center">
-            <input type="text" className="text-text flex-1 focus:outline-none" placeholder="Write about the product"/>
-            <em className="not-italic hover:text-text-muted ">P O S T</em>
-            <hr className="bg-heading w-full bottom-1 absolute"/>
+          <div className="relative w-full flex items-center gap-2">
+            <input type="text" className="text-text flex-1 focus:outline-none text-sm md:text-base" placeholder="Write about the product"/>
+            <button className="not-italic font-semibold text-primary hover:text-primary-hover cursor-pointer text-xs md:text-sm tracking-wider uppercase">Post</button>
+            <hr className="bg-heading w-full bottom-0 absolute opacity-20"/>
           </div>
-          
-          
         </div>
-        <div className="flex-flex-col">
+        <div className="flex flex-col mt-6 gap-4">
           {reviews.map((user:any, index:number) =>(
-            <ReviewCard className="" key={index} rating={user.rating}
-            comment={user.comment}
-            name={user.reviewerName}
-            date={user.date.slice(0,10)}/>
-
-          
+            <ReviewCard className="rounded-xl border border-border" key={index} rating={user.rating}
+              comment={user.comment}
+              name={user.reviewerName}
+              date={user.date.slice(0,10)}
+            />
           ))}
         </div>
       </section>

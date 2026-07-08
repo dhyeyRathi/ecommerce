@@ -122,12 +122,12 @@ function NavBar() {
   return (
     <div className="fixed top-0 font-heading left-0 right-0 z-[99] bg-background border-b-1 border-border text-heading">
       <header className="  mx-auto md:gap-10 max-w-[90%] lg:gap-30 flex justify-between items-center">
-        <div className="flex-1 py-5">
+        <Link href="/" className="flex-1 py-5 cursor-ppointe">
           <h1 className="text-4xl font-bold text-heading italic flex-1 ">
             {" "}
             EZ<span className="text-primary not-italic">Mart</span>
           </h1>
-        </div>
+        </Link>
 
         <div className="hidden md:flex justify-center items-center py-5 flex-2">
           <div className="  bg-surface rounded-full flex-2 flex items-center overflow-hidden justify-between h-10 border-1 border-border focus:border-2 focus:border-primary pl-5 ">
