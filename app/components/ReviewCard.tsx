@@ -6,9 +6,10 @@ type reviewProps ={
     comment?: string;
     name?: string;
     date?:string;
+    className?: string;
 }
 
-const ReviewCard = ({ rating = 0, comment = '', name = 'Anonymous', date }: reviewProps) => {
+const ReviewCard = ({ rating = 0, comment = '', name = 'Anonymous', date , className}: reviewProps) => {
   
   const formattedDate = date 
     ? new Date(date).toLocaleDateString('en-US', {
@@ -19,10 +20,10 @@ const ReviewCard = ({ rating = 0, comment = '', name = 'Anonymous', date }: revi
     : '';
 
   return (
-    <div className="bg-surface p-6 hover:shadow-md transition-all duration-300 flex flex-col gap-4">
+    <div className={`bg-surface p-6 hover:shadow-md transition-all duration-300 flex flex-col gap-4 ${className}`}>
       
-      <div className="flex items-center justify-between gap-4">
-        <div className="flex items-center gap-3">
+      <div className="flex items-center justify-between gap-4 ">
+        <div className="flex items-center gap-3 lg:scale-110">
           <div className="w-10 h-10 rounded-full flex items-center justify-center bg-primary/10 text-primary border border-primary/20 shrink-0">
             <User className="w-5 h-5" />
           </div>
@@ -35,7 +36,7 @@ const ReviewCard = ({ rating = 0, comment = '', name = 'Anonymous', date }: revi
         </div>
 
         
-        <div className="flex items-center gap-0.5 bg-background/50 px-2.5 py-1 rounded-lg border border-border">
+        <div className="flex items-center gap-0.5 lg:scale-120 bg-background/50 px-2.5 py-1 rounded-lg border border-border">
           {[1, 2, 3, 4, 5].map((star) => (
             <Star
               key={star}
@@ -52,7 +53,7 @@ const ReviewCard = ({ rating = 0, comment = '', name = 'Anonymous', date }: revi
 
       
       {comment && (
-        <p className="text-sm md:text-base text-text leading-relaxed italic bg-background/30 p-3.5 rounded-xl border border-border/50">
+        <p className="text-base  md:text-l  text-text leading-relaxed italic bg-background/30 p-3.5 rounded-xl border border-border/50">
           "{comment}"
         </p>
       )}

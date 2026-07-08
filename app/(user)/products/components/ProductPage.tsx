@@ -243,16 +243,23 @@ const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
       </section>
 
       {/* reviews */}
-      <section className="w-full p-6 md:p-12 lg:p-20 bg-background ">
-        <div className="p-6">
+      <section className="w-full px-6 md:px-12 lg:px-20  py-4 md:py-8 lg:py-14 bg-background ">
+        <h1 className="text-5xl px-6 text-heading tracking-relaxed py-4 w-full text-center">Customer Reviews</h1>
+        <div className="p-6 flex w- full gap-4 bg-card rounded-lg">
           <div className="w-10 h-10 rounded-full flex items-center justify-center bg-primary/10 text-primary border border-primary/20 shrink-0">
             <User className="w-5 h-5" />
           </div>
-          <input type="text" className="" placeholder="Write about the product"/>
+          <div className="relative w-full flex items-center">
+            <input type="text" className="text-text flex-1 focus:outline-none" placeholder="Write about the product"/>
+            <em className="not-italic hover:text-text-muted ">P O S T</em>
+            <hr className="bg-heading w-full bottom-1 absolute"/>
+          </div>
+          
+          
         </div>
         <div className="flex-flex-col">
           {reviews.map((user:any, index:number) =>(
-            <ReviewCard rating={user.rating}
+            <ReviewCard className="" key={index} rating={user.rating}
             comment={user.comment}
             name={user.reviewerName}
             date={user.date.slice(0,10)}/>
