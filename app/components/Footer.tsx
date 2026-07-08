@@ -107,7 +107,7 @@ const Footer = () => {
   ];
 
   return (
-    <div className="w-full font-heading py-20 pb-30 px-20 text-background gap-10 flex-col md:flex-row bg-heading flex">
+    <div className="w-full font-heading py-20 pb-30 px-4 sm:px-8 md:px-14 lg:px-20 text-background gap-10 flex-col md:flex-row bg-heading flex">
       <div className="h-full w-full flex flex-col">
         <p className="text-primary text-xl mb-4 tracking-[0.25em]">
           <em className="">- EZ</em> MART

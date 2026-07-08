@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { LoginProvider } from "./context/loginContext";
 import { AppContextProvider } from "./context/appContext";
+import { ProductProvider } from "./context/productContext";
 
 
 
@@ -33,10 +34,12 @@ export default function RootLayout({
     >
       <body className="min-h-screen h-full w-full flex flex-col  font-heading bg-surface">
         <AppContextProvider>
-       <LoginProvider>
- {children}
-       </LoginProvider>
-       </AppContextProvider>
+          <ProductProvider>
+            <LoginProvider>
+              {children}
+            </LoginProvider>
+          </ProductProvider>
+        </AppContextProvider>
        </body>
     </html>
   );
