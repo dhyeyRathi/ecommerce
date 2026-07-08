@@ -1,7 +1,10 @@
 "use client";
 import React, { useContext, useState } from "react";
-import { Star, ShieldCheck, Truck, RotateCcw } from "lucide-react";
+import { Star, ShieldCheck, Truck, RotateCcw , User } from "lucide-react";
 import { AppContext } from "@/app/context/appContext";
+import ReviewCard from "@/app/components/ReviewCard";
+
+
 
 type ProdcutProps = {
   catSlug?: string;
@@ -18,6 +21,7 @@ const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
     selectedProd.price -
     selectedProd.discountPercentage * (selectedProd.price / 100)
   ).toFixed(2);
+  const reviews = selectedProd.reviews
 
   return (
     <div className="min-h-screen pt-20 md:pt-30 bg-background text-heading">
@@ -240,7 +244,22 @@ const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
 
       {/* reviews */}
       <section className="w-full p-6 md:p-12 lg:p-20 bg-background ">
+        <div className="p-6">
+          <div className="w-10 h-10 rounded-full flex items-center justify-center bg-primary/10 text-primary border border-primary/20 shrink-0">
+            <User className="w-5 h-5" />
+          </div>
+          <input type="text" className="" placeholder="Write about the product"/>
+        </div>
+        <div className="flex-flex-col">
+          {reviews.map((user:any, index:number) =>(
+            <ReviewCard rating={user.rating}
+            comment={user.comment}
+            name={user.reviewerName}
+            date={user.date.slice(0,10)}/>
 
+          
+          ))}
+        </div>
       </section>
     </div>
   );
