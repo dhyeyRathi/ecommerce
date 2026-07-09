@@ -178,11 +178,6 @@ function NavBar() {
                 className={`h-10 w-10 relative hover:border-primary transition-all duration-300 bg-heading/30 rounded-full ${drop && "border-4"}`}
               >
                 <Avatar className="h-full w-full hover:scale-105">
-                  <AvatarImage
-                    src="https://github.com/shadcn.png"
-                    alt="@shadcn"
-                    className="grayscale"
-                  />
                   <AvatarFallback>CN</AvatarFallback>
                 </Avatar>
                 {drop && (

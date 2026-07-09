@@ -1,32 +1,50 @@
 import React from "react";
+import { supabase } from "@/app/lib/supabase";
 import { ProductClientProvider } from "./productClientContext";
+import { sup } from "motion/react-client";
 
 export { useProducts } from "./productClientContext";
 
 export async function getProducts() {
+
+
   try {
-    const res = await fetch("https://dummyjson.com/products?limit=194");
-    if (!res.ok) throw new Error("Failed to fetch products");
-    const data = await res.json();
-    return data.products.map((product: any) => ({
+
+    const { data:products, error} = await supabase
+    .from('products')
+    .select('*, product_reviews(*)');
+
+
+     if (error) throw error;
+     if (!products) return [];
+
+     return products.map((product: any) =>({
       ...product,
-      slug: product.title
-        .toLowerCase()
-        .replace(/[^\w\s-]/g, "") 
-        .trim()
-        .replace(/\s+/g, "-"),  
-    }));
-  } catch (err) {
+       discountPercentage: product.discount_percentage,
+       reviews: (product.product_reviews || []).map((review: any) => ({
+        ...review,
+        reviewerName: review.reviewer_name,
+        reviewerEmail: review.reviewer_email,
+      })),
+     }))
+    }
+  catch (err) {
     console.error("Failed to fetch products on server:", err);
     return [];
   }
 }
 
+
 export async function getCategories() {
   try {
-    const res = await fetch("https://dummyjson.com/products/categories");
-    if (!res.ok) throw new Error("Failed to fetch categories");
-    return await res.json();
+   const { data: categories, error} = await supabase
+   .from('categories')
+   .select('*');
+
+   if(error) throw error;
+   if(!categories) return[];
+
+   return categories;
   } catch (err) {
     console.error("Failed to fetch categories on server:", err);
     return [];
