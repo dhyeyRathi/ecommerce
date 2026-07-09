@@ -3,11 +3,9 @@ import { ProductClientProvider } from "./productClientContext";
 
 export { useProducts } from "./productClientContext";
 
-async function getProducts() {
+export async function getProducts() {
   try {
-    const res = await fetch("https://dummyjson.com/products?limit=194", {
-      next: { revalidate: 3600 }
-    });
+    const res = await fetch("https://dummyjson.com/products?limit=194");
     if (!res.ok) throw new Error("Failed to fetch products");
     const data = await res.json();
     return data.products.map((product: any) => ({
@@ -24,11 +22,9 @@ async function getProducts() {
   }
 }
 
-async function getCategories() {
+export async function getCategories() {
   try {
-    const res = await fetch("https://dummyjson.com/products/categories", {
-      next: { revalidate: 3600 }
-    });
+    const res = await fetch("https://dummyjson.com/products/categories");
     if (!res.ok) throw new Error("Failed to fetch categories");
     return await res.json();
   } catch (err) {

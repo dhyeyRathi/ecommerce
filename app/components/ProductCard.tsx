@@ -1,3 +1,4 @@
+"use client";
 import React, { useContext } from "react";
 import { Star } from "lucide-react";
 import { AppContext } from "../context/appContext";
@@ -12,6 +13,7 @@ type props = {
   price?: number;
   className?: string;
   rating?: number ;
+  discountPercentage?: number;
 };
 
 const ProductCard = ({
@@ -20,18 +22,23 @@ const ProductCard = ({
   name,
   review,
   brand,
-  price =0,
+  price = 0,
   desc,
   className,
   rating = 0,
+  discountPercentage = 0,
 }: props) => {
 
 const currency = useContext(AppContext)
 
+  const hasDiscount = discountPercentage > 0;
+  const discountedPrice = hasDiscount
+    ? (price - discountPercentage * (price / 100)).toFixed(2)
+    : price;
 
   return (
-    <div className="w-full max-w-[280px] min-h-[420px] md:min-h-[460px] rounded-lg overflow-hidden flex flex-col p-4 group hover:bg-primary-hover/10 transition-all duration-300 border border-transparent hover:border-border/50">
-      <img src={src} className="w-full h-48 md:h-60 object-contain group-hover:scale-105 transition-all duration-300" />
+    <div onClick={onClick} className="w-full max-w-[280px] min-h-[420px] md:min-h-[460px] rounded-lg overflow-hidden flex flex-col p-4 group hover:bg-primary-hover/10 transition-all duration-300 border border-transparent hover:border-border/50 cursor-pointer">
+      <img src={src} className="w-full h-48 md:h-60 object-contain group-hover:scale-105 transition-all duration-300" loading="lazy" />
       <div className="overflow-hidden flex flex-col flex-1 justify-between">
         <div>
           <h1 className="text-lg md:text-xl h-20 flex justify-center items-center text-center font-medium line-clamp-2">
@@ -51,7 +58,22 @@ const currency = useContext(AppContext)
           </div>
         </div>
         <div>
-          <p className="text-xl md:text-2xl text-heading text-center font-bold">{currency?.currency}{price}</p>
+          <div className="flex justify-center items-center gap-2">
+            {hasDiscount ? (
+              <>
+                <span className="line-through text-gray-400 text-base md:text-lg font-medium">
+                  {currency?.currency || "$"}{price}
+                </span>
+                <span className="text-xl md:text-2xl text-primary font-bold">
+                  {currency?.currency || "$"}{discountedPrice}
+                </span>
+              </>
+            ) : (
+              <span className="text-xl md:text-2xl text-heading font-bold">
+                {currency?.currency || "$"}{price}
+              </span>
+            )}
+          </div>
           <p className="text-xs md:text-sm text-text-muted text-center line-clamp-2 mt-1">{desc}</p>
         </div>
       </div>

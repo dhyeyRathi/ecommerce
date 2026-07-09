@@ -1,5 +1,4 @@
-"use client"
-import React, {useEffect, useState} from 'react'
+import React from 'react'
 import ProductCard from '@/app/components/ProductCard'
 import Link from 'next/link'
 
@@ -32,7 +31,8 @@ const CategoricalProducts =  ({ products, slug, cat}: props) => {
                       name={product.title}
                       desc={product.description}
                       price={product.price}
-                      rating={Math.round(product.rating)} />
+                      rating={Math.round(product.rating)}
+                      discountPercentage={product.discountPercentage} />
                   </Link>
             )
               )}

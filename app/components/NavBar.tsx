@@ -231,16 +231,16 @@ function NavBar() {
             ))}
             <div className="flex gap-2">
               <Link
-                href=""
+                href="/sign-up"
                 className="py-2 px-4 bg-background text-xs hover:bg-surface font-semibold rounded-lg text-primary border-2 border-border "
               >
                 Sign Up
               </Link>
               <Link
-                href=""
+                href="/login"
                 className="py-2 px-4 bg-primary rounded-lg text-xs  font-semibold text-surface border-1 border-border
         hover:bg-primary-hover "
-                onClick={() => auth?.setUser(true)}
+                
               >
                 Log In
               </Link>
@@ -297,12 +297,13 @@ function NavBar() {
               <path d="m6 6 12 12" />
             </svg>
           </div>
+          {auth?.user ? 
           <motion.div
             initial={{ y: -50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.2 }}
             exit={{ y: -50, opacity: 0 }}
-            className="w-full p-8 flex flex-col text-4xl justify-center items-center gap-10 border-b-2  pb-20 border-border"
+            className="w-full p-8 flex flex-col text-2xl justify-center items-center gap-4 border-b-2  pb-20 border-border"
           >
             {links.map((link, index) => (
               <motion.div
@@ -318,7 +319,8 @@ function NavBar() {
               </motion.div>
             ))}
 
-            {menu.map((link, index) => (
+            {
+            menu.map((link, index) => (
               <motion.div
                 initial={{ y: -50, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
@@ -331,7 +333,67 @@ function NavBar() {
                 </Link>
               </motion.div>
             ))}
+
+            <Link href="" className="flex justify-center items-center" onClick={() => auth.setUser(false)}>
+                      {/* <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="lucide lucide-log-out-icon lucide-log-out"
+                      >
+                        <path d="m16 17 5-5-5-5" />
+                        <path d="M21 12H9" />
+                        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
+                      </svg> */}
+                      Log Out
+                    </Link>
           </motion.div>
+          : 
+          <motion.div
+            initial={{ y: -50, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.2 }}
+            exit={{ y: -50, opacity: 0 }}
+            className="w-full p-8 pb-0 flex flex-col text-2xl justify-center items-center gap-4 border-b-2  pb-20 border-border"
+          >
+            {links.slice(0,2).map((link, index) => (
+              <motion.div
+                initial={{ y: -50, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.4 }}
+                exit={{ y: -50, opacity: 0 }}
+                key={index}
+              >
+                <Link href={link.path} onClick={() => setHam(false)}>
+                  {link.name}
+                </Link>
+              </motion.div>
+            ))}
+
+             <div className="flex w-full flex-col gap-4">
+              <Link
+                href="/sign-up"
+                className="py-2 px-4 bg-background text-center text-lg  hover:bg-surface font-semibold rounded-lg text-primary border-2 border-border "
+              >
+                Sign Up
+              </Link>
+              <Link
+                href="/login"
+                className="py-2 px-4 bg-primary rounded-lg text-center text-lg font-semibold text-surface border-1 border-border
+        hover:bg-primary-hover "
+                
+              >
+                Log In
+              </Link>
+            </div> 
+          </motion.div>}
+          
         </div>
       )}
     </div>

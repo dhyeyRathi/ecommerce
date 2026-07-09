@@ -1,12 +1,11 @@
-"use client";
 import ProductCard from "@/app/components/ProductCard";
-import React, { use, useEffect } from "react";
+import React from "react";
 import CategoricalProducts from "../components/CategoricalProducts";
 import Link from "next/link";
 import ProductPage from "../components/ProductPage";
 import { notFound, redirect } from "next/navigation";
-import { useProducts } from "@/app/context/productContext";
-import { navigate } from "next/dist/client/components/segment-cache/navigation";
+import { getProducts, getCategories } from "@/app/context/productContext";
+import ClientScrollHandler from "../components/ClientScrollHandler";
 
 type props = {
   params: Promise<{
@@ -14,54 +13,29 @@ type props = {
   }>;
 };
 
-const page = ({ params }: props) => {
-  const resolvedParams = use(params);
+const page = async ({ params }: props) => {
+  const resolvedParams = await params;
   const slug = resolvedParams?.slug || [];
-  const { products, categories, loading } = useProducts();
+  const products = await getProducts();
+  const categories = await getCategories();
   const view = "View All >>>";
-
-  useEffect(() => {
-    if (!loading) {
-      if (window.location.hash) {
-        window.history.replaceState(null, "", window.location.pathname + window.location.search);
-      }
-      const scrollTimer = setTimeout(() => {
-        window.scrollTo(0, 0);
-      }, 50);
-      return () => clearTimeout(scrollTimer);
-    }
-  }, [loading]);
-
-  if (loading) {
-    return (
-      <div className="min-h-screen w-full flex items-center justify-center bg-background text-heading">
-        <p className="text-xl">Loading products...</p>
-      </div>
-    );
-  }
 
   if (slug.length === 1) {
     const categorySlug = slug[0];
-    const check = categories?.find((e) => e.slug === categorySlug);
+    const check = categories?.find((e: any) => e.slug === categorySlug);
     if (!check) return notFound();
     return <CategoricalProducts slug={categorySlug} products={products} cat={check.name} />;
   }
 
-
-
-
-
-
   if (slug.length === 2) {
     const categorySlug = slug[0];
     const productSlug = slug[1];
-    const check = categories?.find((e) => e.slug === categorySlug);
+    const check = categories?.find((e: any) => e.slug === categorySlug);
     if (!check) return notFound();
-    const check2 = products?.find((e) => e.slug === productSlug);
+    const check2 = products?.find((e: any) => e.slug === productSlug);
     if (!check2) return notFound();
     return <ProductPage catSlug={categorySlug} proSlug={productSlug} product={products} />;
   }
-
 
   if (slug.length > 2) {
     redirect('/products')
@@ -74,12 +48,13 @@ const page = ({ params }: props) => {
 
   return (
     <div className="min-h-screen w-full flex flex-col p-4 sm:p-10 md:p-20 bg-background pt-20 text-heading">
+      <ClientScrollHandler />
       <section className="w-full flex justify-center text-center flex flex-col">
         <h1 className="text-3xl sm:text-4xl md:text-5xl py-6 md:py-10">
           Product Categories Available
         </h1>
         <div className="flex flex-wrap gap-2 sm:gap-3 items-center justify-center w-full p-4 text-xs md:text-sm text-heading">
-          {categories?.map((cat, index: number) => {
+          {categories?.map((cat: any, index: number) => {
             return (
               <div key={index} className="px-4 py-1.5 rounded-full border border-border flex items-center tracking-[0.025em] justify-center hover:bg-primary/10 transition-all duration-200 cursor-pointer">
                 <Link href={`#${cat.slug}`} className="whitespace-nowrap">{cat.name}</Link>
@@ -90,7 +65,7 @@ const page = ({ params }: props) => {
         <hr />
       </section>
 
-      {categories?.map((category) => (
+      {categories?.map((category: any) => (
         <section key={category.slug} id={category.slug} className="w-full py-20">
 
           <div className="flex w-full justify-between items-center px-4 md:px-10">
@@ -105,7 +80,7 @@ const page = ({ params }: props) => {
             {products
               ?.filter((product: any) => product.category === category.slug)
               .slice(0, 5)
-              .map((product: any, index) => {
+              .map((product: any, index: number) => {
                 let displayClass = "";
                 if (index === 1) {
                   displayClass = "hidden sm:block";
@@ -127,6 +102,7 @@ const page = ({ params }: props) => {
                       desc={product.description}
                       price={product.price}
                       rating={Math.round(product.rating)}
+                      discountPercentage={product.discountPercentage}
                     />
                   </Link>
                 );

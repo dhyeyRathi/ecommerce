@@ -1,10 +1,7 @@
-"use client";
-import React, { useContext, useState } from "react";
+import React from "react";
 import { Star, ShieldCheck, Truck, RotateCcw , User } from "lucide-react";
-import { AppContext } from "@/app/context/appContext";
 import ReviewCard from "@/app/components/ReviewCard";
-
-
+import ProductImageGallery from "./ProductImageGallery";
 
 type ProdcutProps = {
   catSlug?: string;
@@ -15,8 +12,6 @@ type ProdcutProps = {
 const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
   const selectedProd = product?.find((e) => e.slug === proSlug);
   const images = selectedProd.images;
-  const [selectedImg, setSelectedImg] = useState<any>(images[0]);
-  const prodContext = useContext(AppContext);
   const discountedPrice = (
     selectedProd.price -
     selectedProd.discountPercentage * (selectedProd.price / 100)
@@ -28,37 +23,7 @@ const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
       <section className="w-full p-6 md:p-12 lg:p-20 bg-background flex flex-col lg:flex-row gap-8 lg:gap-16">
         {/* images */}
         <div className="w-full lg:w-1/2 flex flex-col gap-4">
-          <div className="flex flex-col-reverse md:flex-row gap-4">
-            <div className="flex flex-row md:flex-col gap-3 overflow-x-auto md:overflow-x-visible pb-2 md:pb-0 shrink-0">
-              {images.map((img: any, index: number) => (
-                <div key={index} className="shrink-0">
-                  <img
-                    className={`h-20 w-20 p-2 object-contain hover:bg-primary/10 bg-white border rounded-lg cursor-pointer transition-all duration-300 ${
-                      selectedImg === img ? "border-primary bg-primary/5" : "border-border"
-                    }`}
-                    src={img}
-                    onClick={() => setSelectedImg(img)}
-                    alt={`Thumbnail ${index + 1}`}
-                  />
-                </div>
-              ))}
-            </div>
-            <div className="flex-1 bg-white border border-border rounded-2xl flex items-center justify-center p-4 aspect-square max-w-full md:max-w-[500px] lg:max-w-[600px] mx-auto">
-              {images ? (
-                <img
-                  className="max-h-full max-w-full object-contain"
-                  src={selectedImg}
-                  alt="image"
-                />
-              ) : (
-                <img
-                  className="max-h-full max-w-full object-contain"
-                  src={selectedProd.thumbnail}
-                  alt="image"
-                />
-              )}
-            </div>
-          </div>
+          <ProductImageGallery images={images} thumbnail={selectedProd.thumbnail} />
 
           {/* badges */}
           <div className="flex flex-wrap gap-3 mt-2">
@@ -139,18 +104,15 @@ const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
           <div className="text-3xl md:text-5xl font-bold w-full">
             {selectedProd.discountPercentage === 0 ? (
               <h1>
-                {prodContext?.currency}
-                {selectedProd.price}
+                ${selectedProd.price}
               </h1>
             ) : (
               <div className="flex items-center gap-4">
                 <h1 className="line-through text-gray-400 text-2xl md:text-3xl font-medium">
-                  {prodContext?.currency}
-                  {selectedProd.price}
+                  ${selectedProd.price}
                 </h1>
                 <h1 className="text-primary">
-                  {prodContext?.currency}
-                  {discountedPrice}
+                  ${discountedPrice}
                 </h1>
               </div>
             )}
