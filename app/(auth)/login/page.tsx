@@ -35,7 +35,7 @@ const page = () => {
     <div className="h-full w-full bg-background flex justify-center items-center">
       <div
         aria-label="login container"
-        className={`flex flex-col border-2 border-border shadow-[0_0_4px] gap-4  shadow-border py-8  px-8 md:px-4 rounded-2xl bg-white ${wrongPwd && "shadow-red-800"}`}
+        className={`flex flex-col border-2 border-border shadow-[0_0_4px] gap-4  shadow-border py-8  px-8 md:px-4 rounded-2xl bg-surface ${wrongPwd && "shadow-red-800"}`}
       >
         <div aria-label="headings" className="flex w-full p-2 flex-col gap-4 justify-center items-center">
           <h1 className="text-5xl md:text-6xl font-bold text-heading italic w-full text-center ">

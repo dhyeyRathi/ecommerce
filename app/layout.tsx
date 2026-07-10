@@ -5,8 +5,9 @@ import { LoginProvider } from "./context/loginContext";
 import { AppContextProvider } from "./context/appContext";
 import { ProductProvider } from "./context/productContext";
 import { ProfileProvider } from "./context/profileContext";
-
-
+import { CartProvider } from "./context/cartContext";
+import { NotificationProvider } from "./context/notificationContext";
+import { WishlistProvider } from "./context/wishlistContext";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,17 +34,22 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-screen h-full w-full flex flex-col  font-heading bg-surface">
+      <body className="min-h-screen h-full w-full flex flex-col font-heading bg-background text-text">
         <AppContextProvider>
           <ProductProvider>
             <LoginProvider>
               <ProfileProvider>
-                {children}
+                <NotificationProvider>
+                  <WishlistProvider>
+                    <CartProvider>{children}</CartProvider>
+                  </WishlistProvider>
+                </NotificationProvider>
               </ProfileProvider>
             </LoginProvider>
           </ProductProvider>
         </AppContextProvider>
-       </body>
+      </body>
     </html>
   );
 }
+

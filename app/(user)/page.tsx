@@ -28,7 +28,7 @@ export default function Home() {
     : [];
 
   return (
-    <div className="w-full bg-background font-sans dark:bg-black min-h-screen text-heading pb-20">
+    <div className="w-full bg-background font-sans min-h-screen text-heading pb-20">
 
 
       <section className="relative overflow-hidden min-h-screen bg-gradient-to-tr from-primary/5 via-background to-primary/5 pt-20 pb-12 lg:pt-32 lg:pb-16 border-b border-border/40 flex flex-col justify-between">

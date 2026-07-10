@@ -12,8 +12,8 @@ const page = async () => {
   : "US";
 
   return (
-    <div className="min-h-screen bg-background pt-30 py-20 px-20 text-heading">
-      <div className="w-full h-full flex flex-col justify-center gap-8 rounded-4xl p-10 bg-white border-2 border-border">
+    <div className="min-h-screen bg-background pt-30 py-20 px-4 md:px-20 text-heading">
+      <div className="w-full h-full flex flex-col justify-center gap-8 rounded-4xl p-10 bg-surface border-2 border-border">
         <header className="w-full">
           <h1 className="text-5xl w-full text-center tracking-[0.025em] font-bold">
             User Profile

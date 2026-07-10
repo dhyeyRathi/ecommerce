@@ -1,7 +1,14 @@
-import React from "react";
-import { Star, ShieldCheck, Truck, RotateCcw , User } from "lucide-react";
+"use client";
+
+import React, { useState } from "react";
+import { Star, ShieldCheck, Truck, RotateCcw, User, Plus, Minus, Heart } from "lucide-react";
 import ReviewCard from "@/app/components/ReviewCard";
 import ProductImageGallery from "./ProductImageGallery";
+import { addToCart } from "@/app/lib/supabase";
+import { useCart } from "@/app/context/cartContext";
+import CheckoutModal from "@/app/components/CheckoutModal";
+import { useRouter } from "next/navigation";
+import { useWishlist } from "@/app/context/wishlistContext";
 
 type ProdcutProps = {
   catSlug?: string;
@@ -10,6 +17,11 @@ type ProdcutProps = {
 };
 
 const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
+  const { cart, updateQuantity, refreshCart } = useCart();
+  const { wishlist, toggleWishlistItem } = useWishlist();
+  const router = useRouter();
+  const [buyingNow, setBuyingNow] = useState(false);
+
   const selectedProd = product?.find((e) => e.slug === proSlug);
   const images = selectedProd.images;
   const discountedPrice = (
@@ -17,6 +29,28 @@ const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
     selectedProd.discountPercentage * (selectedProd.price / 100)
   ).toFixed(2);
   const reviews = selectedProd.reviews
+
+  const cartItem = cart?.find((item: any) => item.product_id === selectedProd.id);
+  const isWishlisted = wishlist?.some((item: any) => item.product_id === selectedProd.id);
+
+  const handleAddToCart = async () => {
+    try {
+      await addToCart(selectedProd.id, 1);
+      await refreshCart();
+    } catch (err: any) {
+      console.error("Error adding to cart:", err.message);
+    }
+  };
+
+  const buyNowUnitPrice = parseFloat(discountedPrice);
+  const buyNowShipping = buyNowUnitPrice > 100 ? 0 : 10;
+  const buyNowTax = parseFloat((buyNowUnitPrice * 0.08).toFixed(2));
+  const buyNowTotal = parseFloat((buyNowUnitPrice + buyNowShipping + buyNowTax).toFixed(2));
+
+  const handleBuyNowSuccess = () => {
+    setBuyingNow(false);
+    router.push("/myorders");
+  };
 
   return (
     <div className="min-h-screen pt-20 md:pt-30 bg-background text-heading">
@@ -51,15 +85,31 @@ const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
         {/* title */}
         <div className="w-full lg:w-1/2 flex flex-col gap-6">
           <div className="flex flex-col gap-4">
-            <h1 className="text-3xl md:text-5xl font-bold flex flex-col gap-1">
-              {selectedProd.title}
-              <em className="text-lg md:text-2xl text-text-muted not-italic">
-                {selectedProd.category}
-              </em>
-            </h1>
+            <div className="flex justify-between items-start gap-4">
+              <h1 className="text-3xl md:text-5xl font-bold flex flex-col gap-1 flex-1">
+                {selectedProd.title}
+                <em className="text-lg md:text-2xl text-text-muted not-italic">
+                  {selectedProd.category}
+                </em>
+              </h1>
+              <button
+                onClick={() => toggleWishlistItem(selectedProd.id)}
+                className="p-3 rounded-full bg-surface border border-border hover:border-red-400 hover:bg-red-50/50 dark:hover:bg-red-950/20 text-text-muted hover:text-red-500 transition-all duration-300 group cursor-pointer"
+                title={isWishlisted ? "Remove from Wishlist" : "Add to Wishlist"}
+              >
+                <Heart
+                  className={`w-7 h-7 transition-transform duration-300 active:scale-90 ${
+                    isWishlisted
+                      ? "fill-red-500 text-red-500 scale-105"
+                      : "text-text-muted group-hover:scale-105"
+                  }`}
+                />
+              </button>
+            </div>
 
             <h2 className="w-full text-base md:text-lg text-text leading-relaxed">{selectedProd.description}</h2>
           </div>
+
 
           {/* rating */}
           <div className="flex flex-col gap-3">
@@ -120,26 +170,54 @@ const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
 
           {/* buttons */}
           <div className="flex gap-4 flex-col sm:flex-row">
-            <button className="flex-1 bg-background border-2 border-primary text-primary text-lg md:text-xl rounded-xl gap-3 px-6 py-3.5 hover:bg-primary hover:text-background transition-all duration-300 font-semibold flex items-center justify-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-shopping-cart"
+            {cartItem ? (
+              <div className="flex-1 flex items-center justify-between border-2 border-primary rounded-xl px-4 py-2 bg-background/50">
+                <button
+                  onClick={() => updateQuantity(cartItem.id, cartItem.quantity - 1)}
+                  className="p-2 hover:bg-primary/10 rounded-lg text-primary transition-colors cursor-pointer"
+                  aria-label="Decrease quantity"
+                >
+                  <Minus className="w-5 h-5" />
+                </button>
+                <span className="font-bold text-lg text-primary whitespace-nowrap">
+                  {cartItem.quantity} in Cart
+                </span>
+                <button
+                  onClick={() => updateQuantity(cartItem.id, cartItem.quantity + 1)}
+                  className="p-2 hover:bg-primary/10 rounded-lg text-primary transition-colors cursor-pointer"
+                  aria-label="Increase quantity"
+                >
+                  <Plus className="w-5 h-5" />
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={handleAddToCart}
+                className="flex-1 bg-background border-2 border-primary text-primary text-lg md:text-xl rounded-xl gap-3 px-6 py-3.5 hover:bg-primary hover:text-background transition-all duration-300 font-semibold flex items-center justify-center cursor-pointer"
               >
-                <circle cx="8" cy="21" r="1" />
-                <circle cx="19" cy="21" r="1" />
-                <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
-              </svg>
-              Add to Cart
-            </button>
-            <button className="flex-1 bg-primary text-surface text-lg md:text-xl border-2 border-primary rounded-xl gap-3 px-6 py-3.5 hover:bg-primary-hover transition-all duration-300 font-semibold flex items-center justify-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-shopping-cart"
+                >
+                  <circle cx="8" cy="21" r="1" />
+                  <circle cx="19" cy="21" r="1" />
+                  <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+                </svg>
+                Add to Cart
+              </button>
+            )}
+            <button
+              onClick={() => setBuyingNow(true)}
+              className="flex-1 bg-primary text-surface text-lg md:text-xl border-2 border-primary rounded-xl gap-3 px-6 py-3.5 hover:bg-primary-hover transition-all duration-300 font-semibold flex items-center justify-center cursor-pointer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -227,6 +305,16 @@ const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
           ))}
         </div>
       </section>
+
+      {selectedProd && (
+        <CheckoutModal
+          isOpen={buyingNow}
+          onClose={() => setBuyingNow(false)}
+          items={[{ products: selectedProd, quantity: 1 }]}
+          totalPrice={buyNowTotal}
+          onSuccess={handleBuyNowSuccess}
+        />
+      )}
     </div>
   );
 };

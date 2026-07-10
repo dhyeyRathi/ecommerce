@@ -4,6 +4,8 @@ import { LoginContext } from "@/app/context/loginContext";
 import { redirect, useRouter } from "next/navigation";
 import { supabase } from "@/app/lib/supabase";
 
+import { useNotification } from "@/app/context/notificationContext";
+
 export default function SignUpPage() {
   const [email, setEmail] = useState<string>("");
   const [firstName, setFirstName] = useState<string>("");
@@ -13,6 +15,7 @@ export default function SignUpPage() {
   const [matchPwd, setMatchPwd] = useState<boolean>(false);
   const auth = useContext(LoginContext);
   const router = useRouter();
+  const { showToast } = useNotification();
 
   const handleSignup = async (e: React.SyntheticEvent) => {
     e.preventDefault();
@@ -35,11 +38,9 @@ export default function SignUpPage() {
       },
     });
     if (error) {
-      alert(error.message);
+      showToast(error.message, "error");
     } else {
-      alert(
-        "Sign up successful! Please check your email for verification (if enabled) or log in.",
-      );
+      showToast("Sign up successful! Please check your email for verification or log in.", "success");
       router.push("/login");
     }
   };
@@ -47,7 +48,7 @@ export default function SignUpPage() {
     <div className="h-full w-full bg-background flex justify-center items-center">
       <div
         aria-label="login container"
-        className={`flex flex-col border-2 border-border shadow-[0_0_4px] gap-4  shadow-border py-8  px-8 md:px-4 rounded-2xl bg-white ${matchPwd && "shadow-red-800"}`}
+        className={`flex flex-col border-2 border-border shadow-[0_0_4px] gap-4  shadow-border py-8  px-8 md:px-4 rounded-2xl bg-surface ${matchPwd && "shadow-red-800"}`}
       >
         <div
           aria-label="headings"

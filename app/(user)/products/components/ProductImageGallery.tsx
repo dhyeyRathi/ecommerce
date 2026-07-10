@@ -16,7 +16,7 @@ export default function ProductImageGallery({ images, thumbnail }: GalleryProps)
         {images?.map((img: string, index: number) => (
           <div key={index} className="shrink-0">
             <img
-              className={`h-20 w-20 p-2 object-contain hover:bg-primary/10 bg-white border rounded-lg cursor-pointer transition-all duration-300 ${
+              className={`h-20 w-20 p-2 object-contain hover:bg-primary/10 bg-surface border rounded-lg cursor-pointer transition-all duration-300 ${
                 selectedImg === img ? "border-primary bg-primary/5" : "border-border"
               }`}
               src={img}
@@ -27,7 +27,7 @@ export default function ProductImageGallery({ images, thumbnail }: GalleryProps)
           </div>
         ))}
       </div>
-      <div className="flex-1 bg-white border border-border rounded-2xl flex items-center justify-center p-4 aspect-square max-w-full md:max-w-[500px] lg:max-w-[600px] mx-auto">
+      <div className="flex-1 bg-surface border border-border rounded-2xl flex items-center justify-center p-4 aspect-square max-w-full md:max-w-[500px] lg:max-w-[600px] mx-auto">
         {selectedImg ? (
           <img
             className="max-h-full max-w-full object-contain"

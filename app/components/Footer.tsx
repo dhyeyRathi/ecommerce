@@ -1,222 +1,173 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Link from "next/link";
+import { Mail, Phone, MapPin, Send, ArrowUpRight } from "lucide-react";
+import { useNotification } from "@/app/context/notificationContext";
 
 const Footer = () => {
-  const links = [
-    {
-      name: "Products",
-      path: "/products",
-    },
-    {
-      name: "About",
-      path: "/about",
-    },
-    {
-      name: "Cart",
-      path: "/cart",
-    },
+  const { showToast } = useNotification();
+  const [email, setEmail] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const handleSubscribe = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!email.trim() || !email.includes("@")) {
+      showToast("Please enter a valid email address", "error");
+      return;
+    }
+
+    setLoading(true);
+    // Mimic API newsletter subscription
+    await new Promise((resolve) => setTimeout(resolve, 800));
+    showToast("Subscribed successfully! Thank you for joining EZ Mart.", "success");
+    setEmail("");
+    setLoading(false);
+  };
+
+  const shopLinks = [
+    { name: "Products Catalogue", path: "/products" },
+    { name: "Shopping Cart", path: "/cart" },
+    { name: "My Wishlist", path: "/wishlist" },
   ];
-  const menu = [
-    {
-      name: "Wishlist",
-      path: "/wishlist",
-      svg: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="lucide lucide-heart-icon lucide-heart"
-        >
-          <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5" />
-        </svg>
-      ),
-    },
-    {
-      name: "My Orders",
-      path: "/myorders",
-      svg: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="lucide lucide-clipboard-list-icon lucide-clipboard-list"
-        >
-          <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
-          <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
-          <path d="M12 11h4" />
-          <path d="M12 16h4" />
-          <path d="M8 11h.01" />
-          <path d="M8 16h.01" />
-        </svg>
-      ),
-    },
-    {
-      name: "Settings",
-      path: "/settings",
-      svg: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="lucide lucide-settings-icon lucide-settings"
-        >
-          <path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915" />
-          <circle cx="12" cy="12" r="3" />
-        </svg>
-      ),
-    },
-    {
-      name: "Profile",
-      path: "/profile",
-      svg: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="lucide lucide-user-round-icon lucide-user-round"
-        >
-          <circle cx="12" cy="8" r="5" />
-          <path d="M20 21a8 8 0 0 0-16 0" />
-        </svg>
-      ),
-    },
+
+  const userLinks = [
+    { name: "Personal Profile", path: "/profile" },
+    { name: "Order History", path: "/myorders" },
+    { name: "Account Settings", path: "/settings" },
+  ];
+
+  const legalLinks = [
+    { name: "Customer Support", path: "/settings" },
+    { name: "Privacy Policy", path: "/settings" },
+    { name: "About Us", path: "/about" },
   ];
 
   return (
-    <div className="w-full font-heading py-20 pb-30 px-4 sm:px-8 md:px-14 lg:px-20 text-background gap-10 flex-col md:flex-row bg-heading flex">
-      <div className="h-full w-full flex flex-col">
-        <p className="text-primary text-xl mb-4 tracking-[0.25em]">
-          <em className="">- EZ</em> MART
-        </p>
-        <h1 className="text-2xl text-background">
-          Send your inquiries our way!
-        </h1>
-        <div className="text-text-muted border-b-1 items-center tracking-[0.09em] border-border mt-4 lg:w-3/4 flex justify-between pl-4">
-          <input
-            type="email"
-            className="mb-1"
-            placeholder="S U B S C R I B E"
-          />
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="lucide lucide-send-icon lucide-send"
-          >
-            <path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z" />
-            <path d="m21.854 2.147-10.94 10.939" />
-          </svg>
+    <footer className="w-full bg-heading text-background font-sans pt-20 pb-12 px-4 sm:px-8 md:px-14 lg:px-20 border-t border-border/20">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 pb-16 border-b border-border/10">
+        {/* Brand Section */}
+        <div className="flex flex-col space-y-6">
+          <Link href="/" className="inline-flex items-center gap-2 group">
+            <span className="text-primary font-bold text-2xl tracking-[0.2em] group-hover:text-primary-hover transition-colors font-heading">
+              - EZ
+            </span>
+            <span className="text-white text-2xl tracking-[0.2em] font-heading font-light">
+              MART
+            </span>
+          </Link>
+          <p className="text-text-muted text-sm leading-relaxed max-w-xs">
+            Your destination for premium products, smooth checkout experiences, and dedicated client assistance.
+          </p>
+          <div className="flex gap-4">
+            {/* Social Icons / placeholders can go here */}
+          </div>
         </div>
-      </div>
-      {/* 2nd */}
-      <div className="h-full w-full">
-        <div className="h-full w-full flex flex-col">
-          <p className="text-primary text-xl mb-4 tracking-[0.25em]">Studio</p>
 
-          <div className="flex flex-col gap-2 ">
-            {links.map((link, index) => (
-              <Link key={index} href={link.path} className="hover:text-primary">
-                {link.name}
-              </Link>
-            ))}
+        {/* Newsletter Signup */}
+        <div className="flex flex-col space-y-4">
+          <h3 className="text-lg font-semibold text-white tracking-wider font-heading">
+            Stay in the Loop
+          </h3>
+          <p className="text-text-muted text-xs leading-relaxed">
+            Subscribe to receive product notifications, weekly curations, and exclusive promotional updates.
+          </p>
+          <form onSubmit={handleSubscribe} className="relative flex items-center mt-2 border-b border-border/30 pb-2">
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="YOUR EMAIL ADDRESS"
+              className="bg-transparent text-white placeholder-text-muted/60 text-xs w-full focus:outline-none pr-10 tracking-widest font-semibold uppercase"
+              disabled={loading}
+            />
+            <button
+              type="submit"
+              disabled={loading}
+              className="absolute right-0 hover:text-primary transition-colors text-text-muted cursor-pointer"
+              aria-label="Subscribe"
+            >
+              <Send className={`w-4 h-4 ${loading ? "animate-pulse" : ""}`} />
+            </button>
+          </form>
+        </div>
+
+        {/* Navigation Columns */}
+        <div className="grid grid-cols-2 gap-8 lg:col-span-2">
+          {/* Shop & Account */}
+          <div className="flex flex-col space-y-4">
+            <h4 className="text-xs uppercase tracking-widest text-primary font-bold">
+              Shop & Account
+            </h4>
+            <ul className="space-y-3">
+              {[...shopLinks, ...userLinks].map((link, idx) => (
+                <li key={idx}>
+                  <Link
+                    href={link.path}
+                    className="text-text-muted hover:text-white transition-colors text-sm flex items-center gap-1 group w-fit"
+                  >
+                    <span>{link.name}</span>
+                    <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Help & Support */}
+          <div className="flex flex-col space-y-4">
+            <h4 className="text-xs uppercase tracking-widest text-primary font-bold">
+              Help & Support
+            </h4>
+            <ul className="space-y-3 mb-6">
+              {legalLinks.map((link, idx) => (
+                <li key={idx}>
+                  <Link
+                    href={link.path}
+                    className="text-text-muted hover:text-white transition-colors text-sm flex items-center gap-1 group w-fit"
+                  >
+                    <span>{link.name}</span>
+                    <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  </Link>
+                </li>
+              ))}
+            </ul>
+
+            {/* Direct contact details inside help */}
+            <div className="space-y-2 pt-2 border-t border-border/10 text-xs text-text-muted">
+              <div className="flex items-center gap-2">
+                <Phone className="w-3.5 h-3.5 text-primary shrink-0" />
+                <span>+91 000 111 999</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Mail className="w-3.5 h-3.5 text-primary shrink-0" />
+                <span className="lowercase">contact@ezmart.in</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <MapPin className="w-3.5 h-3.5 text-primary shrink-0 mt-0.5" />
+                <span>99, ABC Street, PQR City, India</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      {/* 3rd */}
-      <div className="h-full w-full">
-        <div className="h-full w-full flex flex-col ">
-          <p className="text-primary text-xl mb-4 tracking-[0.25em]">Contact</p>
-          <div className="flex flex-col gap-6">
-            <div className="flex items-center gap-2 text-sm w-full">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-phone-icon lucide-phone"
-              >
-                <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" />
-              </svg>
-              +91 000  111 999
-            </div>
 
-            <div className="flex items-center gap-2 text-sm w-full">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-mail-icon lucide-mail"
-              >
-                <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
-                <rect x="2" y="4" width="20" height="16" rx="2" />
-              </svg>
-              contact@ezmart.in
-            </div>
-
-            <div className="flex items-center gap-2 text-sm w-full lowercase">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-map-pin-icon lucide-map-pin"
-              >
-                <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
-                <circle cx="12" cy="10" r="3" />
-              </svg>
-              99, ABC Street, Xyz town, <br></br>PQR CITY 
-              India 300000
-            </div>
-          </div>
+      {/* Footer Bottom */}
+      <div className="max-w-7xl mx-auto pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-text-muted">
+        <p>© {new Date().getFullYear()} EZ Mart Ltd. All rights reserved.</p>
+        <div className="flex gap-6">
+          <Link href="/settings" className="hover:text-white transition-colors">
+            Privacy Policy
+          </Link>
+          <Link href="/settings" className="hover:text-white transition-colors">
+            Terms of Service
+          </Link>
+          <Link href="/settings" className="hover:text-white transition-colors">
+            Cookie Preferences
+          </Link>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
