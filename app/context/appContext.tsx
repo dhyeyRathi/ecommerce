@@ -79,13 +79,7 @@ export function AppContextProvider({
   children: React.ReactNode;
 }) {
   const currency = "$";
-  const [theme, setThemeState] = useState<string>("midnightIndigo");
-
-  useEffect(() => {
-    const savedTheme = localStorage.getItem("theme") || "midnightIndigo";
-    setThemeState(savedTheme);
-    applyTheme(savedTheme);
-  }, []);
+  const [theme, setThemeState] = useState<string>("emerald");
 
   const applyTheme = (themeName: string) => {
     const themeData = THEMES[themeName as keyof typeof THEMES];
@@ -98,6 +92,13 @@ export function AppContextProvider({
       }
     }
   };
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("theme") || "emerald";
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setThemeState(savedTheme);
+    applyTheme(savedTheme);
+  }, []);
 
   const setTheme = (themeName: string) => {
     setThemeState(themeName);

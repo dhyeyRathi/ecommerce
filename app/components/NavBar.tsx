@@ -129,6 +129,7 @@ function NavBar() {
   ];
   const [ham, setHam] = useState<boolean>(false);
   const [drop, setDrop] = useState<boolean>(false);
+  const [mounted, setMounted] = useState<boolean>(false);
   const router = useRouter();
   const searchParams = useSearchParams();
   const [searchQuery, setSearchQuery] = useState(searchParams.get("search") || "");
@@ -138,6 +139,12 @@ function NavBar() {
   const { products } = useProducts();
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setSearchQuery(searchParams.get("search") || "");
   }, [searchParams]);
 
@@ -185,7 +192,7 @@ function NavBar() {
               placeholder="Search Products..."
             />
 
-            <button type="submit" className="bg-surface hover:bg-border h-full border-l-1 border-border rounded-r-full px-4 cursor-pointer">
+            <button type="submit" aria-label="Search" className="bg-surface hover:bg-border h-full border-l-1 border-border rounded-r-full px-4 cursor-pointer">
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -244,7 +251,7 @@ function NavBar() {
           )}
         </form>
 
-        {auth?.user && (
+        {mounted && auth?.user && (
           <div className=" justify-between items-center gap-4 h-full flex-1  hidden md:flex ">
             {links.map((link, index) => (
               <div key={index}>
@@ -300,7 +307,7 @@ function NavBar() {
             </div>
           </div>
         )}
-        {!auth?.user && (
+        {mounted && !auth?.user && (
           <div className=" justify-between items-center gap-4 flex-1 font-light hidden md:flex">
             {links.slice(0, 2).map((link, index) => (
               <div key={index}>
@@ -391,7 +398,7 @@ function NavBar() {
                   className="italic bg-surface text-text text-sm h-full w-full focus:outline-none"
                   placeholder="Search Products..."
                 />
-                <button type="submit" className="bg-surface hover:bg-border h-full border-l-1 border-border rounded-r-full px-4 cursor-pointer">
+                <button type="submit" aria-label="Search" className="bg-surface hover:bg-border h-full border-l-1 border-border rounded-r-full px-4 cursor-pointer">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
@@ -450,7 +457,7 @@ function NavBar() {
               </div>
             )}
           </div>
-          {auth?.user ? 
+          {mounted && (auth?.user ? 
           <motion.div
             initial={{ y: -50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -545,7 +552,7 @@ function NavBar() {
                 Log In
               </Link>
             </div> 
-          </motion.div>}
+          </motion.div>)}
           
         </div>
       )}

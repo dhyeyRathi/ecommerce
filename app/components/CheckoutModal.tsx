@@ -130,6 +130,7 @@ export default function CheckoutModal({
           <h2 className="text-2xl font-bold text-heading">Checkout details</h2>
           <button
             onClick={onClose}
+            aria-label="Close checkout modal"
             className="p-1.5 hover:bg-primary/10 rounded-lg text-text-muted hover:text-heading transition-colors cursor-pointer"
           >
             <X className="w-6 h-6" />

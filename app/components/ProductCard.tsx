@@ -48,9 +48,9 @@ const currency = useContext(AppContext)
       />
       <div className="overflow-hidden flex flex-col flex-1 justify-between">
         <div>
-          <h1 className="text-lg md:text-xl h-20 flex justify-center items-center text-center font-medium line-clamp-2">
+          <h3 className="text-lg md:text-xl h-20 flex justify-center items-center text-center font-medium line-clamp-2">
             {name}
-          </h1>
+          </h3>
           <div className="flex justify-center scale-90 mb-2">
             {[1, 2, 3, 4, 5].map((star) => (
               <Star

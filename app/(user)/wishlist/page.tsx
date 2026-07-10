@@ -122,6 +122,7 @@ export default function WishlistPage() {
                         onClick={() => toggleWishlistItem(product.id)}
                         className="absolute top-4 right-4 p-2.5 rounded-full bg-surface border border-border text-red-500 hover:bg-red-50 hover:border-red-400 transition-colors shadow-xs"
                         title="Remove from Wishlist"
+                        aria-label="Remove from Wishlist"
                       >
                         <Trash2 className="w-4 h-4" />
                       </button>

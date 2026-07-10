@@ -17,7 +17,7 @@ export default function AboutPage() {
             <div className="bg-primary/10 p-3 rounded-xl text-primary">
               <Sparkles className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-bold">Our Mission</h3>
+            <h2 className="text-xl font-bold">Our Mission</h2>
             <p className="text-text-muted text-sm leading-relaxed">
               To simplify online shopping by providing a fast, modern platform filled with items you love, without any of the complexity.
             </p>
@@ -27,7 +27,7 @@ export default function AboutPage() {
             <div className="bg-primary/10 p-3 rounded-xl text-primary">
               <Shield className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-bold">Our Integrity</h3>
+            <h2 className="text-xl font-bold">Our Integrity</h2>
             <p className="text-text-muted text-sm leading-relaxed">
               We verify and source high-quality products, maintaining strict safety, transaction reliability, and privacy standards.
             </p>
@@ -37,7 +37,7 @@ export default function AboutPage() {
             <div className="bg-primary/10 p-3 rounded-xl text-primary">
               <Heart className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-bold">Our Commitment</h3>
+            <h2 className="text-xl font-bold">Our Commitment</h2>
             <p className="text-text-muted text-sm leading-relaxed">
               A customer-first culture focused on responsive support, fast delivery timelines, and convenient return options.
             </p>

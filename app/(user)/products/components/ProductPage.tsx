@@ -100,6 +100,7 @@ const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
                 onClick={() => toggleWishlistItem(selectedProd.id)}
                 className="p-3 rounded-full bg-surface border border-border hover:border-red-400 hover:bg-red-50/50 dark:hover:bg-red-950/20 text-text-muted hover:text-red-500 transition-all duration-300 group cursor-pointer"
                 title={isWishlisted ? "Remove from Wishlist" : "Add to Wishlist"}
+                aria-label={isWishlisted ? "Remove from Wishlist" : "Add to Wishlist"}
               >
                 <Heart
                   className={`w-7 h-7 transition-transform duration-300 active:scale-90 ${isWishlisted
@@ -110,7 +111,7 @@ const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
               </button>
             </div>
 
-            <h2 className="w-full text-base md:text-lg text-text leading-relaxed">{selectedProd.description}</h2>
+            <p className="w-full text-base md:text-lg text-text leading-relaxed">{selectedProd.description}</p>
           </div>
 
 
@@ -286,7 +287,7 @@ const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
 
       {/* reviews */}
       <section className="w-full px-4 md:px-12 lg:px-20 py-6 md:py-8 lg:py-14 bg-background">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl px-4 text-heading tracking-relaxed py-6 w-full text-center font-bold">Customer Reviews</h1>
+        <h2 className="text-3xl sm:text-4xl md:text-5xl px-4 text-heading tracking-relaxed py-6 w-full text-center font-bold">Customer Reviews</h2>
         <div className="p-4 sm:p-6 flex w-full gap-4 bg-card rounded-lg border border-border shadow-xs">
           <div className="w-10 h-10 rounded-full flex items-center justify-center bg-primary/10 text-primary border border-primary/20 shrink-0">
             <User className="w-5 h-5" />

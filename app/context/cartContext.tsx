@@ -80,6 +80,7 @@ export function CartProvider({
 
   useEffect(() => {
     if (auth?.user) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       getCart();
     } else {
       setCart(null);

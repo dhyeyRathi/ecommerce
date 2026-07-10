@@ -54,7 +54,7 @@ const ReviewCard = ({ rating = 0, comment = '', name = 'Anonymous', date , class
       
       {comment && (
         <p className="text-base  md:text-l  text-text leading-relaxed italic bg-background/30 p-3.5 rounded-xl border border-border/50">
-          "{comment}"
+          &ldquo;{comment}&rdquo;
         </p>
       )}
     </div>

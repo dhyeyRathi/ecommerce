@@ -50,6 +50,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     if (auth?.user) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       fetchProfile();
     } else {
       setProfile(null);
