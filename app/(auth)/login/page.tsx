@@ -3,6 +3,7 @@ import { LoginContext } from "@/app/context/loginContext";
 import { redirect, useRouter } from "next/navigation";
 import { supabase } from "@/app/lib/supabase";
 import React, { useContext, useState } from "react";
+import Link from "next/link";
 
 const page = () => {
   const [email, setEmail] = useState<string>("");
@@ -73,6 +74,13 @@ const page = () => {
             >
               Log In
             </button>
+          </div>
+
+          <div className="text-center text-sm text-text-muted mt-4">
+            Don&apos;t have an account?{" "}
+            <Link href="/sign-up" prefetch={false} className="text-primary hover:underline font-semibold">
+              Sign Up
+            </Link>
           </div>
 
         </form>

@@ -3,6 +3,7 @@ import React, { useContext, useState } from "react";
 import { LoginContext } from "@/app/context/loginContext";
 import { redirect, useRouter } from "next/navigation";
 import { supabase } from "@/app/lib/supabase";
+import Link from "next/link";
 
 import { useNotification } from "@/app/context/notificationContext";
 
@@ -13,16 +14,56 @@ export default function SignUpPage() {
   const [password, setPassword] = useState<string>("");
   const [rePassword, setRePassword] = useState<string>("");
   const [matchPwd, setMatchPwd] = useState<boolean>(false);
+  const [agreed, setAgreed] = useState<boolean>(false);
+  const [showTerms, setShowTerms] = useState<boolean>(false);
+
+  const [pwdValidation, setPwdValidation] = useState({
+    length: false,
+    specialChar: false,
+    number: false,
+    uppercase: false,
+    lowercase: false,
+  });
+
   const auth = useContext(LoginContext);
   const router = useRouter();
   const { showToast } = useNotification();
 
+  const handlePasswordChange = (val: string) => {
+    setPassword(val);
+    setPwdValidation({
+      length: val.length >= 8,
+      specialChar: /[!@#$%^&*(),.?":{}|<>_+\-=\[\]\\\/]/.test(val),
+      number: /\d/.test(val),
+      uppercase: /[A-Z]/.test(val),
+      lowercase: /[a-z]/.test(val),
+    });
+  };
+
   const handleSignup = async (e: React.SyntheticEvent) => {
     e.preventDefault();
+
+    const isPasswordSecure = 
+      pwdValidation.length &&
+      pwdValidation.specialChar &&
+      pwdValidation.number &&
+      pwdValidation.uppercase &&
+      pwdValidation.lowercase;
+
+    if (!isPasswordSecure) {
+      showToast("Password does not meet the security testcases.", "error");
+      return;
+    }
+
     if (password !== rePassword) {
       setMatchPwd(true);
       setPassword("");
       setRePassword("");
+      return;
+    }
+
+    if (!agreed) {
+      showToast("You must agree to the Terms and Conditions.", "error");
       return;
     }
 
@@ -64,7 +105,7 @@ export default function SignUpPage() {
         </div>
         <form onSubmit={handleSignup}
           aria-label="input container"
-          className="flex flex-col w-full gap-6 lg:gap-10 lg:p-6 justify-center items-center"
+          className="flex flex-col w-full gap-6 lg:gap-8 lg:p-6 justify-center items-center"
         >
           <div className="flex flex-col md:flex-row w-full md:gap-4 md:w-2/3 md:items-center  text-heading">
             <label
@@ -125,12 +166,34 @@ export default function SignUpPage() {
               type="password"
               value={password}
               id="password input"
-              onChange={(e) => setPassword(e.target.value)}
+              onChange={(e) => handlePasswordChange(e.target.value)}
               className="bg-background border-2 border-border focus:shadow-xs shadow-text inset-shadow-[0_0_4px] w-75 md:w-140  inset-shadow-border 
                p-2  rounded-lg focus:outline-none"
               placeholder="Enter your password..."
               required
             />
+          </div>
+
+          {/* Password complexity checklist */}
+          <div className="flex flex-col md:flex-row md:gap-4 w-full md:w-2/3 text-heading mt-1">
+            <div className="hidden md:block md:w-40 shrink-0" />
+            <div className="w-full max-w-75 md:max-w-140 text-xs text-text-muted grid grid-cols-2 gap-1.5 px-2 md:px-0 text-left">
+              <span className={pwdValidation.length ? "text-green-500 font-medium" : "text-text-muted/60"}>
+                {pwdValidation.length ? "✓" : "○"} Min 8 characters
+              </span>
+              <span className={pwdValidation.uppercase ? "text-green-500 font-medium" : "text-text-muted/60"}>
+                {pwdValidation.uppercase ? "✓" : "○"} One uppercase letter
+              </span>
+              <span className={pwdValidation.lowercase ? "text-green-500 font-medium" : "text-text-muted/60"}>
+                {pwdValidation.lowercase ? "✓" : "○"} One lowercase letter
+              </span>
+              <span className={pwdValidation.number ? "text-green-500 font-medium" : "text-text-muted/60"}>
+                {pwdValidation.number ? "✓" : "○"} One digit (0-9)
+              </span>
+              <span className={pwdValidation.specialChar ? "text-green-500 font-medium" : "text-text-muted/60"}>
+                {pwdValidation.specialChar ? "✓" : "○"} One special character
+              </span>
+            </div>
           </div>
 
           <div className="flex flex-col md:flex-row md:gap-4 w-full md:w-2/3  md:items-center relative  text-heading">
@@ -157,17 +220,72 @@ export default function SignUpPage() {
             )}
           </div>
 
+          {/* Terms and conditions agreement checkbox */}
+          <div className="flex items-center justify-center gap-2.5 w-full md:w-2/3 px-4 md:px-0 text-heading">
+            <input
+              type="checkbox"
+              id="terms-checkbox"
+              checked={agreed}
+              onChange={(e) => setAgreed(e.target.checked)}
+              className="w-4 h-4 text-primary bg-background border-border rounded-sm focus:ring-primary focus:ring-2 cursor-pointer"
+              required
+            />
+            <label htmlFor="terms-checkbox" className="text-sm select-none cursor-pointer">
+              I agree to the{" "}
+              <span
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  setShowTerms(true);
+                }}
+                className="text-primary hover:underline font-semibold cursor-pointer"
+              >
+                Terms and Conditions
+              </span>
+            </label>
+          </div>
+
           <div className="flex flex-col md:flex-row md:gap-4 w-full md:w-2/3  justify-center md:items-center  text-heading">
             <button
               className="bg-primary text-background px-6 py-2 w-full rounded-lg hover:bg-primary-hover text-lg mt-3 lg:mt-0 sm:text-2xl"
               type="submit"
-              
             >
               Sign Up
             </button>
           </div>
+
+          <div className="text-center text-sm text-text-muted mt-4">
+            Already have an account?{" "}
+            <Link href="/login" prefetch={false} className="text-primary hover:underline font-semibold">
+              Log In
+            </Link>
+          </div>
         </form>
       </div>
+
+      {/* Terms and Conditions Modal */}
+      {showTerms && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-xs p-4">
+          <div className="bg-surface border-2 border-border rounded-2xl max-w-lg w-full p-6 shadow-2xl text-heading">
+            <h2 className="text-2xl font-bold mb-4 border-b border-border pb-2">Terms and Conditions</h2>
+            <div className="max-h-60 overflow-y-auto pr-2 text-sm text-text-muted space-y-4 font-light leading-relaxed">
+              <p>Welcome to EZ Mart. By creating an account, you agree to comply with and be bound by the following terms of use:</p>
+              <p>1. <strong>Use of Service</strong>: You agree to provide true, accurate, and complete registration information.</p>
+              <p>2. <strong>Account Protection</strong>: You are responsible for keeping your login credentials and password confidential.</p>
+              <p>3. <strong>Prohibited Conduct</strong>: You may not use this platform to conduct any fraudulent activities, distribute malware, or abuse site resources.</p>
+              <p>4. <strong>Updates to Terms</strong>: EZ Mart reserves the right to modify these terms at any time. Continued use of the platform constitutes agreement to changes.</p>
+            </div>
+            <div className="mt-6 flex justify-end">
+              <button
+                onClick={() => setShowTerms(false)}
+                className="px-6 py-2 bg-primary text-background font-semibold rounded-lg hover:bg-primary-hover transition-colors cursor-pointer"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
