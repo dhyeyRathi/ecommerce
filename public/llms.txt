@@ -8,14 +8,18 @@ EZ Mart is a high-performance, modern e-commerce platform built with Next.js, Re
 - Database: Supabase
 
 ## Key Pages
-- Home (/): Featured products, categories catalog, best sellers.
-- Products (/products): Full categories list and scroll-based loaded catalogues.
-- Product Details (/products/[category]/[slug]): Comprehensive specs, image galleries, user reviews.
-- Cart (/cart): Shopping bag items management.
-- Wishlist (/wishlist): Saved user favorites.
-- Profile (/profile): Shipping addresses, billing details, and personal attributes.
+- [Home](https://ezmart.in/) - Featured products, categories catalog, best sellers.
+- [Products](https://ezmart.in/products) - Full categories list and scroll-based loaded catalogues.
+- [Cart](https://ezmart.in/cart) - Shopping bag items management.
+- [Wishlist](https://ezmart.in/wishlist) - Saved user favorites.
+- [Profile](https://ezmart.in/profile) - Personal attributes and settings.
+- [About Us](https://ezmart.in/about) - Platform details.
+- [Order History](https://ezmart.in/myorders) - Track ordered items.
+- [Settings](https://ezmart.in/settings) - Settings page.
+- [Sign Up](https://ezmart.in/sign-up) - Account registration.
+- [Login](https://ezmart.in/login) - User login authentication.
 
 ## Developer & Agent Guideline
-- Base URL: https://ezmart.in
-- Sitemaps index: https://ezmart.in/sitemap.xml
-- API routes are located under /api/
+- Base URL: [https://ezmart.in](https://ezmart.in)
+- Sitemaps index: [https://ezmart.in/sitemap.xml](https://ezmart.in/sitemap.xml)
+- API routes are located under `/api/`
