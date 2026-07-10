@@ -173,7 +173,7 @@ function NavBar() {
   return (
     <div className="fixed top-0 font-heading left-0 right-0 z-[99] bg-background border-b-1 border-border text-heading">
       <header className="  mx-auto md:gap-10 max-w-[90%] lg:gap-30 flex justify-between items-center">
-        <Link href="/" className="flex-1 py-5 cursor-ppointe">
+        <Link href="/" prefetch={false} className="flex-1 py-5 cursor-ppointe">
           <h1 className="text-4xl font-bold text-heading italic flex-1 ">
             {" "}
             EZ<span className="text-primary not-italic">Mart</span>
@@ -255,7 +255,7 @@ function NavBar() {
           <div className=" justify-between items-center gap-4 h-full flex-1  hidden md:flex ">
             {links.map((link, index) => (
               <div key={index}>
-                <Link className="relative group" href={link.path}>
+                <Link className="relative group" href={link.path} prefetch={false}>
                   {link.name}
                   <hr className="absolute w-full h-1 scale-x-0 group-hover:scale-x-100 transition-all duration-300" />
                 </Link>
@@ -311,7 +311,7 @@ function NavBar() {
           <div className=" justify-between items-center gap-4 flex-1 font-light hidden md:flex">
             {links.slice(0, 2).map((link, index) => (
               <div key={index}>
-                <Link className="relative group" href={link.path}>
+                <Link className="relative group" href={link.path} prefetch={false}>
                   {link.name}
                   <hr className="absolute w-full h-1 scale-x-0 group-hover:scale-x-100  transition-all duration-300" />
                 </Link>
@@ -320,12 +320,14 @@ function NavBar() {
             <div className="flex gap-2">
               <Link
                 href="/sign-up"
+                prefetch={false}
                 className="py-2 px-4 bg-background text-xs hover:bg-surface font-semibold rounded-lg text-primary border-2 border-border "
               >
                 Sign Up
               </Link>
               <Link
                 href="/login"
+                prefetch={false}
                 className="py-2 px-4 bg-primary rounded-lg text-xs  font-semibold text-surface border-1 border-border
         hover:bg-primary-hover "
                 
@@ -473,7 +475,7 @@ function NavBar() {
                 exit={{ y: -50, opacity: 0 }}
                 key={index}
               >
-                <Link href={link.path} onClick={() => setHam(false)}>
+                <Link href={link.path} prefetch={false} onClick={() => setHam(false)}>
                   {link.name}
                 </Link>
               </motion.div>
@@ -488,7 +490,7 @@ function NavBar() {
                 exit={{ y: -50, opacity: 0 }}
                 key={index}
               >
-                <Link href={link.path} onClick={() => setHam(false)}>
+                <Link href={link.path} prefetch={false} onClick={() => setHam(false)}>
                   {link.name}
                 </Link>
               </motion.div>
@@ -522,7 +524,7 @@ function NavBar() {
             exit={{ y: -50, opacity: 0 }}
             className="w-full p-8 pb-0 flex flex-col text-2xl justify-center items-center gap-4 border-b-2  pb-20 border-border"
           >
-            {links.slice(0,2).map((link, index) => (
+             {links.slice(0,2).map((link, index) => (
               <motion.div
                 initial={{ y: -50, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
@@ -530,7 +532,7 @@ function NavBar() {
                 exit={{ y: -50, opacity: 0 }}
                 key={index}
               >
-                <Link href={link.path} onClick={() => setHam(false)}>
+                <Link href={link.path} prefetch={false} onClick={() => setHam(false)}>
                   {link.name}
                 </Link>
               </motion.div>
@@ -539,12 +541,14 @@ function NavBar() {
              <div className="flex w-full flex-col gap-4">
               <Link
                 href="/sign-up"
+                prefetch={false}
                 className="py-2 px-4 bg-background text-center text-lg  hover:bg-surface font-semibold rounded-lg text-primary border-2 border-border "
               >
                 Sign Up
               </Link>
               <Link
                 href="/login"
+                prefetch={false}
                 className="py-2 px-4 bg-primary rounded-lg text-center text-lg font-semibold text-surface border-1 border-border
         hover:bg-primary-hover "
                 

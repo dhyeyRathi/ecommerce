@@ -59,12 +59,9 @@ export const getCategories = unstable_cache(
   }
 );
 
-export async function ProductProvider({ children }: { children: React.ReactNode }) {
-  const products = await getProducts();
-  const categories = await getCategories();
-
+export function ProductProvider({ children }: { children: React.ReactNode }) {
   return (
-    <ProductClientProvider initialProducts={products} initialCategories={categories}>
+    <ProductClientProvider>
       {children}
     </ProductClientProvider>
   );

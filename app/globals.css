@@ -2,16 +2,16 @@
 
 
 :root {
-  /* Default/Initial theme: Midnight Indigo */
-  --theme-background: #111827;
-  --theme-surface: #1f2937;
-  --theme-card: #293548;
-  --theme-heading: #f9fafb;
-  --theme-text: #d1d5db;
-  --theme-text-muted: #9ca3af;
-  --theme-primary: #6366f1;
-  --theme-primary-hover: #4f46e5;
-  --theme-border: #374151;
+  /* Default/Initial theme: Emerald */
+  --theme-background: #f4fcf8;
+  --theme-surface: #ffffff;
+  --theme-card: #ffffff;
+  --theme-heading: #052e2b;
+  --theme-text: #36554f;
+  --theme-text-muted: #6a8a83;
+  --theme-primary: #059669;
+  --theme-primary-hover: #047857;
+  --theme-border: #d1fae5;
 }
 
 [data-theme="emerald"] {
@@ -24,6 +24,18 @@
   --theme-primary: #059669;
   --theme-primary-hover: #047857;
   --theme-border: #d1fae5;
+}
+
+[data-theme="midnightIndigo"] {
+  --theme-background: #111827;
+  --theme-surface: #1f2937;
+  --theme-card: #293548;
+  --theme-heading: #f9fafb;
+  --theme-text: #d1d5db;
+  --theme-text-muted: #9ca3af;
+  --theme-primary: #6366f1;
+  --theme-primary-hover: #4f46e5;
+  --theme-border: #374151;
 }
 
 [data-theme="ocean"] {

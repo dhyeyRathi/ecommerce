@@ -13,6 +13,8 @@ export default function Home() {
   const router = useRouter();
 
   const [heroProduct, setHeroProduct] = React.useState<any>(null);
+  const bestSellersRef = React.useRef<HTMLDivElement>(null);
+  const [bestSellersInView, setBestSellersInView] = React.useState(false);
 
   React.useEffect(() => {
     if (products && products.length > 0) {
@@ -20,6 +22,22 @@ export default function Home() {
       setHeroProduct(products[randomIndex]);
     }
   }, [products]);
+
+  React.useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setBestSellersInView(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "150px" }
+    );
+    if (bestSellersRef.current) {
+      observer.observe(bestSellersRef.current);
+    }
+    return () => observer.disconnect();
+  }, []);
 
   const featuredProducts = products
     ? [...products]
@@ -50,6 +68,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <Link
                 href="/products"
+                prefetch={false}
                 className="inline-flex items-center justify-center space-x-2 bg-primary text-background font-semibold px-8 py-3.5 rounded-lg shadow-lg hover:shadow-primary/20 hover:opacity-90 transition-all duration-200"
               >
                 <span>Shop All Products</span>
@@ -58,11 +77,11 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="relative flex justify-center lg:justify-end">
-            {heroProduct && (
+          <div className="relative flex justify-center lg:justify-end w-full max-w-[450px] aspect-square">
+            {heroProduct ? (
               <div
                 onClick={() => router.push(`/products/${heroProduct.category}/${heroProduct.slug}`)}
-                className="relative w-full max-w-[450px] aspect-square rounded-2xl overflow-hidden flex items-center justify-center p-8 bg-gradient-to-br from-primary/5 to-primary/5 border border-border/40 shadow-lg group cursor-pointer hover:border-primary/30 transition-all duration-300"
+                className="relative w-full h-full rounded-2xl overflow-hidden flex items-center justify-center p-8 bg-gradient-to-br from-primary/5 to-primary/5 border border-border/40 shadow-lg group cursor-pointer hover:border-primary/30 transition-all duration-300"
               >
                 <Image
                   src={heroProduct.thumbnail || "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"}
@@ -75,6 +94,10 @@ export default function Home() {
                 <div className="absolute bottom-4 left-4 bg-background/90 backdrop-blur px-3 py-1.5 rounded-lg border border-border/50 shadow-sm text-xs font-semibold text-foreground group-hover:text-primary transition-colors">
                   Featured: {heroProduct.title}
                 </div>
+              </div>
+            ) : (
+              <div className="w-full h-full rounded-2xl bg-card border border-border/40 animate-pulse flex items-center justify-center">
+                <div className="w-40 h-40 rounded-lg bg-muted/60 animate-pulse" />
               </div>
             )}
           </div>
@@ -133,27 +156,28 @@ export default function Home() {
         </div>
       </section>
 
-      {categories && categories.length > 0 && (
-        <section className="max-w-7xl mx-auto px-6 py-16">
-          <div className="flex justify-between items-end mb-8">
-            <div>
-              <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight">Explore Categories</h2>
-              <p className="text-sm text-muted-foreground mt-1">Find the best selection tailormade to your taste</p>
-            </div>
-            <Link href="/products" className="text-sm font-semibold text-primary hover:underline flex items-center space-x-1">
-              <span>View all</span>
-              <ArrowRight className="w-4 h-4" />
-            </Link>
+      <section className="max-w-7xl mx-auto px-6 py-16">
+        <div className="flex justify-between items-end mb-8">
+          <div>
+            <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight">Explore Categories</h2>
+            <p className="text-sm text-muted-foreground mt-1">Find the best selection tailormade to your taste</p>
           </div>
+          <Link href="/products" prefetch={false} className="text-sm font-semibold text-primary hover:underline flex items-center space-x-1">
+            <span>View all</span>
+            <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-            {categories.slice(0, 6).map((cat) => {
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+          {categories && categories.length > 0 ? (
+            categories.slice(0, 6).map((cat) => {
               const displaySlug = typeof cat === 'object' ? cat.slug : cat;
               const displayName = typeof cat === 'object' ? cat.name : cat;
               return (
                 <Link
                   key={displaySlug}
                   href={`/products/${displaySlug}`}
+                  prefetch={false}
                   className="flex flex-col items-center justify-center p-6 rounded-xl bg-card border border-border/40 shadow-sm hover:border-primary/40 hover:bg-primary/5 transition-all text-center group"
                 >
                   <div className="w-12 h-12 rounded-full bg-muted flex items-center justify-center mb-3 group-hover:bg-primary/10 transition-colors">
@@ -162,26 +186,33 @@ export default function Home() {
                   <span className="text-sm font-bold truncate w-full text-foreground">{displayName}</span>
                 </Link>
               );
-            })}
-          </div>
-        </section>
-      )}
+            })
+          ) : (
+            Array.from({ length: 6 }).map((_, i) => (
+              <div key={i} className="flex flex-col items-center justify-center p-6 h-36 rounded-xl bg-card border border-border/40 animate-pulse">
+                <div className="w-12 h-12 rounded-full bg-muted/60 animate-pulse mb-3" />
+                <div className="w-16 h-4 bg-muted/60 animate-pulse" />
+              </div>
+            ))
+          )}
+        </div>
+      </section>
 
-      {featuredProducts.length > 0 && (
-        <section className="max-w-7xl mx-auto px-6 py-16">
-          <div className="flex justify-between items-end mb-8">
-            <div>
-              <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight">Best Sellers</h2>
-              <p className="text-sm text-muted-foreground mt-1">Customer favorites with highest ratings</p>
-            </div>
-            <Link href="/products" className="text-sm font-semibold text-primary hover:underline flex items-center space-x-1">
-              <span>Shop best sellers</span>
-              <ArrowRight className="w-4 h-4" />
-            </Link>
+      <section ref={bestSellersRef} className="max-w-7xl mx-auto px-6 py-16">
+        <div className="flex justify-between items-end mb-8">
+          <div>
+            <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight">Best Sellers</h2>
+            <p className="text-sm text-muted-foreground mt-1">Customer favorites with highest ratings</p>
           </div>
+          <Link href="/products" prefetch={false} className="text-sm font-semibold text-primary hover:underline flex items-center space-x-1">
+            <span>Shop best sellers</span>
+            <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 justify-items-center">
-            {featuredProducts.map((product) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 justify-items-center min-h-[350px]">
+          {bestSellersInView && featuredProducts.length > 0 ? (
+            featuredProducts.map((product) => (
               <ProductCard
                 key={product.id}
                 src={product.thumbnail}
@@ -192,10 +223,14 @@ export default function Home() {
                 discountPercentage={product.discountPercentage}
                 onClick={() => router.push(`/products/${product.category}/${product.slug}`)}
               />
-            ))}
-          </div>
-        </section>
-      )}
+            ))
+          ) : (
+            Array.from({ length: 4 }).map((_, i) => (
+              <div key={i} className="w-full max-w-[280px] h-[420px] rounded-lg bg-card border border-border/40 animate-pulse" />
+            ))
+          )}
+        </div>
+      </section>
 
     </div>
   );

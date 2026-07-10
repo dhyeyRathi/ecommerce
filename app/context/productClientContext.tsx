@@ -1,6 +1,6 @@
 "use client";
 
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useContext, useState, useEffect } from "react";
 
 type ProductContextType = {
   products: any[] | undefined;
@@ -16,14 +16,39 @@ export function ProductClientProvider({
   initialCategories,
 }: {
   children: React.ReactNode;
-  initialProducts: any[] | undefined;
-  initialCategories: any[] | undefined;
+  initialProducts?: any[] | undefined;
+  initialCategories?: any[] | undefined;
 }) {
-  const [products] = useState<any[] | undefined>(initialProducts);
-  const [categories] = useState<any[] | undefined>(initialCategories);
+  const [products, setProducts] = useState<any[] | undefined>(initialProducts);
+  const [categories, setCategories] = useState<any[] | undefined>(initialCategories);
+  const [loading, setLoading] = useState<boolean>(!initialProducts);
+
+  useEffect(() => {
+    if (!initialProducts) {
+      const loadProductsData = async () => {
+        try {
+          const [prodRes, catRes] = await Promise.all([
+            fetch("/api/products"),
+            fetch("/api/categories"),
+          ]);
+          if (prodRes.ok && catRes.ok) {
+            const prodData = await prodRes.json();
+            const catData = await catRes.json();
+            setProducts(prodData);
+            setCategories(catData);
+          }
+        } catch (err) {
+          console.error("Failed to load products dynamically:", err);
+        } finally {
+          setLoading(false);
+        }
+      };
+      loadProductsData();
+    }
+  }, [initialProducts]);
 
   return (
-    <ProductContext.Provider value={{ products, categories, loading: false }}>
+    <ProductContext.Provider value={{ products, categories, loading }}>
       {children}
     </ProductContext.Provider>
   );

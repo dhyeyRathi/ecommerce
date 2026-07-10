@@ -48,7 +48,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 pb-16 border-b border-border/10">
         {/* Brand Section */}
         <div className="flex flex-col space-y-6">
-          <Link href="/" className="inline-flex items-center gap-2 group">
+          <Link href="/" prefetch={false} className="inline-flex items-center gap-2 group">
             <span className="text-primary font-bold text-2xl tracking-[0.2em] group-hover:text-primary-hover transition-colors font-heading">
               - EZ
             </span>
@@ -104,6 +104,7 @@ const Footer = () => {
                 <li key={idx}>
                   <Link
                     href={link.path}
+                    prefetch={false}
                     className="text-text-muted hover:text-white transition-colors text-sm flex items-center gap-1 group w-fit"
                   >
                     <span>{link.name}</span>
@@ -124,6 +125,7 @@ const Footer = () => {
                 <li key={idx}>
                   <Link
                     href={link.path}
+                    prefetch={false}
                     className="text-text-muted hover:text-white transition-colors text-sm flex items-center gap-1 group w-fit"
                   >
                     <span>{link.name}</span>
@@ -156,13 +158,13 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-text-muted">
         <p>© {new Date().getFullYear()} EZ Mart Ltd. All rights reserved.</p>
         <div className="flex gap-6">
-          <Link href="/settings" className="hover:text-white transition-colors">
+          <Link href="/settings" prefetch={false} className="hover:text-white transition-colors">
             Privacy Policy
           </Link>
-          <Link href="/settings" className="hover:text-white transition-colors">
+          <Link href="/settings" prefetch={false} className="hover:text-white transition-colors">
             Terms of Service
           </Link>
-          <Link href="/settings" className="hover:text-white transition-colors">
+          <Link href="/settings" prefetch={false} className="hover:text-white transition-colors">
             Cookie Preferences
           </Link>
         </div>

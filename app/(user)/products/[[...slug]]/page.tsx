@@ -6,6 +6,7 @@ import ProductPage from "../components/ProductPage";
 import { notFound, redirect } from "next/navigation";
 import { getProducts, getCategories } from "@/app/context/productContext";
 import ClientScrollHandler from "../components/ClientScrollHandler";
+import LazyCategorySection from "../components/LazyCategorySection";
 
 type props = {
   params: Promise<{
@@ -48,25 +49,17 @@ const page = async ({ params, searchParams }: props) => {
 
   // Handle Search Query
   if (searchQuery.trim()) {
-    const query = searchQuery.trim().toLowerCase();
-    const filteredProducts = products?.filter((product: any) => {
-      const titleMatch = product.title?.toLowerCase().includes(query);
-      const descMatch = product.description?.toLowerCase().includes(query);
-      const catMatch = product.category?.toLowerCase().includes(query);
-      return titleMatch || descMatch || catMatch;
-    }) || [];
+    const filteredProducts = products.filter((product: any) =>
+      product.title.toLowerCase().startsWith(searchQuery.trim().toLowerCase())
+    );
 
     return (
       <div className="min-h-screen w-full flex flex-col p-4 sm:p-10 md:p-20 bg-background pt-20 text-heading">
-        <ClientScrollHandler />
         <section className="w-full flex justify-center text-center flex flex-col">
           <h1 className="text-3xl sm:text-4xl md:text-5xl py-6 md:py-10">
-            Search Results
+            Search Results for &ldquo;{searchQuery}&rdquo;
           </h1>
-          <p className="text-text-muted text-sm sm:text-base mb-6">
-            Found {filteredProducts.length} {filteredProducts.length === 1 ? "product" : "products"} for &ldquo;{searchQuery}&rdquo;
-          </p>
-          <hr className="border-border mb-10" />
+          <hr />
         </section>
 
         {filteredProducts.length > 0 ? (
@@ -123,11 +116,6 @@ const page = async ({ params, searchParams }: props) => {
     );
   }
 
-
-
-
-
-
   return (
     <div className="min-h-screen w-full flex flex-col p-4 sm:p-10 md:p-20 bg-background pt-20 text-heading">
       <ClientScrollHandler />
@@ -148,49 +136,12 @@ const page = async ({ params, searchParams }: props) => {
       </section>
 
       {categories?.map((category: any) => (
-        <section key={category.slug} id={category.slug} className="w-full py-20">
-
-          <div className="flex w-full justify-between items-center px-4 md:px-10">
-            <h1 className="py-5 text-2xl sm:text-3xl md:text-4xl">
-              {category.name}
-            </h1>
-            <Link href={`/products/${category.slug}`} className="text-sm sm:text-base md:text-xl py-5 hover:text-text-muted cursor-pointer">
-              {view}
-            </Link>
-          </div>
-          <div className="py-6 px-4 md:py-10 md:px-12 xl:px-20 w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 md:gap-8 justify-items-center">
-            {products
-              ?.filter((product: any) => product.category === category.slug)
-              .slice(0, 5)
-              .map((product: any, index: number) => {
-                let displayClass = "";
-                if (index === 1) {
-                  displayClass = "hidden sm:block";
-                } else if (index === 2) {
-                  displayClass = "hidden md:block";
-                } else if (index === 3) {
-                  displayClass = "hidden lg:block";
-                } else if (index === 4) {
-                  displayClass = "hidden xl:block";
-                }
-                return (
-                  <Link href={`/products/${category.slug}/${product.slug}`}
-                    className={`flex flex-col justify-center items-center w-full ${displayClass}`}
-                    key={index}
-                  >
-                    <ProductCard
-                      src={product.thumbnail}
-                      name={product.title}
-                      desc={product.description}
-                      price={product.price}
-                      rating={Math.round(product.rating)}
-                      discountPercentage={product.discountPercentage}
-                    />
-                  </Link>
-                );
-              })}
-          </div>
-        </section>
+        <LazyCategorySection
+          key={category.slug}
+          category={category}
+          products={products}
+          viewText={view}
+        />
       ))}
     </div>
   );

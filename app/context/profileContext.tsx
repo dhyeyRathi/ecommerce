@@ -13,6 +13,7 @@ type UserProfile = {
   shipping_address: any;
   billing_address: any;
   role: "customer" | "admin";
+  theme?: string;
   created_at: string;
   updated_at: string;
 } | null;

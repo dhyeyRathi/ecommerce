@@ -16,6 +16,9 @@ CREATE TABLE IF NOT EXISTS public.users (
     
     -- User role (e.g. 'customer', 'admin')
     role TEXT NOT NULL DEFAULT 'customer' CHECK (role IN ('customer', 'admin')),
+
+    -- Theme preference
+    theme TEXT NOT NULL DEFAULT 'emerald',
     
     -- Audit Timestamps
     created_at TIMESTAMPTZ DEFAULT timezone('utc'::text, now()) NOT NULL,
@@ -66,14 +69,15 @@ CREATE TRIGGER update_users_updated_at
 CREATE OR REPLACE FUNCTION public.handle_new_user()
 RETURNS TRIGGER AS $$
 BEGIN
-    INSERT INTO public.users (id, first_name, last_name, email, avatar_url, role)
+    INSERT INTO public.users (id, first_name, last_name, email, avatar_url, role, theme)
     VALUES (
         new.id,
         new.raw_user_meta_data->>'first_name',
         new.raw_user_meta_data->>'last_name',
         new.email,
         new.raw_user_meta_data->>'avatar_url',
-        COALESCE(new.raw_user_meta_data->>'role', 'customer')
+        COALESCE(new.raw_user_meta_data->>'role', 'customer'),
+        COALESCE(new.raw_user_meta_data->>'theme', 'emerald')
     );
     RETURN NEW;
 END;

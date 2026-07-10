@@ -2,6 +2,8 @@
 
 import { createContext, useState, useEffect, useContext } from "react";
 
+import { useProfile } from "./profileContext";
+
 export const THEMES = {
   emerald: {
     name: "Emerald",
@@ -79,6 +81,7 @@ export function AppContextProvider({
   children: React.ReactNode;
 }) {
   const currency = "$";
+  const { profile, refreshProfile } = useProfile();
   const [theme, setThemeState] = useState<string>("emerald");
 
   const applyTheme = (themeName: string) => {
@@ -94,16 +97,37 @@ export function AppContextProvider({
   };
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem("theme") || "emerald";
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setThemeState(savedTheme);
-    applyTheme(savedTheme);
-  }, []);
+    if (profile && profile.theme) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setThemeState(profile.theme);
+      applyTheme(profile.theme);
+    } else {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setThemeState("emerald");
+      applyTheme("emerald");
+    }
+  }, [profile]);
 
-  const setTheme = (themeName: string) => {
+  const setTheme = async (themeName: string) => {
     setThemeState(themeName);
-    localStorage.setItem("theme", themeName);
     applyTheme(themeName);
+
+    if (profile) {
+      try {
+        const response = await fetch("/api/profile", {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ theme: themeName }),
+        });
+        if (response.ok) {
+          await refreshProfile();
+        }
+      } catch (err) {
+        console.error("Failed to persist theme in database:", err);
+      }
+    }
   };
 
   return (
