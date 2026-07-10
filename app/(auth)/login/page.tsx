@@ -1,6 +1,7 @@
 "use client";
 import { LoginContext } from "@/app/context/loginContext";
-import { redirect } from "next/navigation";
+import { redirect, useRouter } from "next/navigation";
+import { supabase } from "@/app/lib/supabase";
 import React, { useContext, useState } from "react";
 
 const page = () => {
@@ -9,12 +10,26 @@ const page = () => {
     const [wrongPwd , setWrongPwd] = useState<boolean>(false);
 
     const auth = useContext(LoginContext);
+    const router = useRouter();
 
-    function handleLogin() {
-        auth?.setUser(true);
-        redirect('/');
+    async function handleLogin(e: React.SyntheticEvent) {
+        e.preventDefault();
+        setWrongPwd(false);
+
+         const { data, error } = await supabase.auth.signInWithPassword({
+        email,
+        password,
+    });
+
+        if (error) {
+        console.error("Login failed:", error.message);
+        setWrongPwd(true);
+    } else {
+        
+        router.push("/");
+
     }
-
+  }
 
   return (
     <div className="h-full w-full bg-background flex justify-center items-center">
@@ -31,12 +46,12 @@ const page = () => {
             Login
           </h1>
         </div>
-        <form aria-label="input container" className="flex flex-col w-full gap-6 lg:gap-10 lg:p-6 justify-center items-center">
+        <form aria-label="input container" className="flex flex-col w-full gap-6 lg:gap-10 lg:p-6 justify-center items-center" onSubmit={handleLogin}>
             <div className="flex flex-col md:flex-row w-full md:gap-4 md:w-2/3 md:items-center  text-heading">
                 <label className="md:text-center md:w-30" htmlFor="email input" >
                     E-mail:
                 </label>
-                <input type="email" id="email input" 
+                <input type="email" id="email input" value={email} onChange={(e) => setEmail(e.target.value)}
                 className="bg-background border-2 border-border focus:shadow-xs shadow-text inset-shadow-[0_0_4px] w-75 md:w-120  inset-shadow-border 
                  p-2 rounded-lg focus:outline-none" 
                 placeholder="Enter your email..." required/>
@@ -46,7 +61,7 @@ const page = () => {
                 <label className="md:text-center md:w-30" htmlFor="password input" >
                     Password:
                 </label>
-                <input type="password" id="password input" 
+                <input type="password" id="password input" value={password} onChange={(e) => setPassword(e.target.value)}
                 className="bg-background border-2 border-border focus:shadow-xs shadow-text inset-shadow-[0_0_4px] w-75 md:w-120  inset-shadow-border 
                p-2  rounded-lg focus:outline-none" 
                 placeholder="Enter your password..." required/>
@@ -54,8 +69,8 @@ const page = () => {
             </div>
 
             <div className="flex flex-col md:flex-row md:gap-4 w-full md:w-2/3  justify-center md:items-center  text-heading">
-            <button className="bg-primary text-background px-6 py-2 w-full rounded-lg hover:bg-primary-hover text-lg mt-3 lg:mt-0 sm:text-2xl" 
-                onClick={handleLogin}>
+            <button className="bg-primary text-background px-6 py-2 w-full rounded-lg hover:bg-primary-hover text-lg mt-3 lg:mt-0 sm:text-2xl" type="submit"
+                >
                     Log In
                 </button>
             </div>

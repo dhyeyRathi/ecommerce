@@ -33,14 +33,20 @@ CREATE POLICY "Users can view their own profile" ON public.users
 CREATE POLICY "Users can update their own profile" ON public.users
     FOR UPDATE USING (auth.uid() = id);
 
+-- Helper function to check if the current user is an admin (bypasses RLS recursion)
+CREATE OR REPLACE FUNCTION public.is_admin()
+RETURNS boolean AS $$
+BEGIN
+    RETURN EXISTS (
+        SELECT 1 FROM public.users
+        WHERE users.id = auth.uid() AND users.role = 'admin'
+    );
+END;
+$$ language 'plpgsql' SECURITY DEFINER SET search_path = public;
+
 -- Admins can view and manage all profiles
 CREATE POLICY "Admins have full access to profiles" ON public.users
-    FOR ALL USING (
-        EXISTS (
-            SELECT 1 FROM public.users
-            WHERE users.id = auth.uid() AND users.role = 'admin'
-        )
-    );
+    FOR ALL USING (public.is_admin());
 
 -- 4. Create trigger to automatically handle updated_at
 CREATE OR REPLACE FUNCTION update_users_updated_at_column()

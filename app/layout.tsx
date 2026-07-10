@@ -4,6 +4,7 @@ import "./globals.css";
 import { LoginProvider } from "./context/loginContext";
 import { AppContextProvider } from "./context/appContext";
 import { ProductProvider } from "./context/productContext";
+import { ProfileProvider } from "./context/profileContext";
 
 
 
@@ -36,7 +37,9 @@ export default function RootLayout({
         <AppContextProvider>
           <ProductProvider>
             <LoginProvider>
-              {children}
+              <ProfileProvider>
+                {children}
+              </ProfileProvider>
             </LoginProvider>
           </ProductProvider>
         </AppContextProvider>

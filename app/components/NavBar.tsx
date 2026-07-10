@@ -9,9 +9,18 @@ import React, { useState, useContext } from "react";
 import { motion } from "motion/react";
 import { LoginContext } from "../context/loginContext";
 import ProfileMenu, { ProfileMenuItem } from "./ProfileMenu";
+import { useSignOut } from "./LogOutButton";
+import { useProfile } from "../context/profileContext";
 
 function NavBar() {
    const auth = useContext(LoginContext);
+   const handleSignOut = useSignOut();
+   const { profile } = useProfile();
+
+   const initials = profile?.first_name && profile?.last_name
+     ? profile.first_name[0].toUpperCase() + profile.last_name[0].toUpperCase()
+     : "US";
+   
   const links = [
     {
       name: "Products",
@@ -178,7 +187,7 @@ function NavBar() {
                 className={`h-10 w-10 relative hover:border-primary transition-all duration-300 bg-heading/30 rounded-full ${drop && "border-4"}`}
               >
                 <Avatar className="h-full w-full hover:scale-105">
-                  <AvatarFallback>CN</AvatarFallback>
+                  <AvatarFallback>{initials}</AvatarFallback>
                 </Avatar>
                 {drop && (
                   <ProfileMenu>
@@ -189,7 +198,7 @@ function NavBar() {
                       </ProfileMenuItem>
                     ))}
 
-                    <ProfileMenuItem href="" onClick={() => auth.setUser(false)}>
+                    <ProfileMenuItem href="" onClick={handleSignOut}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -329,7 +338,7 @@ function NavBar() {
               </motion.div>
             ))}
 
-            <Link href="" className="flex justify-center items-center" onClick={() => auth.setUser(false)}>
+            <Link href="" className="flex justify-center items-center" onClick={handleSignOut}>
                       {/* <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"

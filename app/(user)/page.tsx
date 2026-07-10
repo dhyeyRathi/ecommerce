@@ -31,7 +31,7 @@ export default function Home() {
     <div className="w-full bg-background font-sans dark:bg-black min-h-screen text-heading pb-20">
 
 
-      <section className="relative overflow-hidden min-h-screen bg-gradient-to-tr from-primary/5 via-background to-secondary/5 pt-20 pb-12 lg:pt-32 lg:pb-16 border-b border-border/40 flex flex-col justify-between">
+      <section className="relative overflow-hidden min-h-screen bg-gradient-to-tr from-primary/5 via-background to-primary/5 pt-20 pb-12 lg:pt-32 lg:pb-16 border-b border-border/40 flex flex-col justify-between">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10 my-auto w-full">
 
           <div className="flex flex-col space-y-6">
@@ -39,7 +39,7 @@ export default function Home() {
 
             <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-none">
               Your Everyday Needs, <br />
-              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Delivered Effortlessly</span>
+              <span className="bg-gradient-to-r from-primary to-primary bg-clip-text text-transparent">Delivered Effortlessly</span>
             </h1>
 
             <p className="text-lg text-muted-foreground max-w-xl">
@@ -61,7 +61,7 @@ export default function Home() {
             {heroProduct && (
               <div
                 onClick={() => router.push(`/products/${heroProduct.category}/${heroProduct.slug}`)}
-                className="relative w-full max-w-[450px] aspect-square rounded-2xl overflow-hidden flex items-center justify-center p-8 bg-gradient-to-br from-primary/5 to-secondary/5 border border-border/40 shadow-lg group cursor-pointer hover:border-primary/30 transition-all duration-300"
+                className="relative w-full max-w-[450px] aspect-square rounded-2xl overflow-hidden flex items-center justify-center p-8 bg-gradient-to-br from-primary/5 to-primary/5 border border-border/40 shadow-lg group cursor-pointer hover:border-primary/30 transition-all duration-300"
               >
                 <img
                   src={heroProduct.thumbnail}
@@ -109,7 +109,7 @@ export default function Home() {
         </div>
 
         <div className="flex items-start space-x-4 p-6 rounded-xl bg-card border border-border/40 shadow-sm">
-          <div className="bg-secondary/10 p-3 rounded-lg text-secondary">
+          <div className="bg-primary/10 p-3 rounded-lg text-primary">
             <ShieldCheck className="w-6 h-6" />
           </div>
           <div>
@@ -119,7 +119,7 @@ export default function Home() {
         </div>
 
         <div className="flex items-start space-x-4 p-6 rounded-xl bg-card border border-border/40 shadow-sm">
-          <div className="bg-amber-500/10 p-3 rounded-lg text-amber-500">
+          <div className="bg-primary/10  p-3 rounded-lg text-primary">
             <Zap className="w-6 h-6" />
           </div>
           <div>
@@ -149,7 +149,7 @@ export default function Home() {
               return (
                 <Link
                   key={displaySlug}
-                  href={`/products?category=${displaySlug}`}
+                  href={`/products/${displaySlug}`}
                   className="flex flex-col items-center justify-center p-6 rounded-xl bg-card border border-border/40 shadow-sm hover:border-primary/40 hover:bg-primary/5 transition-all text-center group"
                 >
                   <div className="w-12 h-12 rounded-full bg-muted flex items-center justify-center mb-3 group-hover:bg-primary/10 transition-colors">
