@@ -1,7 +1,6 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState } from "react";
-import { supabase } from "@/app/lib/supabase";
 import { LoginContext } from "./loginContext";
 
 type UserProfile = {
@@ -34,17 +33,12 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
   const fetchProfile = async () => {
     setLoading(true);
     try {
-      const { data: { user } } = await supabase.auth.getUser();
-      if (!user) {
-        setProfile(null);
-      } else {
-        const { data, error } = await supabase
-          .from("users")
-          .select("*")
-          .eq("id", user.id)
-          .single();
-        if (error) throw error;
+      const response = await fetch("/api/profile");
+      if (response.ok) {
+        const data = await response.json();
         setProfile(data);
+      } else {
+        setProfile(null);
       }
     } catch (err) {
       console.error("Error fetching profile on client:", err);

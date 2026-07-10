@@ -1,5 +1,5 @@
 "use client";
-import { supabase } from "../lib/supabase";
+
 import { useState, useEffect, createContext, useContext } from "react";
 import { LoginContext } from "./loginContext";
 
@@ -25,30 +25,15 @@ export function CartProvider({
   const getCart = async () => {
     setLoading(true);
     try {
-      const {
-        data: { user },
-      } = await supabase.auth.getUser();
-
-      if (!user) {
-        setCart(null);
+      const response = await fetch("/api/cart");
+      if (response.ok) {
+        const data = await response.json();
+        setCart(data);
       } else {
-        const { data: cartItems, error } = await supabase
-          .from("cart_items")
-          .select(
-            `
-      *,
-      products (*)
-    `,
-          )
-          .eq("user_id", user.id);
-        if (error) {
-          console.error("Error fetching cart:", error.message);
-          return ;
-        }
-        setCart(cartItems);
+        setCart(null);
       }
     } catch (err) {
-      console.error("Error fetching profile on client:", err);
+      console.error("Error fetching cart on client:", err);
       setCart(null);
     } finally {
       setLoading(false);
@@ -61,14 +46,17 @@ export function CartProvider({
       return;
     }
     try {
-      const { error } = await supabase
-        .from("cart_items")
-        .update({ quantity: newQuantity })
-        .eq("id", cartItemId);
-      if (error) {
-        console.error("Error updating cart quantity:", error.message);
-      } else {
+      const response = await fetch("/api/cart", {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ cartItemId, quantity: newQuantity }),
+      });
+      if (response.ok) {
         await getCart();
+      } else {
+        console.error("Failed to update cart quantity");
       }
     } catch (err) {
       console.error("Error updating cart quantity:", err);
@@ -77,14 +65,13 @@ export function CartProvider({
 
   const removeFromCart = async (cartItemId: number) => {
     try {
-      const { error } = await supabase
-        .from("cart_items")
-        .delete()
-        .eq("id", cartItemId);
-      if (error) {
-        console.error("Error deleting cart item:", error.message);
-      } else {
+      const response = await fetch(`/api/cart?cartItemId=${encodeURIComponent(cartItemId)}`, {
+        method: "DELETE",
+      });
+      if (response.ok) {
         await getCart();
+      } else {
+        console.error("Failed to delete cart item");
       }
     } catch (err) {
       console.error("Error deleting cart item:", err);

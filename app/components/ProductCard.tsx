@@ -2,6 +2,7 @@
 import React, { useContext } from "react";
 import { Star } from "lucide-react";
 import { AppContext } from "../context/appContext";
+import Image from "next/image";
 
 type props = {
   src?: string;
@@ -38,7 +39,13 @@ const currency = useContext(AppContext)
 
   return (
     <div onClick={onClick} className="w-full max-w-[280px] min-h-[420px] md:min-h-[460px] rounded-lg overflow-hidden flex flex-col p-4 group hover:bg-primary-hover/10 transition-all duration-300 border border-transparent hover:border-border/50 cursor-pointer">
-      <img src={src} className="w-full h-48 md:h-60 object-contain group-hover:scale-105 transition-all duration-300" loading="lazy" />
+      <Image
+        src={src || "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"}
+        alt={name || "Product Image"}
+        width={280}
+        height={240}
+        className="w-full h-48 md:h-60 object-contain group-hover:scale-105 transition-all duration-300"
+      />
       <div className="overflow-hidden flex flex-col flex-1 justify-between">
         <div>
           <h1 className="text-lg md:text-xl h-20 flex justify-center items-center text-center font-medium line-clamp-2">

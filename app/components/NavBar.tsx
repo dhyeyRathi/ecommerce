@@ -5,7 +5,7 @@ import {
   AvatarImage,
 } from "@/app/components/ui/avatar";
 import Link from "next/link";
-import React, { useState, useContext, useEffect } from "react";
+import React, { useState, useContext, useEffect, useMemo } from "react";
 import { motion } from "motion/react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { LoginContext } from "../context/loginContext";
@@ -153,14 +153,15 @@ function NavBar() {
     setIsMobileFocused(false);
   };
 
-  const query = searchQuery.trim().toLowerCase();
-  const suggestions = query
-    ? (products || []).filter((product: any) =>
-        product.title?.toLowerCase().includes(query) ||
-        product.description?.toLowerCase().includes(query) ||
-        product.category?.toLowerCase().includes(query)
-      ).slice(0, 6)
-    : [];
+  const suggestions = useMemo(() => {
+    const trimmedQuery = searchQuery.trim().toLowerCase();
+    if (!trimmedQuery || !products) return [];
+    return products.filter((product: any) =>
+      product.title?.toLowerCase().includes(trimmedQuery) ||
+      product.description?.toLowerCase().includes(trimmedQuery) ||
+      product.category?.toLowerCase().includes(trimmedQuery)
+    ).slice(0, 6);
+  }, [searchQuery, products]);
 
   return (
     <div className="fixed top-0 font-heading left-0 right-0 z-[99] bg-background border-b-1 border-border text-heading">

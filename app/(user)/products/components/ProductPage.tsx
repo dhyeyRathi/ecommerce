@@ -6,9 +6,13 @@ import ReviewCard from "@/app/components/ReviewCard";
 import ProductImageGallery from "./ProductImageGallery";
 import { addToCart } from "@/app/lib/supabase";
 import { useCart } from "@/app/context/cartContext";
-import CheckoutModal from "@/app/components/CheckoutModal";
+import dynamic from "next/dynamic";
 import { useRouter } from "next/navigation";
 import { useWishlist } from "@/app/context/wishlistContext";
+
+const CheckoutModal = dynamic(() => import("@/app/components/CheckoutModal"), {
+  ssr: false,
+});
 
 type ProdcutProps = {
   catSlug?: string;

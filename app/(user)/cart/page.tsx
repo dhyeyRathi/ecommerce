@@ -4,7 +4,12 @@ import { useCart } from "@/app/context/cartContext";
 import React, { useState } from "react";
 import Link from "next/link";
 import { Trash2, Plus, Minus, ShoppingCart, Loader2, CheckCircle2, ArrowRight } from "lucide-react";
-import CheckoutModal from "@/app/components/CheckoutModal";
+import dynamic from "next/dynamic";
+import Image from "next/image";
+
+const CheckoutModal = dynamic(() => import("@/app/components/CheckoutModal"), {
+  ssr: false,
+});
 
 export default function CartPage() {
   const { cart, loading, refreshCart, updateQuantity, removeFromCart } = useCart();
@@ -121,9 +126,11 @@ export default function CartPage() {
                   >
                     {/* Thumbnail */}
                     <div className="w-24 h-24 md:w-32 md:h-32 bg-background border border-border rounded-xl flex items-center justify-center p-2 shrink-0">
-                      <img
-                        src={product.thumbnail}
-                        alt={product.title}
+                      <Image
+                        src={product.thumbnail || "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"}
+                        alt={product.title || "Product thumbnail"}
+                        width={128}
+                        height={128}
                         className="max-h-full max-w-full object-contain"
                       />
                     </div>

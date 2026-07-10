@@ -1,5 +1,4 @@
 "use client";
-import { supabase } from "../lib/supabase";
 import { useState, useEffect, createContext, useContext } from "react";
 import { LoginContext } from "./loginContext";
 
@@ -24,27 +23,12 @@ export function WishlistProvider({
   const getWishlist = async () => {
     setLoading(true);
     try {
-      const {
-        data: { user },
-      } = await supabase.auth.getUser();
-
-      if (!user) {
-        setWishlist(null);
+      const response = await fetch("/api/wishlist");
+      if (response.ok) {
+        const data = await response.json();
+        setWishlist(data);
       } else {
-        const { data: wishlistItems, error } = await supabase
-          .from("wishlist_items")
-          .select(
-            `
-              *,
-              products (*)
-            `
-          )
-          .eq("user_id", user.id);
-        if (error) {
-          console.error("Error fetching wishlist:", error.message);
-          return;
-        }
-        setWishlist(wishlistItems);
+        setWishlist(null);
       }
     } catch (err) {
       console.error("Error fetching wishlist on client:", err);
@@ -56,32 +40,28 @@ export function WishlistProvider({
 
   const toggleWishlistItem = async (productId: number) => {
     try {
-      const { data: { user } } = await supabase.auth.getUser();
-      if (!user) return;
-
       const existing = wishlist?.find((item: any) => item.product_id === productId);
       if (existing) {
-        const { error } = await supabase
-          .from("wishlist_items")
-          .delete()
-          .eq("user_id", user.id)
-          .eq("product_id", productId);
-        if (error) {
-          console.error("Error removing from wishlist:", error.message);
-        } else {
+        const response = await fetch(`/api/wishlist?productId=${encodeURIComponent(productId)}`, {
+          method: "DELETE",
+        });
+        if (response.ok) {
           await getWishlist();
+        } else {
+          console.error("Failed to remove from wishlist");
         }
       } else {
-        const { error } = await supabase
-          .from("wishlist_items")
-          .insert({
-            user_id: user.id,
-            product_id: productId
-          });
-        if (error) {
-          console.error("Error adding to wishlist:", error.message);
-        } else {
+        const response = await fetch("/api/wishlist", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ productId }),
+        });
+        if (response.ok) {
           await getWishlist();
+        } else {
+          console.error("Failed to add to wishlist");
         }
       }
     } catch (err) {

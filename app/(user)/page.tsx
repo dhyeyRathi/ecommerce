@@ -6,6 +6,7 @@ import { useProducts } from "../context/productContext";
 import ProductCard from "../components/ProductCard";
 import { ShoppingBag, ArrowRight, Truck, ShieldCheck, Zap, Sparkles } from "lucide-react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 export default function Home() {
   const { products, categories } = useProducts();
@@ -63,9 +64,12 @@ export default function Home() {
                 onClick={() => router.push(`/products/${heroProduct.category}/${heroProduct.slug}`)}
                 className="relative w-full max-w-[450px] aspect-square rounded-2xl overflow-hidden flex items-center justify-center p-8 bg-gradient-to-br from-primary/5 to-primary/5 border border-border/40 shadow-lg group cursor-pointer hover:border-primary/30 transition-all duration-300"
               >
-                <img
-                  src={heroProduct.thumbnail}
-                  alt={heroProduct.title}
+                <Image
+                  src={heroProduct.thumbnail || "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"}
+                  alt={heroProduct.title || "Featured Product"}
+                  width={450}
+                  height={450}
+                  priority
                   className="max-h-[85%] max-w-[85%] object-contain group-hover:scale-105 transition-all duration-500"
                 />
                 <div className="absolute bottom-4 left-4 bg-background/90 backdrop-blur px-3 py-1.5 rounded-lg border border-border/50 shadow-sm text-xs font-semibold text-foreground group-hover:text-primary transition-colors">
