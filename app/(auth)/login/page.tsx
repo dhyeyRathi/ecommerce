@@ -4,7 +4,7 @@ import { redirect, useRouter } from "next/navigation";
 import { supabase } from "@/app/lib/supabase";
 import React, { useContext, useState } from "react";
 
-const page = () => {
+const Page = () => {
     const [email , setEmail] = useState<string>("");
     const [password , setPassword] = useState<string>("");
     const [wrongPwd , setWrongPwd] = useState<boolean>(false);
@@ -81,4 +81,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
