@@ -21,10 +21,10 @@ export function LoginProvider({ children }: { children: React.ReactNode }) {
       data: { subscription },
     } = supabase.auth.onAuthStateChange((event, session) => {
       setUser(!!session);
-      if (event === "SIGNED_IN" && session) {
+      if (session) {
         document.cookie = `sb-access-token=${session.access_token}; path=/; max-age=${60 * 60 * 24 * 7}; SameSite=Lax; Secure`;
         document.cookie = `sb-refresh-token=${session.refresh_token}; path=/; max-age=${60 * 60 * 24 * 7}; SameSite=Lax; Secure`;
-      } else if (event === "SIGNED_OUT") {
+      } else {
         document.cookie =
           "sb-access-token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC; SameSite=Lax; Secure";
         document.cookie =

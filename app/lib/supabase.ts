@@ -27,9 +27,9 @@ export async function fetchUserOrders() {
         *,
         products (*)
       )
-    `) 
+    `)
     .eq("user_id", user.id)
-    .order("created_at", { ascending: false }); 
+    .order("created_at", { ascending: false });
   if (error) {
     console.error("Error fetching orders:", error.message);
     return [];
@@ -84,7 +84,7 @@ export async function addToCart(productId: number, quantityToAdd: number = 1) {
 export async function createOrder(totalPrice: number, shippingAddress: any, billingAddress: any, items: { productId: number, quantity: number, price: number }[]) {
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) throw new Error("User not authenticated");
-  
+
   const { data: order, error: orderError } = await supabase
     .from("orders")
     .insert({

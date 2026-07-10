@@ -81,6 +81,12 @@ export function AppContextProvider({
   const currency = "$";
   const [theme, setThemeState] = useState<string>("midnightIndigo");
 
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("theme") || "midnightIndigo";
+    setThemeState(savedTheme);
+    applyTheme(savedTheme);
+  }, []);
+
   const applyTheme = (themeName: string) => {
     const themeData = THEMES[themeName as keyof typeof THEMES];
     if (themeData) {
@@ -92,12 +98,6 @@ export function AppContextProvider({
       }
     }
   };
-
-  useEffect(() => {
-    const savedTheme = localStorage.getItem("theme") || "midnightIndigo";
-    setThemeState(savedTheme);
-    applyTheme(savedTheme);
-  }, []);
 
   const setTheme = (themeName: string) => {
     setThemeState(themeName);

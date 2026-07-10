@@ -10,24 +10,24 @@ export async function getProducts() {
 
   try {
 
-    const { data:products, error} = await supabase
-    .from('products')
-    .select('*, product_reviews(*)');
+    const { data: products, error } = await supabase
+      .from('products')
+      .select('*, product_reviews(*)');
 
 
-     if (error) throw error;
-     if (!products) return [];
+    if (error) throw error;
+    if (!products) return [];
 
-     return products.map((product: any) =>({
+    return products.map((product: any) => ({
       ...product,
-       discountPercentage: product.discount_percentage,
-       reviews: (product.product_reviews || []).map((review: any) => ({
+      discountPercentage: product.discount_percentage,
+      reviews: (product.product_reviews || []).map((review: any) => ({
         ...review,
         reviewerName: review.reviewer_name,
         reviewerEmail: review.reviewer_email,
       })),
-     }))
-    }
+    }))
+  }
   catch (err) {
     console.error("Failed to fetch products on server:", err);
     return [];
@@ -37,14 +37,14 @@ export async function getProducts() {
 
 export async function getCategories() {
   try {
-   const { data: categories, error} = await supabase
-   .from('categories')
-   .select('*');
+    const { data: categories, error } = await supabase
+      .from('categories')
+      .select('*');
 
-   if(error) throw error;
-   if(!categories) return[];
+    if (error) throw error;
+    if (!categories) return [];
 
-   return categories;
+    return categories;
   } catch (err) {
     console.error("Failed to fetch categories on server:", err);
     return [];
