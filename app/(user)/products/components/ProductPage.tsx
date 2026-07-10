@@ -38,7 +38,7 @@ const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
       await addToCart(selectedProd.id, 1);
       await refreshCart();
     } catch (err: any) {
-      console.error("Error adding to cart:", err.message);
+      router.push('/login')
     }
   };
 
@@ -98,11 +98,10 @@ const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
                 title={isWishlisted ? "Remove from Wishlist" : "Add to Wishlist"}
               >
                 <Heart
-                  className={`w-7 h-7 transition-transform duration-300 active:scale-90 ${
-                    isWishlisted
-                      ? "fill-red-500 text-red-500 scale-105"
-                      : "text-text-muted group-hover:scale-105"
-                  }`}
+                  className={`w-7 h-7 transition-transform duration-300 active:scale-90 ${isWishlisted
+                    ? "fill-red-500 text-red-500 scale-105"
+                    : "text-text-muted group-hover:scale-105"
+                    }`}
                 />
               </button>
             </div>
@@ -125,11 +124,10 @@ const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
                 {[1, 2, 3, 4, 5].map((star) => (
                   <Star
                     key={star}
-                    className={`w-5 h-5 ${
-                      selectedProd.rating >= star
-                        ? "fill-yellow-400 text-yellow-400"
-                        : "text-gray-300"
-                    }`}
+                    className={`w-5 h-5 ${selectedProd.rating >= star
+                      ? "fill-yellow-400 text-yellow-400"
+                      : "text-gray-300"
+                      }`}
                   />
                 ))}
               </div>
@@ -290,17 +288,17 @@ const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
             <User className="w-5 h-5" />
           </div>
           <div className="relative w-full flex items-center gap-2">
-            <input type="text" className="text-text flex-1 focus:outline-none text-sm md:text-base" placeholder="Write about the product"/>
+            <input type="text" className="text-text flex-1 focus:outline-none text-sm md:text-base" placeholder="Write about the product" />
             <button className="not-italic font-semibold text-primary hover:text-primary-hover cursor-pointer text-xs md:text-sm tracking-wider uppercase">Post</button>
-            <hr className="bg-heading w-full bottom-0 absolute opacity-20"/>
+            <hr className="bg-heading w-full bottom-0 absolute opacity-20" />
           </div>
         </div>
         <div className="flex flex-col mt-6 gap-4">
-          {reviews.map((user:any, index:number) =>(
+          {reviews.map((user: any, index: number) => (
             <ReviewCard className="rounded-xl border border-border" key={index} rating={user.rating}
               comment={user.comment}
               name={user.reviewerName}
-              date={user.date.slice(0,10)}
+              date={user.date.slice(0, 10)}
             />
           ))}
         </div>

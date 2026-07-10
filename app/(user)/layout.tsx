@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import NavBar from "@/app/components/NavBar";
 import Footer from '../components/Footer';
 
@@ -9,7 +9,9 @@ const UserLayout = ({
 }>)  => {
   return (
     <div className=''>
-       <NavBar></NavBar>
+       <Suspense fallback={<div className="h-20 bg-background border-b border-border" />}>
+         <NavBar />
+       </Suspense>
        {children}
        <Footer></Footer>
     </div>

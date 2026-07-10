@@ -5,12 +5,14 @@ import {
   AvatarImage,
 } from "@/app/components/ui/avatar";
 import Link from "next/link";
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { motion } from "motion/react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { LoginContext } from "../context/loginContext";
 import ProfileMenu, { ProfileMenuItem } from "./ProfileMenu";
 import { useSignOut } from "./LogOutButton";
 import { useProfile } from "../context/profileContext";
+import { useProducts } from "@/app/context/productContext";
 
 function NavBar() {
    const auth = useContext(LoginContext);
@@ -127,6 +129,38 @@ function NavBar() {
   ];
   const [ham, setHam] = useState<boolean>(false);
   const [drop, setDrop] = useState<boolean>(false);
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const [searchQuery, setSearchQuery] = useState(searchParams.get("search") || "");
+  const [isFocused, setIsFocused] = useState(false);
+  const [isMobileFocused, setIsMobileFocused] = useState(false);
+
+  const { products } = useProducts();
+
+  useEffect(() => {
+    setSearchQuery(searchParams.get("search") || "");
+  }, [searchParams]);
+
+  const handleSearchSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      router.push(`/products?search=${encodeURIComponent(searchQuery.trim())}`);
+    } else {
+      router.push(`/products`);
+    }
+    setHam(false);
+    setIsFocused(false);
+    setIsMobileFocused(false);
+  };
+
+  const query = searchQuery.trim().toLowerCase();
+  const suggestions = query
+    ? (products || []).filter((product: any) =>
+        product.title?.toLowerCase().includes(query) ||
+        product.description?.toLowerCase().includes(query) ||
+        product.category?.toLowerCase().includes(query)
+      ).slice(0, 6)
+    : [];
 
   return (
     <div className="fixed top-0 font-heading left-0 right-0 z-[99] bg-background border-b-1 border-border text-heading">
@@ -138,15 +172,19 @@ function NavBar() {
           </h1>
         </Link>
 
-        <div className="hidden md:flex justify-center items-center py-5 flex-2">
-          <div className="  bg-surface rounded-full flex-2 flex items-center overflow-hidden justify-between h-10 border-1 border-border focus:border-2 focus:border-primary pl-5 ">
+        <form onSubmit={handleSearchSubmit} className="hidden md:flex justify-center items-center py-5 flex-2 relative">
+          <div className="  bg-surface rounded-full flex-2 flex items-center overflow-hidden justify-between h-10 border-1 border-border focus-within:border-2 focus-within:border-primary pl-5 w-full">
             <input
               type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              onFocus={() => setIsFocused(true)}
+              onBlur={() => setTimeout(() => setIsFocused(false), 200)}
               className="italic bg-surface text-text h-full w-full focus:outline-none"
               placeholder="Search Products..."
             />
 
-            <button className="bg-surface hover:bg-border h-full border-l-1 border-border rounded-r-full px-2">
+            <button type="submit" className="bg-surface hover:bg-border h-full border-l-1 border-border rounded-r-full px-4 cursor-pointer">
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -165,7 +203,45 @@ function NavBar() {
               </svg>
             </button>
           </div>
-        </div>
+
+          {isFocused && searchQuery.trim() && (
+            <div className="absolute top-[calc(100%-8px)] left-0 right-0 bg-surface border border-border shadow-xl rounded-2xl z-50 max-h-[350px] overflow-y-auto mt-2 py-2">
+              {suggestions.length > 0 ? (
+                suggestions.map((product: any, index: number) => (
+                  <button
+                    key={index}
+                    type="button"
+                    onMouseDown={() => {
+                      router.push(`/products/${product.category}/${product.slug}`);
+                      setSearchQuery("");
+                      setIsFocused(false);
+                    }}
+                    className="w-full text-left px-5 py-3 hover:bg-border transition-colors duration-150 flex items-center gap-3 border-b last:border-b-0 border-border/40 cursor-pointer"
+                  >
+                    {product.thumbnail && (
+                      <img
+                        src={product.thumbnail}
+                        alt={product.title}
+                        className="w-10 h-10 object-cover rounded-lg bg-background border border-border"
+                      />
+                    )}
+                    <div className="flex-1 min-w-0">
+                      <p className="font-semibold text-sm text-heading truncate">{product.title}</p>
+                      <p className="text-xs text-text-muted truncate capitalize">{product.category}</p>
+                    </div>
+                    <div className="text-sm font-bold text-primary whitespace-nowrap">
+                      ${product.price}
+                    </div>
+                  </button>
+                ))
+              ) : (
+                <div className="py-6 text-center text-text-muted text-sm">
+                  No matching products found
+                </div>
+              )}
+            </div>
+          )}
+        </form>
 
         {auth?.user && (
           <div className=" justify-between items-center gap-4 h-full flex-1  hidden md:flex ">
@@ -278,7 +354,7 @@ function NavBar() {
           className={`fixed left-0 right-0 top-0 bg-background flex  flex-col md:hidden justify-start items-centerS`}
         >
           <div
-            className="w-full py-5 px-5 flex justify-between "
+            className="w-full py-5 px-5 flex justify-between items-center"
             onClick={(e) => setHam(false)}
           >
             <h1 className="text-4xl font-bold text-heading italic flex-1 ">
@@ -295,11 +371,83 @@ function NavBar() {
               strokeWidth="2.5"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="lucide lucide-x-icon lucide-x"
+              className="lucide lucide-x-icon lucide-x cursor-pointer"
             >
               <path d="M18 6 6 18" />
               <path d="m6 6 12 12" />
             </svg>
+          </div>
+          {/* Mobile search bar */}
+          <div className="w-full px-8 py-2 relative">
+            <form onSubmit={handleSearchSubmit} className="w-full">
+              <div className="bg-surface rounded-full flex items-center overflow-hidden justify-between h-10 border-1 border-border focus-within:border-2 focus-within:border-primary pl-5 w-full">
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  onFocus={() => setIsMobileFocused(true)}
+                  onBlur={() => setTimeout(() => setIsMobileFocused(false), 200)}
+                  className="italic bg-surface text-text text-sm h-full w-full focus:outline-none"
+                  placeholder="Search Products..."
+                />
+                <button type="submit" className="bg-surface hover:bg-border h-full border-l-1 border-border rounded-r-full px-4 cursor-pointer">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 28 28"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-search-icon lucide-search"
+                  >
+                    <path d="m21 21-4.34-4.34" />
+                    <circle cx="11" cy="11" r="8" />
+                  </svg>
+                </button>
+              </div>
+            </form>
+
+            {isMobileFocused && searchQuery.trim() && (
+              <div className="absolute left-8 right-8 bg-surface border border-border shadow-xl rounded-2xl z-50 max-h-[280px] overflow-y-auto mt-2 py-2">
+                {suggestions.length > 0 ? (
+                  suggestions.map((product: any, index: number) => (
+                    <button
+                      key={index}
+                      type="button"
+                      onMouseDown={() => {
+                        router.push(`/products/${product.category}/${product.slug}`);
+                        setSearchQuery("");
+                        setIsMobileFocused(false);
+                        setHam(false);
+                      }}
+                      className="w-full text-left px-4 py-2.5 hover:bg-border transition-colors duration-150 flex items-center gap-3 border-b last:border-b-0 border-border/40 cursor-pointer"
+                    >
+                      {product.thumbnail && (
+                        <img
+                          src={product.thumbnail}
+                          alt={product.title}
+                          className="w-8 h-8 object-cover rounded-lg bg-background border border-border"
+                        />
+                      )}
+                      <div className="flex-1 min-w-0">
+                        <p className="font-semibold text-xs text-heading truncate">{product.title}</p>
+                        <p className="text-[10px] text-text-muted truncate capitalize">{product.category}</p>
+                      </div>
+                      <div className="text-xs font-bold text-primary whitespace-nowrap">
+                        ${product.price}
+                      </div>
+                    </button>
+                  ))
+                ) : (
+                  <div className="py-4 text-center text-text-muted text-xs">
+                    No matching products found
+                  </div>
+                )}
+              </div>
+            )}
           </div>
           {auth?.user ? 
           <motion.div
