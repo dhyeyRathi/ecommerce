@@ -1,0 +1,81 @@
+{
+  "seo": {
+    "title": "EZ Mart",
+    "description": "Premium e-commerce platform offering beauty, electronics, fashion, and furniture.",
+    "sitemap": "https://ezmart.in/sitemap.xml",
+    "robots": "https://ezmart.in/robots.txt",
+    "canonical": "https://ezmart.in",
+    "openGraph": {
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://ezmart.in",
+      "siteName": "EZ Mart"
+    }
+  },
+  "geo": {
+    "region": "IN",
+    "placename": "Mumbai, India",
+    "latitude": "19.0760",
+    "longitude": "72.8777",
+    "position": "19.0760;72.8777",
+    "ICBM": "19.0760, 72.8777",
+    "targetAudience": "Global, India focus",
+    "localBusiness": {
+      "@context": "https://schema.org",
+      "@type": "Store",
+      "name": "EZ Mart HQ",
+      "image": "https://ezmart.in/logo.png",
+      "telephone": "+91-000-111-999",
+      "url": "https://ezmart.in",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "99, ABC Street, PQR City",
+        "addressLocality": "Mumbai",
+        "addressRegion": "MH",
+        "postalCode": "400001",
+        "addressCountry": "IN"
+      }
+    }
+  },
+  "aeo": {
+    "optimizations": [
+      "Voice Search Readiness",
+      "Structured QA data markup",
+      "AI Search Engine Accessibility (llms.txt, ai.txt)"
+    ],
+    "faq": [
+      {
+        "question": "What is EZ Mart?",
+        "answer": "EZ Mart is an easy e-commerce platform that delivers everyday items including beauty, fashion, furniture, and electronics with fast shipping."
+      },
+      {
+        "question": "How long does shipping take?",
+        "answer": "Shipping typically takes 2-5 business days depending on your locality. Orders are fully tracked and insured."
+      },
+      {
+        "question": "What is the return policy?",
+        "answer": "We offer a 30-day money-back guarantee on all products in their original condition and packaging."
+      },
+      {
+        "question": "How do I track my order?",
+        "answer": "You can view your order status and tracking details under the 'Order History' page in your account dashboard."
+      },
+      {
+        "question": "Are payments on EZ Mart secure?",
+        "answer": "Yes, all transactions are processed using encrypted, SSL-secured checkouts to ensure the highest standards of safety for your payment data."
+      },
+      {
+        "question": "Can I cancel or modify my order?",
+        "answer": "Orders can be canceled or modified within 1 hour of placement. Once processed or shipped, they fall under our standard returns policy."
+      },
+      {
+        "question": "Does EZ Mart offer international shipping?",
+        "answer": "Yes, we offer global shipping. International delivery rates and shipping windows are computed at checkout based on destination."
+      },
+      {
+        "question": "How can I contact customer support?",
+        "answer": "You can reach us by email at contact@ezmart.in or call our support line at +91-000-111-999 (9:00 AM - 6:00 PM IST)."
+      }
+    ]
+  }
+}

@@ -56,8 +56,41 @@ const ProductPage = ({ catSlug, proSlug, product }: ProdcutProps) => {
     router.push("/myorders");
   };
 
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": selectedProd.title,
+    "image": selectedProd.thumbnail || selectedProd.images?.[0] || "",
+    "description": selectedProd.description,
+    "sku": `SKU-${selectedProd.id}`,
+    "brand": {
+      "@type": "Brand",
+      "name": "EZ Mart"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": `https://ezmart.in/products/${selectedProd.category}/${selectedProd.slug}`,
+      "priceCurrency": "USD",
+      "price": parseFloat(discountedPrice),
+      "priceValidUntil": "2030-01-01",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    },
+    "aggregateRating": selectedProd.rating ? {
+      "@type": "AggregateRating",
+      "ratingValue": selectedProd.rating,
+      "reviewCount": selectedProd.reviews?.length || 1,
+      "bestRating": "5",
+      "worstRating": "1"
+    } : undefined
+  };
+
   return (
     <div className="min-h-screen pt-20 md:pt-30 bg-background text-heading">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+      />
       <section className="w-full p-6 md:p-12 lg:p-20 bg-background flex flex-col lg:flex-row gap-8 lg:gap-16">
         {/* images */}
         <div className="w-full lg:w-1/2 flex flex-col gap-4">
