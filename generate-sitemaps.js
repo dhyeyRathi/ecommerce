@@ -2,25 +2,27 @@ const fs = require('fs');
 const path = require('path');
 const { createClient } = require('@supabase/supabase-js');
 
-// 1. Read environment variables from .env.local
-const envPath = path.join(__dirname, '.env.local');
-let supabaseUrl = '';
-let supabaseAnonKey = '';
+// 1. Read environment variables (from process.env or .env.local fallback)
+let supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
+let supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
 
-try {
-  if (fs.existsSync(envPath)) {
-    const envContent = fs.readFileSync(envPath, 'utf8');
-    const urlMatch = envContent.match(/NEXT_PUBLIC_SUPABASE_URL=(.+)/);
-    const keyMatch = envContent.match(/NEXT_PUBLIC_SUPABASE_ANON_KEY=(.+)/);
-    if (urlMatch) supabaseUrl = urlMatch[1].trim();
-    if (keyMatch) supabaseAnonKey = keyMatch[1].trim();
+if (!supabaseUrl || !supabaseAnonKey) {
+  const envPath = path.join(__dirname, '.env.local');
+  try {
+    if (fs.existsSync(envPath)) {
+      const envContent = fs.readFileSync(envPath, 'utf8');
+      const urlMatch = envContent.match(/NEXT_PUBLIC_SUPABASE_URL=(.+)/);
+      const keyMatch = envContent.match(/NEXT_PUBLIC_SUPABASE_ANON_KEY=(.+)/);
+      if (urlMatch) supabaseUrl = urlMatch[1].trim();
+      if (keyMatch) supabaseAnonKey = keyMatch[1].trim();
+    }
+  } catch (err) {
+    console.error("Error reading .env.local:", err);
   }
-} catch (err) {
-  console.error("Error reading .env.local:", err);
 }
 
 if (!supabaseUrl || !supabaseAnonKey) {
-  console.error("Missing Supabase configuration in .env.local");
+  console.error("Missing Supabase configuration. Please set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY environment variables.");
   process.exit(1);
 }
 
