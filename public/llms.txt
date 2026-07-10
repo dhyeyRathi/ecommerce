@@ -1,0 +1,21 @@
+# EZ Mart E-Commerce Platform
+
+EZ Mart is a high-performance, modern e-commerce platform built with Next.js, React, TailwindCSS, and Supabase.
+
+## Tech Stack
+- Frontend: Next.js (App Router), React, TailwindCSS
+- Backend: Next.js API Routes (/api/*)
+- Database: Supabase
+
+## Key Pages
+- Home (/): Featured products, categories catalog, best sellers.
+- Products (/products): Full categories list and scroll-based loaded catalogues.
+- Product Details (/products/[category]/[slug]): Comprehensive specs, image galleries, user reviews.
+- Cart (/cart): Shopping bag items management.
+- Wishlist (/wishlist): Saved user favorites.
+- Profile (/profile): Shipping addresses, billing details, and personal attributes.
+
+## Developer & Agent Guideline
+- Base URL: https://ezmart.in
+- Sitemaps index: https://ezmart.in/sitemap.xml
+- API routes are located under /api/

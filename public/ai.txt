@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Agent Rules
+No-Index: /api/*
